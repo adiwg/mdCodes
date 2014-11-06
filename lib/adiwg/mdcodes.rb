@@ -6,9 +6,7 @@
 # 	Stan Smith 2014-11-07 original script
 
 # add main directories to load_path
-#$LOAD_PATH.unshift(File.join(File.dirname(__FILE__),'mdcodes'))
 
-require 'version'
 require 'yaml'
 
 module ADIWG
@@ -17,13 +15,14 @@ module ADIWG
 
 		# read the yml file into ruby
 		def self.getCodeLists
-		  codeLists = YAML.load_file('lib/adiwg/mdcodes/mdcodes.yml')
+			file = File.join(File.dirname(__FILE__),'resources','mdcodes.yml')
+			return YAML.load_file(file)
 		end
 
 		# return a single code list
 		def self.getCodeList(codeList)
 			codeLists = getCodeLists
-			myList = codeLists[codeList]
+			return codeLists[codeList]
 		end
 
 	end

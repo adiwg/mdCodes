@@ -1,6 +1,8 @@
 # Mdcodes
 
-TODO: Write a gem description
+adiwg-mdcodes provides code lists in JSON formats for loading of mdEditor or other metadata
+editors using adiwg-json-schema.  The codes include all ISO 19115-2 and ISO 19115-1 codes plus
+additional codes form NGDC and ADIwg.
 
 ## Installation
 
