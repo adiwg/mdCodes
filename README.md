@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adiwg/mdCodes.svg)](https://travis-ci.org/adiwg/mdCodes)
+
 # Mdcodes
 
 adiwg-mdcodes provides code lists in JSON formats for loading of mdEditor or other metadata
