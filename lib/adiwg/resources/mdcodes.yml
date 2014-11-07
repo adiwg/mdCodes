@@ -383,8 +383,9 @@ scope:
      - {code: "adiwg005", codeName: publication, description: "information applies to a published document"}
      - {code: "adiwg006", codeName: report, description: "information applies to an unpublished document"}
      - {code: "adiwg007", codeName: awardInfo, description: "information applies to a document related to the grant or award for the resource"}
-     - {code: "adiwg008", codeName: collectionSite, description: "Locations where data are collected for scientific research.  "}
+     - {code: "adiwg008", codeName: collectionSite, description: "Locations where data are collected for scientific research"}
      - {code: "adiwg009", codeName: project, description: "high level information that applies to research activity such as project title, location, contacts, timeframe, abstract, etc."}
+     - {code: "adiwg010", codeName: factSheet, description: "information applies to fact sheet, pamphlet, flyer, or brochure"}
 
 spatialRepresentation:
    isoName: "MD_SpatialRepresentationTypeCode"
