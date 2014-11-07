@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = ADIWG::Mdcodes::VERSION
   spec.authors       = ["stansmith907"]
   spec.email         = ["stansmith@usgs.gov"]
-  spec.summary       = %q{adiwg-mdcodes provides code lists for mdJSON in JSON, JSONp, and ISO CT_CodelistCatalogue XML.}
-  spec.description   = %q{adiwg-mdcodes provides code lists in JSON formats for loading of mdEditor or other metadata editors using adiwg-json-schema.  The codes include all ISO 19115-2 and ISO 19115-1 codes plus additional codes form NGDC and ADIwg.}
+  spec.summary       = %q{adiwg-mdcodes provides code lists for mdJSON.}
+  spec.description   = %q{adiwg-mdcodes provides code lists for use in ISO 19139 compliant metadata, especially mdJSON.  The codes include all ISO 19115-2 and ISO 19115-1 codes plus additional codes from NGDC and ADIwg.}
   spec.homepage      = "https://github.com/adiwg/mdCodes"
   spec.license       = "UNLICENSED"
 
