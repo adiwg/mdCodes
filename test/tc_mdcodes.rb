@@ -5,10 +5,10 @@
 * License: Public Domain
 =end
 
-require "test/unit"
+require 'minitest/autorun'
 require File.join(File.dirname(__FILE__),'..','lib', 'adiwg-mdcodes.rb')
 
-class TestMdcodes < Test::Unit::TestCase
+class TestMdcodes < MiniTest::Unit::TestCase
     def test_yaml
         assert_silent {
             yaml = YAML.load_file(ADIWG::Mdcodes.getYamlPath)
