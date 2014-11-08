@@ -8,7 +8,7 @@
 require 'minitest/autorun'
 require File.join(File.dirname(__FILE__),'..','lib', 'adiwg-mdcodes.rb')
 
-class TestMdcodes < MiniTest::Unit::TestCase
+class TestMdcodes < Minitest::Test
     def test_yaml
         assert_silent {
             yaml = YAML.load_file(ADIWG::Mdcodes.getYamlPath)
