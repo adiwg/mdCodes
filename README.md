@@ -43,7 +43,7 @@ Or install it yourself as:
 ### getCodeName( codeListName, returnFormat )
 > returns a single code list with only the code list item names
 > codeListName = name of code list to return (string)
-> returnFormat =\ [__hash__ | json] (string)
+> returnFormat = \[__hash__ | json] (string)
 
 
 ## Contributing
