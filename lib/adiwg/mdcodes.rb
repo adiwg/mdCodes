@@ -6,10 +6,13 @@
 # 	Stan Smith 2014-11-07 original script
 #   Stan Smith 2014-11-07 add methods to return only codeNames
 #   Josh Bradley 2014-11-07 moved resources directory outside lib, add getYamlPath
+#   Stan Smith 2014-11-10 added support for JSON returns
+#   Stan Smith 2014-11-10 added README.md text
 
 # add main directories to load_path
 
 require 'yaml'
+require 'json'
 
 module ADIWG
 
@@ -20,21 +23,30 @@ module ADIWG
         end
 
         # read the yml file into ruby
-        def self.getCodeLists
+        def self.getCodeLists(format='hash')
             file = getYamlPath
-            return YAML.load_file(file)
+			codes = YAML.load_file(file)
+			if format == 'json'
+				return codes.to_json
+			else
+				return codes
+			end
         end
 
         # return a single code list
-        def self.getCodeList(codeList)
+        def self.getCodeList(codeList, format='hash')
             codeLists = getCodeLists
             hCodeList = {}
             hCodeList[codeList] = codeLists[codeList]
-            return hCodeList
+			if format == 'json'
+				return hCodeList.to_json
+			else
+				return hCodeList
+			end
         end
 
         # return only code names
-        def self.getCodeNames
+        def self.getCodeNames(format='hash')
             codeLists = getCodeLists
             hCodeNames = {}
             codeLists.each do |key, value|
@@ -44,12 +56,16 @@ module ADIWG
                     aList << item['codeName']
                 end
                 hCodeNames[key] = aList
-            end
-            return hCodeNames
+			end
+			if format == 'json'
+				return hCodeNames.to_json
+			else
+				return hCodeNames
+			end
         end
 
         # return a single code name list
-        def self.getCodeName(codeList)
+        def self.getCodeName(codeList, format='hash')
             hCodeList = getCodeList(codeList)
             hCodeNames = {}
             aItems = hCodeList[codeList]['items']
@@ -58,7 +74,11 @@ module ADIWG
                 aList << item['codeName']
             end
             hCodeNames[codeList] = aList
-            return hCodeNames
+			if format == 'json'
+				return hCodeNames.to_json
+			else
+				return hCodeNames
+			end
         end
 
     end

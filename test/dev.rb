@@ -9,6 +9,6 @@ require 'adiwg-mdcodes'
 require 'json'
 require 'pp'
 
-codelists = ADIWG::Mdcodes.getCodeNames
+codelists = ADIWG::Mdcodes.getCodeName('scope')
 pp codelists
 # puts codelists.to_json
