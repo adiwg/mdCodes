@@ -1,8 +1,7 @@
-
+---
 # adiwgJson codelists
 # compiled from ISO 19115-2, 19115-1, NGDC, and ADIwg
 
----
 associationType:
   isoName: "DS_AssociationTypeCode"
   description: "justification for the correlation of two resources (datasets or projects)"

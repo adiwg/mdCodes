@@ -1,0 +1,25 @@
+{
+  "name": "mdCodes",
+  "version": "0.2.1",
+  "description": "CodeLists for ADIwg mdJSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adiwg/mdCodes.git"
+  },
+  "keywords": [
+    "metadata",
+    "adiwg",
+    "json"
+  ],
+  "author": "https://github.com/stansmith907, https://github.com/jlblcc",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/adiwg/mdCodes/issues"
+  },
+  "homepage": "https://github.com/adiwg/mdCodes",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-convert": "^0.1.11",
+    "grunt-yamllint": "^0.2.0"
+  }
+}

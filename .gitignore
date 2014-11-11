@@ -1,3 +1,5 @@
+/.project
+/resources/json/mdcodes.json
 *.gem
 *.rbc
 .bundle
@@ -22,3 +24,4 @@ tmp
 *.o
 *.a
 mkmf.log
+node_modules
