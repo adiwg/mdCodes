@@ -341,9 +341,10 @@ role:
      - {code: "018", codeName: contributor, description: "party contributing to the resource"}
      - {code: "019", codeName: funder, description: "party providing monetary support for the resource"}
      - {code: "020", codeName: stakeholder, description: "party who has an interest in the resource or the use of the resource"}
-     - {code: "adiwg001", codeName: client, description: "agency or person requesting a project or data collection"}
-     - {code: "adiwg002", codeName: logistics, description: "entity that provides logistics support"}
-     - {code: "adiwg003", codeName: coPrincipalInvestigator, description: "party who is jointly responsible for gathering information and conducting research"}
+     - {code: "adiwg001", codeName: administrator, description: "party who has administrative oversight for the resource"}
+     - {code: "adiwg002", codeName: client, description: "agency or person requesting a project or data collection"}
+     - {code: "adiwg003", codeName: logistics, description: "entity that provides logistics support"}
+     - {code: "adiwg004", codeName: coPrincipalInvestigator, description: "party who is jointly responsible for gathering information and conducting research"}
 
 scope:
    isoName: "MD_ScopeCode"
