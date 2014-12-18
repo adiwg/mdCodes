@@ -8,6 +8,7 @@
 #   Josh Bradley 2014-11-07 moved resources directory outside lib, add getYamlPath
 #   Stan Smith 2014-11-10 added support for JSON returns
 #   Stan Smith 2014-11-10 added README.md text
+#   Stan Smith 2014-12-18 split codelists into individual YAML file
 
 # add main directories to load_path
 
@@ -15,29 +16,34 @@ require 'yaml'
 require 'json'
 
 module ADIWG
-
     module Mdcodes
-        # return the path to yaml file.
+
+        # return the path to yaml files.
         def self.getYamlPath
-            File.join(File.dirname(__FILE__),'..','..','resources','mdcodes.yml')
+            File.join(File.dirname(__FILE__),'..','..','resources')
         end
 
-        # read the yml file into ruby
-        def self.getCodeLists(format='hash')
-            file = getYamlPath
-			codes = YAML.load_file(file)
+        # return all codelists with full details
+        def self.getAllCodeistsDetail(format='hash')
+            path = getYamlPath + '/*.yml'
+            hCodeLists = {}
+            Dir.glob(path) do |item|
+                hCodeList = YAML.load_file(item)
+                hCodeLists[hCodeList['codelistName']] = hCodeList
+            end
 			if format == 'json'
-				return codes.to_json
+				return hCodeLists.to_json
 			else
-				return codes
+				return hCodeLists
 			end
         end
 
-        # return a single code list
-        def self.getCodeList(codeList, format='hash')
-            codeLists = getCodeLists
-            hCodeList = {}
-            hCodeList[codeList] = codeLists[codeList]
+        # return a single codelist with full details
+        def self.getCodelistDetail(codeList, format='hash')
+            file = File.join(getYamlPath, codeList + '.yml')
+            if File.exist?(file)
+                hCodeList = YAML.load_file(file)
+            end
 			if format == 'json'
 				return hCodeList.to_json
 			else
@@ -45,35 +51,37 @@ module ADIWG
 			end
         end
 
-        # return only code names
-        def self.getCodeNames(format='hash')
-            codeLists = getCodeLists
-            hCodeNames = {}
+        # return all static codelist with only the item names
+        def self.getAllStaticCodelists(format='hash')
+            codeLists = getAllCodeistsDetail
+            hCodeLists = {}
             codeLists.each do |key, value|
-                aItems = value['items']
-                aList = []
-                aItems.each do |item|
-                    aList << item['codeName']
+                if value['codelistType'] == 'staticList'
+                    aItems = value['codelist']
+                    aList = []
+                    aItems.each do |item|
+                        aList << item['codeName']
+                    end
+                    hCodeLists[key] = aList
                 end
-                hCodeNames[key] = aList
-			end
+            end
 			if format == 'json'
-				return hCodeNames.to_json
+				hCodeLists.to_json if format == 'json'
 			else
-				return hCodeNames
+				return hCodeLists
 			end
         end
 
-        # return a single code name list
-        def self.getCodeName(codeList, format='hash')
-            hCodeList = getCodeList(codeList)
+        # return a single static codelist with only the item names
+        def self.getStaticCodelist(codeList, format='hash')
+            hCodeList = getCodelistDetail(codeList)
             hCodeNames = {}
-            aItems = hCodeList[codeList]['items']
+            aItems = hCodeList['codelist']
             aList = []
             aItems.each do |item|
                 aList << item['codeName']
             end
-            hCodeNames[codeList] = aList
+            hCodeNames[hCodeList['codelistName']] = aList
 			if format == 'json'
 				return hCodeNames.to_json
 			else
@@ -82,5 +90,4 @@ module ADIWG
         end
 
     end
-
 end

@@ -15,10 +15,10 @@ lib/bundler/man
 pkg
 rdoc
 spec/reports
-test/dev.rb
 test/tmp
 test/version_tmp
 tmp
+dev
 *.bundle
 *.so
 *.o

@@ -25,23 +25,23 @@ Or install it yourself as:
 ## Methods
 
 ### getYamlPath
-> returns the path to the YAML file of code lists.
+> returns the path to the 'resources' folder containing codelist files in YAML format'.
 
-### getCodeLists( returnFormat )
-> returns all code lists with all code list data
+### getAllCodeistsDetail( returnFormat )
+> returns all code lists with all codelist detail
 > returnFormat = \[__hash__ | json] (string)
 
-### getCodeList( codeListName, returnFormat )
-> returns a single code list with all code list data
+### getCodelistDetail( codeListName, returnFormat )
+> returns a single codelist with all code list detail
 > codeListName = name of code list to return (string)
 > returnFormat = \[ __hash__ | json ] (string)
 
-### getCodeNames( returnFormat )
-> returns all code lists with only the code list item names
+### getAllStaticCodelists( returnFormat )
+> returns all static codelists with only the codelist item names
 > returnFormat = \[__hash__ | json] (string)
 
-### getCodeName( codeListName, returnFormat )
-> returns a single code list with only the code list item names
+### getStaticCodelist( codeListName, returnFormat )
+> returns a single static codelist with only the codelist item names
 > codeListName = name of code list to return (string)
 > returnFormat = \[__hash__ | json] (string)
 

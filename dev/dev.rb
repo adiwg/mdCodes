@@ -9,6 +9,9 @@ require 'adiwg-mdcodes'
 require 'json'
 require 'pp'
 
-codelists = ADIWG::Mdcodes.getCodeName('role')
+# codelists = ADIWG::Mdcodes.getAllCodeistsDetail
+# codelists = ADIWG::Mdcodes.getCodelistDetail('iso_characterSet')
+# codelists = ADIWG::Mdcodes.getAllStaticCodelists
+codelists = ADIWG::Mdcodes.getStaticCodelist('iso_characterSet')
 pp codelists
 # puts codelists.to_json
