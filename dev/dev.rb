@@ -12,6 +12,7 @@ require 'pp'
 # codelists = ADIWG::Mdcodes.getAllCodeistsDetail
 # codelists = ADIWG::Mdcodes.getCodelistDetail('iso_characterSet')
 # codelists = ADIWG::Mdcodes.getAllStaticCodelists
-codelists = ADIWG::Mdcodes.getStaticCodelist('iso_characterSet')
+# codelists = ADIWG::Mdcodes.getStaticCodelist('iso_characterSet')
+codelists = ADIWG::Mdcodes.getStaticCodelist('characterSet')
 pp codelists
 # puts codelists.to_json

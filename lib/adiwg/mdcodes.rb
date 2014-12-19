@@ -43,6 +43,8 @@ module ADIWG
             file = File.join(getYamlPath, codeList + '.yml')
             if File.exist?(file)
                 hCodeList = YAML.load_file(file)
+            else
+                return nil
             end
 			if format == 'json'
 				return hCodeList.to_json
@@ -75,18 +77,22 @@ module ADIWG
         # return a single static codelist with only the item names
         def self.getStaticCodelist(codeList, format='hash')
             hCodeList = getCodelistDetail(codeList)
-            hCodeNames = {}
-            aItems = hCodeList['codelist']
-            aList = []
-            aItems.each do |item|
-                aList << item['codeName']
+            if hCodeList
+                hCodeNames = {}
+                aItems = hCodeList['codelist']
+                aList = []
+                aItems.each do |item|
+                    aList << item['codeName']
+                end
+                hCodeNames[hCodeList['codelistName']] = aList
+                if format == 'json'
+                    return hCodeNames.to_json
+                else
+                    return hCodeNames
+                end
+            else
+                return nil
             end
-            hCodeNames[hCodeList['codelistName']] = aList
-			if format == 'json'
-				return hCodeNames.to_json
-			else
-				return hCodeNames
-			end
         end
 
     end
