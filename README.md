@@ -1,13 +1,19 @@
 [![Build Status](https://travis-ci.org/adiwg/mdCodes.svg)](https://travis-ci.org/adiwg/mdCodes)
 [![Gem Version](https://badge.fury.io/rb/adiwg-mdcodes.svg)](http://badge.fury.io/rb/adiwg-mdcodes)
 
-# Mdcodes
+# mdCodes
 
-adiwg-mdcodes provides code lists in hash or JSON formats for loading of mdEditor and other metadata
-tools that use the adiwg-json-schema.  The code lists include all ISO 19115-2 and ISO 19115-1 codes plus
-supplemental codes added NGDC and ADIwg.
+mdCodes provides code lists in hash or JSON formats for loading of mdEditor and other metadata
+tools that use the ADIwg [mdJson-schemas](https://github.com/adiwg/mdJson-schemas).  The code lists
+include all ISO 19115-2 and ISO 19115-1 codes plus supplemental codes added by NGDC and ADIwg. The
+code lists may be accessed in Ruby using the gem. Alternatively, JSON may be generated from the YAML
+using [Grunt](http://gruntjs.com/getting-started). See the following for instructions.
 
-## Installation
+## Ruby
+
+The adiwg-mdcodes gem provides code lists in Ruby hash or JSON formats.
+
+### Installation
 
 Add this line to your application's Gemfile:
 
@@ -22,29 +28,40 @@ Or install it yourself as:
     $ gem install adiwg-mdcodes
 
 
-## Methods
+### Methods
 
-### getYamlPath
-> returns the path to the YAML file of code lists.
+#### getYamlPath
+> returns the path to the 'resources' folder containing codelist files in YAML format'.
 
-### getCodeLists( returnFormat )
-> returns all code lists with all code list data
+#### getAllCodelistsDetail( returnFormat )
+> returns all code lists with all codelist detail
 > returnFormat = \[__hash__ | json] (string)
 
-### getCodeList( codeListName, returnFormat )
-> returns a single code list with all code list data
+#### getCodelistDetail( codeListName, returnFormat )
+> returns a single codelist with all code list detail
 > codeListName = name of code list to return (string)
 > returnFormat = \[ __hash__ | json ] (string)
 
-### getCodeNames( returnFormat )
-> returns all code lists with only the code list item names
+#### getAllStaticCodelists( returnFormat )
+> returns all static codelists with only the codelist item names
 > returnFormat = \[__hash__ | json] (string)
 
-### getCodeName( codeListName, returnFormat )
-> returns a single code list with only the code list item names
+#### getStaticCodelist( codeListName, returnFormat )
+> returns a single static codelist with only the codelist item names
 > codeListName = name of code list to return (string)
 > returnFormat = \[__hash__ | json] (string)
 
+##Grunt
+
+Generate JSON verions of the code lists using Grunt.
+
+**Note**: These instructions assume that [npm](https://docs.npmjs.com/) and [Grunt](http://gruntjs.com/getting-started) are already installed. The generated
+files are not tracked by git.
+
+1. Change to the project's root directory.
+2. Install project dependencies with ```npm install```.
+3. Generate the JSON code lists with ```grunt```.
+4. The JSON is written to the *resources/json* directory.
 
 ## Contributing
 

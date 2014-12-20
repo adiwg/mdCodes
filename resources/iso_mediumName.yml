@@ -1,0 +1,38 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+# extended for ADIwg
+
+codelistType: "staticList"
+codelistName: "iso_mediumName"
+source: "ISO"
+sourceName: "MD_MediumNameCode"
+extensible: true
+description: "name of the medium"
+codelist:
+   - {code: "001", codeName: cdRom, description: "read-only optical disk"}
+   - {code: "002", codeName: dvd, description: "digital versatile disk"}
+   - {code: "003", codeName: dvdRom, description: "digital versatile disk, read only"}
+   - {code: "004", codeName: 3halfInchFloppy, description: "3,5 inch magnetic disk"}
+   - {code: "005", codeName: 5quarterInchFloppy, description: "5,25 inch magnetic disk"}
+   - {code: "006", codeName: 7trackTape, description: "7 track magnetic tape"}
+   - {code: "007", codeName: 9trackTape, description: "9 track magnetic tape"}
+   - {code: "008", codeName: 3480Cartridge, description: "3480 cartridge tape drive"}
+   - {code: "009", codeName: 3490Cartridge, description: "3490 cartridge tape drive"}
+   - {code: "010", codeName: 3580Cartridge, description: "3580 cartridge tape drive"}
+   - {code: "011", codeName: 4mmCartridge, description: "4 millimetre magnetic tape"}
+   - {code: "012", codeName: 8mmCartridge, description: "8 millimetre magnetic tape"}
+   - {code: "013", codeName: 1quarterInchCartridgeTape, description: "0,25 inch magnetic tape"}
+   - {code: "014", codeName: digitalLinearTape, description: "half inch cartridge streaming tape drive"}
+   - {code: "015", codeName: onLine, description: "direct computer linkage"}
+   - {code: "016", codeName: satellite, description: "linkage through a satellite communication system"}
+   - {code: "017", codeName: telephoneLink, description: "communication through a telephone network"}
+   - {code: "018", codeName: hardcopy, description: "pamphlet or leaflet giving descriptive information"}
+   - {code: "adiwg001", codeName: bluRay, description: "Blu-ray digital versatile disk"}
+   - {code: "adiwg002", codeName: usbHardDrive, description: "USB hard drive disk or solid state"}
+   - {code: "adiwg003", codeName: memoryStick, description: "USB memory stick"}
+   - {code: "adiwg004", codeName: sdCard, description: "SD memory card"}
+   - {code: "adiwg005", codeName: flashCard, description: "compact flash memory card"}
+   - {code: "adiwg006", codeName: film, description: "8mm, 16mm, 35mm, 120 and other positive and negative camera film sizes"}
+   - {code: "adiwg007", codeName: microfilm, description: "microfilm"}
+   - {code: "adiwg008", codeName: internet, description: "internet"}

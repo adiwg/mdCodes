@@ -8,11 +8,12 @@
 #              ... moved resources directory outside of lib
 # 0.2.1 2014-11-10 added support for JSON returns
 # 0.3.0 2014-11-18 added administrator to role codelist
+# 0.4.0 2014-12-18 split codelists into individual YAML file
 
 module ADIWG
 
 	module Mdcodes
-		VERSION = "0.3.0"
+		VERSION = "0.4.0"
 	end
 
 end

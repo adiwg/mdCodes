@@ -1,0 +1,36 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+# extended for ADIwg
+
+codelistType: "staticList"
+codelistName: "iso_presentationForm"
+source: "ISO"
+sourceName: "CI_PresentationFormCode"
+extensible: true
+description: "mode in which the data is represented"
+codelist:
+   - {code: "001", codeName: documentDigital, description: "digital representation of a primarily textual item (can contain illustrations also)"}
+   - {code: "002", codeName: documentHardcopy, description: "representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media"}
+   - {code: "003", codeName: imageDigital, description: "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"}
+   - {code: "004", codeName: imageHardcopy, description: "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"}
+   - {code: "005", codeName: mapDigital, description: "map represented in raster or vector form"}
+   - {code: "006", codeName: mapHardcopy, description: "map printed on paper, photographic material, or other media for use directly by the human user"}
+   - {code: "007", codeName: modelDigital, description: "multi-dimensional digital representation of a feature, process, etc."}
+   - {code: "008", codeName: modelHardcopy, description: "3-dimensional, physical model"}
+   - {code: "009", codeName: profileDigital, description: "vertical cross-section in digital form"}
+   - {code: "010", codeName: profileHardcopy, description: "vertical cross-section printed on paper, etc."}
+   - {code: "011", codeName: tableDigital, description: "digital representation of facts or figures systematically displayed, especially in columns"}
+   - {code: "012", codeName: tableHardcopy, description: "representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media"}
+   - {code: "013", codeName: videoDigital, description: "digital video recording"}
+   - {code: "014", codeName: videoHardcopy, description: "video recording on film"}
+   - {code: "015", codeName: audioDigital, description: "digital audio recording"}
+   - {code: "016", codeName: audioHardcopy, description: "audio recording delivered by analog media, such as a magnetic tape"}
+   - {code: "017", codeName: multimediaDigitial, description: "information representation using simultaneously various digital modes for text, sound, image"}
+   - {code: "018", codeName: multimediaHardcopy, description: "information representation using simultaneously various analog modes for text, sound, image"}
+   - {code: "019", codeName: physicalObject, description: "a physical object. EXAMPLE Rock or mineral sample, microscope slide."}
+   - {code: "020", codeName: diagramDigital, description: "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and recorded in digital format"}
+   - {code: "021", codeName: diagramHardcopy, description: "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and printed on paper, photographic material, or other media"}
+   - {code: "adiwg001", codeName: webSite, description: "information represented in a series of web pages"}
+   - {code: "adiwg002", codeName: webService, description: "information represented as series of HTML end points or remote procedure calls"}
+   - {code: "adiwg003", codeName: databaseDigital, description: "information organized in a digital database"}
