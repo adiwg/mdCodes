@@ -1,5 +1,5 @@
 /.project
-/resources/json/mdcodes.json
+/resources/json
 *.gem
 *.rbc
 .bundle
