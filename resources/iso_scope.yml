@@ -46,9 +46,9 @@ codelist:
    - {code: "adiwg008", codeName: collectionSite, description: "Locations where data are collected for scientific research"}
    - {code: "adiwg009", codeName: project, description: "high level information that applies to research activity such as project title, location, contacts, timeframe, abstract, etc."}
    - {code: "adiwg010", codeName: factSheet, description: "information applies to fact sheet, pamphlet, flyer, or brochure"}
-   - {code: "adiwg011", codeName: tabularDataset, description: "b"}
-   - {code: "adiwg012", codeName: map, description: "printed and electronic maps"}
-   - {code: "adiwg013", codeName: drawing, description: "b"}
-   - {code: "adiwg014", codeName: photographicImage, description: "b"}
-   - {code: "adiwg015", codeName: presentation, description: "b"}
+   - {code: "adiwg011", codeName: tabularDataset, description: "information applies to a tabular dataset, spreadsheet, or relational database"}
+   - {code: "adiwg012", codeName: map, description: "information applies to a printed or electronic map"}
+   - {code: "adiwg013", codeName: drawing, description: "information applies to a hand drawn or digital drawing"}
+   - {code: "adiwg014", codeName: photographicImage, description: "information applies to a still or moving film or video image"}
+   - {code: "adiwg015", codeName: presentation, description: "information applies to a collection of presentation slides or recorded presentation"}
 
