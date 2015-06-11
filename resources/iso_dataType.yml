@@ -3,7 +3,7 @@
 # base codelist for ISO 19115-2, 19115-1
 
 codelistType: "staticList"
-codelistName: iso_"dataType"
+codelistName: "iso_dataType"
 source: "ISO"
 sourceName: "MD_DatatypeCode"
 extensible: true
