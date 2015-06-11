@@ -10,9 +10,9 @@ require 'json'
 require 'pp'
 
 # codelists = ADIWG::Mdcodes.getAllCodeistsDetail
-# codelists = ADIWG::Mdcodes.getCodelistDetail('iso_characterSet')
+# codelists = ADIWG::Mdcodes.getCodelistDetail('iso_classification')
 # codelists = ADIWG::Mdcodes.getAllStaticCodelists
-# codelists = ADIWG::Mdcodes.getStaticCodelist('iso_characterSet')
-codelists = ADIWG::Mdcodes.getStaticCodelist('characterSet')
+# codelists = ADIWG::Mdcodes.getStaticCodelist('iso_scope')
+# codelists = ADIWG::Mdcodes.getStaticCodelist('scope')
 pp codelists
 # puts codelists.to_json
