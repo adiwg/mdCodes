@@ -6,7 +6,7 @@
 codelistType: "staticList"
 codelistName: "iso_onlineFunction"
 source: "ISO"
-sourceName: "CI_OnlineFunctionCode"
+sourceName: "CI_OnLineFunctionCode"
 extensible: true
 description: "function performed by the resource"
 codelist:
