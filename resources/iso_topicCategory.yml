@@ -12,7 +12,7 @@ codelist:
    - {code: "001", codeName: farming, description: "rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"}
    - {code: "002", codeName: biota, description: "flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat."}
    - {code: "003", codeName: boundaries, description: "legal land descriptions. Examples: political and administrative boundaries."}
-   - {code: "004", codeName: climatolotyMeteorologyAtmoshphere, description: "processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation"}
+   - {code: "004", codeName: climatologyMeteorologyAtmosphere, description: "processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation"}
    - {code: "005", codeName: economy, description: "economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas"}
    - {code: "006", codeName: elevation, description: "height above or below sea level. Examples: altitude, bathymetry, digital elevation models, slope, derived products"}
    - {code: "007", codeName: environment, description: "environmental resources, protection and conservation. Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape"}
