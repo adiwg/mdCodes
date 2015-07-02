@@ -1,0 +1,1877 @@
+{
+  "iso_associationType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_associationType",
+    "source": "ISO",
+    "sourceName": "DS_AssociationTypeCode",
+    "extensible": true,
+    "description": "justification for the correlation of two resources (datasets or projects)",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "crossReference",
+        "description": "reference from one resource (dataset or project) to another"
+      },
+      {
+        "code": "002",
+        "codeName": "largerWorkCitation",
+        "description": "reference to a master resource (dataset or project) of which this one is a part"
+      },
+      {
+        "code": "003",
+        "codeName": "partOfSeamlessDatabase",
+        "description": "part of the same structured set of data held in a computer"
+      },
+      {
+        "code": "004",
+        "codeName": "source",
+        "description": "mapping and charting information from which the dataset content originates"
+      },
+      {
+        "code": "005",
+        "codeName": "stereoMate",
+        "description": "part of a set of imagery that when used together, provides three-dimensional images"
+      },
+      {
+        "code": "006",
+        "codeName": "isComposedOf",
+        "description": "reference to resources (datasets or projects) that are parts of this resource"
+      },
+      {
+        "code": "007",
+        "codeName": "collectiveTitle",
+        "description": "common title for a collection of resources. NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."
+      },
+      {
+        "code": "008",
+        "codeName": "series",
+        "description": "associated through a common heritage such as produced to a common product specification"
+      },
+      {
+        "code": "009",
+        "codeName": "dependency",
+        "description": "associated through a dependency"
+      },
+      {
+        "code": "010",
+        "codeName": "revisionOf",
+        "description": "resource is a revision of associated resource"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "projectProduct",
+        "description": "products developed as deliverables of a project or program"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "supplementalResource",
+        "description": "supplemental resource"
+      }
+    ]
+  },
+  "iso_characterSet": {
+    "codelistType": "staticList",
+    "codelistName": "iso_characterSet",
+    "source": "ISO",
+    "sourceName": "MD_CharacterSetCode",
+    "extensible": true,
+    "description": "name of the character coding standard used in the resource",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "ucs2",
+        "description": "16-bit fixed size Universal Character Set, based on ISO/IEC 10646"
+      },
+      {
+        "code": "002",
+        "codeName": "ucs4",
+        "description": "32-bit fixed size Universal Character Set, based on ISO/IEC 10646"
+      },
+      {
+        "code": "003",
+        "codeName": "utf7",
+        "description": "7-bit variable size UCS Transfer Format, based on ISO/IEC 10646"
+      },
+      {
+        "code": "004",
+        "codeName": "utf8",
+        "description": "8-bit variable size UCS Transfer Format, based on ISO/IEC 10646"
+      },
+      {
+        "code": "005",
+        "codeName": "utf16",
+        "description": "16-bit variable size UCS Transfer Format, based on ISO/IEC 10646"
+      },
+      {
+        "code": "006",
+        "codeName": "8859part1",
+        "description": "ISO/IEC 8859-1, Information technology - 8-bit single byte coded graphic character sets - Part 1 : Latin alphabet No.1"
+      },
+      {
+        "code": "007",
+        "codeName": "8859part2",
+        "description": "ISO/IEC 8859-2, Information technology - 8-bit single byte coded graphic character sets - Part 2 : Latin alphabet No.2"
+      },
+      {
+        "code": "008",
+        "codeName": "8859part3",
+        "description": "ISO/IEC 8859-3, Information technology - 8-bit single byte coded graphic character sets - Part 3 : Latin alphabet No.3"
+      },
+      {
+        "code": "009",
+        "codeName": "8859part4",
+        "description": "ISO/IEC 8859-4, Information technology - 8-bit single byte coded graphic character sets - Part 4 : Latin alphabet No.4"
+      },
+      {
+        "code": "010",
+        "codeName": "8859part5",
+        "description": "ISO/IEC 8859-5, Information technology - 8-bit single byte coded graphic character sets - Part 5 : Latin/Cyrillic alphabet"
+      },
+      {
+        "code": "011",
+        "codeName": "8859part6",
+        "description": "ISO/IEC 8859-6, Information technology - 8-bit single byte coded graphic character sets - Part 6 : Latin/Arabic alphabet"
+      },
+      {
+        "code": "012",
+        "codeName": "8859part7",
+        "description": "ISO/IEC 8859-7, Information technology - 8-bit single byte coded graphic character sets - Part 7 : Latin/Greek alphabet"
+      },
+      {
+        "code": "013",
+        "codeName": "8859part8",
+        "description": "ISO/IEC 8859-8, Information technology - 8-bit single byte coded graphic character sets - Part 8 : Latin/Hebrew alphabet"
+      },
+      {
+        "code": "014",
+        "codeName": "8859part9",
+        "description": "ISO/IEC 8859-9, Information technology - 8-bit single byte coded graphic character sets - Part 9 : Latin alphabet No.5"
+      },
+      {
+        "code": "015",
+        "codeName": "8859part10",
+        "description": "ISO/IEC 8859-10, Information technology - 8-bit single byte coded graphic character sets - Part 10 : Latin alphabet No.6"
+      },
+      {
+        "code": "016",
+        "codeName": "8859part11",
+        "description": "ISO/IEC 8859-11, Information technology - 8-bit single byte coded graphic character sets - Part 11 : Latin/Thai alphabet"
+      },
+      {
+        "code": "018",
+        "codeName": "8859part13",
+        "description": "ISO/IEC 8859-13, Information technology - 8-bit single byte coded graphic character sets - Part 13 : Latin alphabet No.7"
+      },
+      {
+        "code": "019",
+        "codeName": "8859part14",
+        "description": "ISO/IEC 8859-14, Information technology - 8-bit single byte coded graphic character sets - Part 14 : Latin alphabet No.8 (Celtic)"
+      },
+      {
+        "code": "020",
+        "codeName": "8859part15",
+        "description": "ISO/IEC 8859-15, Information technology - 8-bit single byte coded graphic character sets - Part 15 : Latin alphabet No.9"
+      },
+      {
+        "code": "021",
+        "codeName": "8859part16",
+        "description": "ISO/IEC 8859-16, Information technology - 8-bit single byte coded graphic character sets - Part 16 : Latin alphabet No.10"
+      },
+      {
+        "code": "022",
+        "codeName": "jis",
+        "description": "japanese code set used for electronic transmission"
+      },
+      {
+        "code": "023",
+        "codeName": "shiftJIS",
+        "description": "japanese code set used on MS-DOS machines"
+      },
+      {
+        "code": "024",
+        "codeName": "eucJP",
+        "description": "japanese code set used on UNIX based machines"
+      },
+      {
+        "code": "025",
+        "codeName": "usAscii",
+        "description": "United States ASCII code set (ISO 646 US)"
+      },
+      {
+        "code": "026",
+        "codeName": "ebcdic",
+        "description": "IBM mainframe code set"
+      },
+      {
+        "code": "027",
+        "codeName": "ecuKR",
+        "description": "Korean code set"
+      },
+      {
+        "code": "028",
+        "codeName": "big5",
+        "description": "traditional Chinese code set used in Taiwan, Hong Kong of China and other areas"
+      },
+      {
+        "code": "029",
+        "codeName": "GB2312",
+        "description": "simplified Chinese code set"
+      }
+    ]
+  },
+  "iso_classification": {
+    "codelistType": "staticList",
+    "codelistName": "iso_classification",
+    "source": "ISO",
+    "sourceName": "MD_ClassificationCode",
+    "extensible": true,
+    "description": "name of the handling restrictions on the dataset",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "unclassified",
+        "description": "available for general disclosure"
+      },
+      {
+        "code": "002",
+        "codeName": "restricted",
+        "description": "not for general disclosure"
+      },
+      {
+        "code": "003",
+        "codeName": "confidential",
+        "description": "available for someone who can be entrusted with information"
+      },
+      {
+        "code": "004",
+        "codeName": "secret",
+        "description": "kept or meant to be kept private, unknown, or hidden from all but a select group of people"
+      },
+      {
+        "code": "005",
+        "codeName": "topSecret",
+        "description": "of the highest secrecy"
+      },
+      {
+        "code": "006",
+        "codeName": "sensitiveButUnclassified",
+        "description": "although unclassified, requires strict controls over its distribution"
+      },
+      {
+        "code": "007",
+        "codeName": "forOfficialUseOnly",
+        "description": "unclassified information that is to be used only for official purposes determined by the designating body"
+      },
+      {
+        "code": "008",
+        "codeName": "protected",
+        "description": "compromise of the information could cause damage"
+      },
+      {
+        "code": "009",
+        "codeName": "limitedDistribution",
+        "description": "dissemination limited by designating body"
+      }
+    ]
+  },
+  "iso_dataType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_dataType",
+    "source": "ISO",
+    "sourceName": "MD_DatatypeCode",
+    "extensible": true,
+    "description": "datatype of element or entity",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "class",
+        "description": "descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior"
+      },
+      {
+        "code": "002",
+        "codeName": "codelist",
+        "description": "flexible enumeration useful for expressing a long list of values, can be extended"
+      },
+      {
+        "code": "003",
+        "codeName": "enumerations",
+        "description": "data type whose instances form a list of named literal values, not extendable"
+      },
+      {
+        "code": "004",
+        "codeName": "codelistElement",
+        "description": "permissible value for a codelist or enumeration"
+      },
+      {
+        "code": "005",
+        "codeName": "abstractClass",
+        "description": "class that cannot be directly instantiated"
+      },
+      {
+        "code": "006",
+        "codeName": "aggregateClass",
+        "description": "class that is composed of classes it is connected to by an aggregate relationship"
+      },
+      {
+        "code": "007",
+        "codeName": "specifiedClass",
+        "description": "subclass that may be substituted for its superclass"
+      },
+      {
+        "code": "008",
+        "codeName": "datatypeClass",
+        "description": "class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage"
+      },
+      {
+        "code": "009",
+        "codeName": "interfaceClass",
+        "description": "named set of operations that characterize the behavior of an element"
+      },
+      {
+        "code": "010",
+        "codeName": "unionClass",
+        "description": "class describing a selection of one of the specified types"
+      },
+      {
+        "code": "011",
+        "codeName": "metaClass",
+        "description": "class whose instances are classes"
+      },
+      {
+        "code": "012",
+        "codeName": "typeClass",
+        "description": "class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"
+      },
+      {
+        "code": "013",
+        "codeName": "characterString",
+        "description": "free text field"
+      },
+      {
+        "code": "014",
+        "codeName": "integer",
+        "description": "numeric filed"
+      },
+      {
+        "code": "015",
+        "codeName": "association",
+        "description": "semantic relationship between two classes that involves connections among their instances"
+      },
+      {
+        "code": "016",
+        "codeName": "typeClass",
+        "description": "class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"
+      }
+    ]
+  },
+  "iso_dateType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_dateType",
+    "source": "ISO",
+    "sourceName": "CI_DateTypeCode",
+    "extensible": true,
+    "description": "identification of when a given event occurred",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "creation",
+        "description": "date identifies when the resource was brought into existence"
+      },
+      {
+        "code": "002",
+        "codeName": "publication",
+        "description": "date identifies when the resource was issued"
+      },
+      {
+        "code": "003",
+        "codeName": "revision",
+        "description": "date identifies when the resource was examined or re-examined and improved or amended"
+      },
+      {
+        "code": "004",
+        "codeName": "expiry",
+        "description": "date identifies when resource expires"
+      },
+      {
+        "code": "005",
+        "codeName": "lastUpdate",
+        "description": "date identifies when resource was last updated"
+      },
+      {
+        "code": "006",
+        "codeName": "lastRevision",
+        "description": "date identifies when resource was last reviewed"
+      },
+      {
+        "code": "007",
+        "codeName": "nextUpdate",
+        "description": "date identifies when resource will be next updated"
+      },
+      {
+        "code": "008",
+        "codeName": "unavailable",
+        "description": "date identifies when resource became not available or obtainable"
+      },
+      {
+        "code": "009",
+        "codeName": "inForce",
+        "description": "date identifies when resource became in force"
+      },
+      {
+        "code": "010",
+        "codeName": "adopted",
+        "description": "date identifies when resource was adopted"
+      },
+      {
+        "code": "011",
+        "codeName": "depreciated",
+        "description": "date identifies when resource was deprecated"
+      },
+      {
+        "code": "012",
+        "codeName": "superseded",
+        "description": "date identifies when resource was superseded or replaced by another resource"
+      },
+      {
+        "code": "013",
+        "codeName": "validityBegins",
+        "description": "time at which the data are considered to become valid. NOTE: There could be quite a delay between creation and validity begins"
+      },
+      {
+        "code": "014",
+        "codeName": "validityExpires",
+        "description": "time at which the data are no longer considered to be valid"
+      },
+      {
+        "code": "015",
+        "codeName": "released",
+        "description": "the date that the resource shall be released for public access"
+      },
+      {
+        "code": "016",
+        "codeName": "distribution",
+        "description": "date identifies when an instance of the resource was distributed"
+      }
+    ]
+  },
+  "iso_initiativeType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_initiativeType",
+    "source": "ISO",
+    "sourceName": "DS_InitiativeTypeCode",
+    "extensible": true,
+    "description": "type of initiative under which the resource was produced - the activity that resulted in the resource",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "campaign",
+        "description": "series of organized planned actions"
+      },
+      {
+        "code": "002",
+        "codeName": "collection",
+        "description": "accumulation of datasets assembled for a specific purpose"
+      },
+      {
+        "code": "003",
+        "codeName": "exercise",
+        "description": "specific performance of a function or group of functions"
+      },
+      {
+        "code": "004",
+        "codeName": "experiment",
+        "description": "process designed to find if something is effective or valid"
+      },
+      {
+        "code": "005",
+        "codeName": "investigation",
+        "description": "search or systematic inquiry"
+      },
+      {
+        "code": "006",
+        "codeName": "mission",
+        "description": "specific operation of a data collection system"
+      },
+      {
+        "code": "007",
+        "codeName": "sensor",
+        "description": "device or piece of equipment which detects or records"
+      },
+      {
+        "code": "008",
+        "codeName": "operation",
+        "description": "action that is part of a series of actions"
+      },
+      {
+        "code": "009",
+        "codeName": "platform",
+        "description": "vehicle or other support base that holds a sensor"
+      },
+      {
+        "code": "010",
+        "codeName": "process",
+        "description": "method of doing something involving a number of steps"
+      },
+      {
+        "code": "011",
+        "codeName": "program",
+        "description": "specific planned activity"
+      },
+      {
+        "code": "012",
+        "codeName": "project",
+        "description": "organized undertaking, research, or development"
+      },
+      {
+        "code": "013",
+        "codeName": "study",
+        "description": "examination or investigation"
+      },
+      {
+        "code": "014",
+        "codeName": "task",
+        "description": "piece of work"
+      },
+      {
+        "code": "015",
+        "codeName": "trial",
+        "description": "process of testing to discover or demonstrate something"
+      }
+    ]
+  },
+  "iso_keywordType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_keywordType",
+    "source": "ISO",
+    "sourceName": "MD_KeywordTypeCode",
+    "extensible": true,
+    "description": "methods used to group similar keywords",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "discipline",
+        "description": "keyword identifies a branch of instruction or specialized learning"
+      },
+      {
+        "code": "002",
+        "codeName": "place",
+        "description": "keyword identifies a location"
+      },
+      {
+        "code": "003",
+        "codeName": "stratum",
+        "description": "keyword identifies the layer(s) of any deposited substance"
+      },
+      {
+        "code": "004",
+        "codeName": "temporal",
+        "description": "keyword identifies a time period related to the dataset"
+      },
+      {
+        "code": "005",
+        "codeName": "theme",
+        "description": "keyword identifies a particular subject or topic"
+      },
+      {
+        "code": "006",
+        "codeName": "dataCentre",
+        "description": "keyword identifies a repository or archive that manages and distributes data"
+      },
+      {
+        "code": "007",
+        "codeName": "featureType",
+        "description": "keyword identifies a resource containing or about a collection of feature instances with common characteristics"
+      },
+      {
+        "code": "008",
+        "codeName": "instrument",
+        "description": "keyword identifies a device used to measure or compare physical properties"
+      },
+      {
+        "code": "009",
+        "codeName": "platform",
+        "description": "keyword identifies a structure upon which an instrument is mounted"
+      },
+      {
+        "code": "010",
+        "codeName": "process",
+        "description": "keyword identifies a series of actions or natural occurrences"
+      },
+      {
+        "code": "011",
+        "codeName": "project",
+        "description": "keyword identifies an endeavour undertaken to create or modify a product or service"
+      },
+      {
+        "code": "012",
+        "codeName": "service",
+        "description": "keyword identifies an activity carried out by one party for the benefit of another"
+      },
+      {
+        "code": "013",
+        "codeName": "product",
+        "description": "keyword identifies a type of product"
+      },
+      {
+        "code": "014",
+        "codeName": "subTopicCategory",
+        "description": "refinement of a topic category for the purpose of geographic data classification"
+      },
+      {
+        "code": "015",
+        "codeName": "taxon",
+        "description": "keyword identifies a taxonomy of the resource"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "region",
+        "description": "keyword identifies a known geographic region (such as US Census Area, ecoregion type, etc.)"
+      }
+    ]
+  },
+  "iso_maintenanceFrequency": {
+    "codelistType": "staticList",
+    "codelistName": "iso_maintenanceFrequency",
+    "source": "ISO",
+    "sourceName": "MD_MaintenanceFrequencyCode",
+    "extensible": true,
+    "description": "frequency with which modifications and deletions are made to the data after it is first produced",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "continual",
+        "description": "data is repeatedly and frequently updated"
+      },
+      {
+        "code": "002",
+        "codeName": "daily",
+        "description": "data is updated each day"
+      },
+      {
+        "code": "003",
+        "codeName": "weekly",
+        "description": "data is updated on a weekly basis"
+      },
+      {
+        "code": "004",
+        "codeName": "fortnightly",
+        "description": "data is updated every two weeks"
+      },
+      {
+        "code": "005",
+        "codeName": "monthly",
+        "description": "data is updated each month"
+      },
+      {
+        "code": "006",
+        "codeName": "quarterly",
+        "description": "data is updated every three months"
+      },
+      {
+        "code": "007",
+        "codeName": "biannually",
+        "description": "data is updated twice each year"
+      },
+      {
+        "code": "008",
+        "codeName": "annually",
+        "description": "data is updated every year"
+      },
+      {
+        "code": "009",
+        "codeName": "asNeeded",
+        "description": "data is updated as deemed necessary"
+      },
+      {
+        "code": "010",
+        "codeName": "irregular",
+        "description": "data is updated in intervals that are uneven in duration"
+      },
+      {
+        "code": "011",
+        "codeName": "notPlanned",
+        "description": "there are no plans to update the data"
+      },
+      {
+        "code": "012",
+        "codeName": "unknown",
+        "description": "frequency of maintenance for the data is not known"
+      },
+      {
+        "code": "013",
+        "codeName": "periodic",
+        "description": "resource is updated at regular intervals"
+      },
+      {
+        "code": "014",
+        "codeName": "semimonthly",
+        "description": "resource updated twice monthly"
+      },
+      {
+        "code": "015",
+        "codeName": "biennially",
+        "description": "resource is updated every 2 years"
+      }
+    ]
+  },
+  "iso_mediumFormat": {
+    "codelistType": "staticList",
+    "codelistName": "iso_mediumFormat",
+    "source": "ISO",
+    "sourceName": "MD_MediumFormatCode",
+    "extensible": true,
+    "description": "method used to write to the medium",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "cpio",
+        "description": "CoPy In / Out (UNIX file format and command)"
+      },
+      {
+        "code": "002",
+        "codeName": "tar",
+        "description": "Tape ARchive"
+      },
+      {
+        "code": "003",
+        "codeName": "highSierra",
+        "description": "high sierra file system"
+      },
+      {
+        "code": "004",
+        "codeName": "iso9660",
+        "description": "information processing – volume and file structure of CD-ROM"
+      },
+      {
+        "code": "005",
+        "codeName": "iso9660RockRidge",
+        "description": "rock ridge interchange protocol (UNIX)"
+      },
+      {
+        "code": "006",
+        "codeName": "iso9660AppleHFS",
+        "description": "hierarchical file system (Macintosh)"
+      },
+      {
+        "code": "007",
+        "codeName": "udf",
+        "description": "universal disk format"
+      }
+    ]
+  },
+  "iso_mediumName": {
+    "codelistType": "staticList",
+    "codelistName": "iso_mediumName",
+    "source": "ISO",
+    "sourceName": "MD_MediumNameCode",
+    "extensible": true,
+    "description": "name of the medium",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "cdRom",
+        "description": "read-only optical disk"
+      },
+      {
+        "code": "002",
+        "codeName": "dvd",
+        "description": "digital versatile disk"
+      },
+      {
+        "code": "003",
+        "codeName": "dvdRom",
+        "description": "digital versatile disk, read only"
+      },
+      {
+        "code": "004",
+        "codeName": "3halfInchFloppy",
+        "description": "3,5 inch magnetic disk"
+      },
+      {
+        "code": "005",
+        "codeName": "5quarterInchFloppy",
+        "description": "5,25 inch magnetic disk"
+      },
+      {
+        "code": "006",
+        "codeName": "7trackTape",
+        "description": "7 track magnetic tape"
+      },
+      {
+        "code": "007",
+        "codeName": "9trackTape",
+        "description": "9 track magnetic tape"
+      },
+      {
+        "code": "008",
+        "codeName": "3480Cartridge",
+        "description": "3480 cartridge tape drive"
+      },
+      {
+        "code": "009",
+        "codeName": "3490Cartridge",
+        "description": "3490 cartridge tape drive"
+      },
+      {
+        "code": "010",
+        "codeName": "3580Cartridge",
+        "description": "3580 cartridge tape drive"
+      },
+      {
+        "code": "011",
+        "codeName": "4mmCartridge",
+        "description": "4 millimetre magnetic tape"
+      },
+      {
+        "code": "012",
+        "codeName": "8mmCartridge",
+        "description": "8 millimetre magnetic tape"
+      },
+      {
+        "code": "013",
+        "codeName": "1quarterInchCartridgeTape",
+        "description": "0,25 inch magnetic tape"
+      },
+      {
+        "code": "014",
+        "codeName": "digitalLinearTape",
+        "description": "half inch cartridge streaming tape drive"
+      },
+      {
+        "code": "015",
+        "codeName": "onLine",
+        "description": "direct computer linkage"
+      },
+      {
+        "code": "016",
+        "codeName": "satellite",
+        "description": "linkage through a satellite communication system"
+      },
+      {
+        "code": "017",
+        "codeName": "telephoneLink",
+        "description": "communication through a telephone network"
+      },
+      {
+        "code": "018",
+        "codeName": "hardcopy",
+        "description": "pamphlet or leaflet giving descriptive information"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "bluRay",
+        "description": "Blu-ray digital versatile disk"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "usbHardDrive",
+        "description": "USB hard drive disk or solid state"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "memoryStick",
+        "description": "USB memory stick"
+      },
+      {
+        "code": "adiwg004",
+        "codeName": "sdCard",
+        "description": "SD memory card"
+      },
+      {
+        "code": "adiwg005",
+        "codeName": "flashCard",
+        "description": "compact flash memory card"
+      },
+      {
+        "code": "adiwg006",
+        "codeName": "film",
+        "description": "8mm, 16mm, 35mm, 120 and other positive and negative camera film sizes"
+      },
+      {
+        "code": "adiwg007",
+        "codeName": "microfilm",
+        "description": "microfilm"
+      },
+      {
+        "code": "adiwg008",
+        "codeName": "internet",
+        "description": "internet"
+      }
+    ]
+  },
+  "iso_obligation": {
+    "codelistType": "staticList",
+    "codelistName": "iso_obligation",
+    "source": "ISO",
+    "sourceName": "MD_ObligationCode",
+    "extensible": false,
+    "description": "obligation of the element or entity (enumeration - cannot be extended)",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "mandatory",
+        "description": "element is always required"
+      },
+      {
+        "code": "002",
+        "codeName": "optional",
+        "description": "element is not required"
+      },
+      {
+        "code": "003",
+        "codeName": "conditional",
+        "description": "element is required when a specific condition is met"
+      }
+    ]
+  },
+  "iso_onlineFunction": {
+    "codelistType": "staticList",
+    "codelistName": "iso_onlineFunction",
+    "source": "ISO",
+    "sourceName": "CI_OnLineFunctionCode",
+    "extensible": true,
+    "description": "function performed by the resource",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "download",
+        "description": "online instructions for transferring data from one storage device or system to another"
+      },
+      {
+        "code": "002",
+        "codeName": "information",
+        "description": "online information about the resource"
+      },
+      {
+        "code": "003",
+        "codeName": "offlineAccess",
+        "description": "online instructions for requesting the resource from the provider"
+      },
+      {
+        "code": "004",
+        "codeName": "order",
+        "description": "online order process for obtaining the resource"
+      },
+      {
+        "code": "005",
+        "codeName": "search",
+        "description": "online search interface for seeking out information about the resource"
+      },
+      {
+        "code": "006",
+        "codeName": "completeMetadata",
+        "description": "complete metadata provided"
+      },
+      {
+        "code": "007",
+        "codeName": "browseGraphic",
+        "description": "browse graphic provided"
+      },
+      {
+        "code": "008",
+        "codeName": "upload",
+        "description": "online resource upload capability provided"
+      },
+      {
+        "code": "009",
+        "codeName": "emailService",
+        "description": "online email service provided"
+      },
+      {
+        "code": "010",
+        "codeName": "browsing",
+        "description": "online browsing provided"
+      },
+      {
+        "code": "011",
+        "codeName": "fileAccess",
+        "description": "online file access provided"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "webApplication",
+        "description": "online web application or data forms"
+      }
+    ]
+  },
+  "iso_presentationForm": {
+    "codelistType": "staticList",
+    "codelistName": "iso_presentationForm",
+    "source": "ISO",
+    "sourceName": "CI_PresentationFormCode",
+    "extensible": true,
+    "description": "mode in which the data is represented",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "documentDigital",
+        "description": "digital representation of a primarily textual item (can contain illustrations also)"
+      },
+      {
+        "code": "002",
+        "codeName": "documentHardcopy",
+        "description": "representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media"
+      },
+      {
+        "code": "003",
+        "codeName": "imageDigital",
+        "description": "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"
+      },
+      {
+        "code": "004",
+        "codeName": "imageHardcopy",
+        "description": "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"
+      },
+      {
+        "code": "005",
+        "codeName": "mapDigital",
+        "description": "map represented in raster or vector form"
+      },
+      {
+        "code": "006",
+        "codeName": "mapHardcopy",
+        "description": "map printed on paper, photographic material, or other media for use directly by the human user"
+      },
+      {
+        "code": "007",
+        "codeName": "modelDigital",
+        "description": "multi-dimensional digital representation of a feature, process, etc."
+      },
+      {
+        "code": "008",
+        "codeName": "modelHardcopy",
+        "description": "3-dimensional, physical model"
+      },
+      {
+        "code": "009",
+        "codeName": "profileDigital",
+        "description": "vertical cross-section in digital form"
+      },
+      {
+        "code": "010",
+        "codeName": "profileHardcopy",
+        "description": "vertical cross-section printed on paper, etc."
+      },
+      {
+        "code": "011",
+        "codeName": "tableDigital",
+        "description": "digital representation of facts or figures systematically displayed, especially in columns"
+      },
+      {
+        "code": "012",
+        "codeName": "tableHardcopy",
+        "description": "representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media"
+      },
+      {
+        "code": "013",
+        "codeName": "videoDigital",
+        "description": "digital video recording"
+      },
+      {
+        "code": "014",
+        "codeName": "videoHardcopy",
+        "description": "video recording on film"
+      },
+      {
+        "code": "015",
+        "codeName": "audioDigital",
+        "description": "digital audio recording"
+      },
+      {
+        "code": "016",
+        "codeName": "audioHardcopy",
+        "description": "audio recording delivered by analog media, such as a magnetic tape"
+      },
+      {
+        "code": "017",
+        "codeName": "multimediaDigitial",
+        "description": "information representation using simultaneously various digital modes for text, sound, image"
+      },
+      {
+        "code": "018",
+        "codeName": "multimediaHardcopy",
+        "description": "information representation using simultaneously various analog modes for text, sound, image"
+      },
+      {
+        "code": "019",
+        "codeName": "physicalObject",
+        "description": "a physical object. EXAMPLE Rock or mineral sample, microscope slide."
+      },
+      {
+        "code": "020",
+        "codeName": "diagramDigital",
+        "description": "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and recorded in digital format"
+      },
+      {
+        "code": "021",
+        "codeName": "diagramHardcopy",
+        "description": "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and printed on paper, photographic material, or other media"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "webSite",
+        "description": "information represented in a series of web pages"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "webService",
+        "description": "information represented as series of HTML end points or remote procedure calls"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "databaseDigital",
+        "description": "information organized in a digital database"
+      }
+    ]
+  },
+  "iso_progress": {
+    "codelistType": "staticList",
+    "codelistName": "iso_progress",
+    "source": "ISO",
+    "sourceName": "MD_ProgressCode",
+    "extensible": true,
+    "description": "status of the dataset or progress of a review",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "completed",
+        "description": "production of the data has been completed"
+      },
+      {
+        "code": "002",
+        "codeName": "historicalArchive",
+        "description": "data has been stored in an offline storage facility"
+      },
+      {
+        "code": "003",
+        "codeName": "obsolete",
+        "description": "data is no longer relevant"
+      },
+      {
+        "code": "004",
+        "codeName": "onGoing",
+        "description": "data is continually being updated"
+      },
+      {
+        "code": "005",
+        "codeName": "planned",
+        "description": "fixed date has been established upon or by which the data will be created or updated"
+      },
+      {
+        "code": "006",
+        "codeName": "required",
+        "description": "data needs to be generated or updated"
+      },
+      {
+        "code": "007",
+        "codeName": "underDevelopment",
+        "description": "resource (data or project) is currently in the process of being created"
+      },
+      {
+        "code": "008",
+        "codeName": "final",
+        "description": "progress concluded and no changes will be accepted"
+      },
+      {
+        "code": "009",
+        "codeName": "pending",
+        "description": "committed to, but not yet addressed"
+      },
+      {
+        "code": "010",
+        "codeName": "retired",
+        "description": "item is no longer recommended for use. It has not been superseded by another item"
+      },
+      {
+        "code": "011",
+        "codeName": "superseded",
+        "description": "replaced by new"
+      },
+      {
+        "code": "012",
+        "codeName": "tentative",
+        "description": "provisional changes likely before resource becomes final or complete"
+      },
+      {
+        "code": "013",
+        "codeName": "valid",
+        "description": "acceptable under specific conditions"
+      },
+      {
+        "code": "014",
+        "codeName": "accepted",
+        "description": "agreed to by sponsor"
+      },
+      {
+        "code": "015",
+        "codeName": "notAccepted",
+        "description": "rejected by sponsor"
+      },
+      {
+        "code": "016",
+        "codeName": "withdrawn",
+        "description": "removed from consideration"
+      },
+      {
+        "code": "017",
+        "codeName": "proposed",
+        "description": "suggested that development needs to be undertaken"
+      },
+      {
+        "code": "018",
+        "codeName": "deprecated",
+        "description": "resource superseded and will become obsolete, use only for historical purposes"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "funded",
+        "description": "resource has been approved and secured funding"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "cancelled",
+        "description": "project has been canceled"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "suspended",
+        "description": "project has been placed on hold but is expected to resume at a latter date"
+      }
+    ]
+  },
+  "iso_restriction": {
+    "codelistType": "staticList",
+    "codelistName": "iso_restriction",
+    "source": "ISO",
+    "sourceName": "MD_RestrictionCode",
+    "extensible": true,
+    "description": "limitation(s) placed upon the access or use of the data)",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "copyright",
+        "description": "exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor"
+      },
+      {
+        "code": "002",
+        "codeName": "patent",
+        "description": "government has granted exclusive right to make, sell, use or license an invention or discovery"
+      },
+      {
+        "code": "003",
+        "codeName": "patentPending",
+        "description": "produced or sold information awaiting a patent"
+      },
+      {
+        "code": "004",
+        "codeName": "trademark",
+        "description": "a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer"
+      },
+      {
+        "code": "005",
+        "codeName": "license",
+        "description": "formal permission to do something"
+      },
+      {
+        "code": "006",
+        "codeName": "intellectualPropertyRights",
+        "description": "rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity"
+      },
+      {
+        "code": "007",
+        "codeName": "restricted",
+        "description": "withheld from general circulation or disclosure"
+      },
+      {
+        "code": "008",
+        "codeName": "otherRestrictions",
+        "description": "limitation not listed"
+      },
+      {
+        "code": "009",
+        "codeName": "unrestricted",
+        "description": "no constraints exist"
+      },
+      {
+        "code": "010",
+        "codeName": "licenceUnrestricted",
+        "description": "formal permission not required to use the resource"
+      },
+      {
+        "code": "011",
+        "codeName": "licenceEndUser",
+        "description": "formal permission required for a person or an entity to use the resource and that may differ from the person that orders or purchases it"
+      },
+      {
+        "code": "012",
+        "codeName": "licenceDistributor",
+        "description": "formal permission required for a person or an entity to commercialize or distribute the resource"
+      },
+      {
+        "code": "013",
+        "codeName": "private",
+        "description": "protects rights of individual or organisations from observation, intrusion, or attention of others"
+      },
+      {
+        "code": "014",
+        "codeName": "statutory",
+        "description": "prescribed by law"
+      },
+      {
+        "code": "015",
+        "codeName": "confidential",
+        "description": "not available to the public. NOTE Contains information that could be prejudicial to a commercial, industrial, or national interest."
+      },
+      {
+        "code": "016",
+        "codeName": "sensitiveButUnclassified",
+        "description": "although unclassified, requires strict controls over its distribution."
+      },
+      {
+        "code": "017",
+        "codeName": "in-confidence",
+        "description": "with trust"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "threatenedOrEndangered",
+        "description": "information could risk threatened or endangered species"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "traditionalKnowledge",
+        "description": "information protected by American Indian or Alaska Native rights or culture"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "personallyIdentifiableInformation",
+        "description": "information that can be used to identify an individual"
+      }
+    ]
+  },
+  "iso_role": {
+    "codelistType": "staticList",
+    "codelistName": "iso_role",
+    "source": "ISO",
+    "sourceName": "CI_RoleCode",
+    "extensible": true,
+    "description": "function performed by the responsible party",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "resourceProvider",
+        "description": "party that supplies the resource"
+      },
+      {
+        "code": "002",
+        "codeName": "custodian",
+        "description": "party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource"
+      },
+      {
+        "code": "003",
+        "codeName": "owner",
+        "description": "party that owns the resource"
+      },
+      {
+        "code": "004",
+        "codeName": "use",
+        "description": "party that uses the resource"
+      },
+      {
+        "code": "005",
+        "codeName": "distributor",
+        "description": "party that distributes the resource"
+      },
+      {
+        "code": "006",
+        "codeName": "originator",
+        "description": "party that created the resource"
+      },
+      {
+        "code": "007",
+        "codeName": "pointOfContact",
+        "description": "party who can be contacted for acquiring knowledge about or acquisition of the resource"
+      },
+      {
+        "code": "008",
+        "codeName": "principalInvestigator",
+        "description": "key party responsible for gathering information and conducting research"
+      },
+      {
+        "code": "009",
+        "codeName": "processor",
+        "description": "party who has processed the data in a manner such that the resource has been modified"
+      },
+      {
+        "code": "010",
+        "codeName": "publisher",
+        "description": "party who published the resource"
+      },
+      {
+        "code": "011",
+        "codeName": "author",
+        "description": "party who authored the resource"
+      },
+      {
+        "code": "012",
+        "codeName": "sponsor",
+        "description": "party who speaks for the resource"
+      },
+      {
+        "code": "013",
+        "codeName": "coAuthor",
+        "description": "party who jointly authors the resource"
+      },
+      {
+        "code": "014",
+        "codeName": "collaborator",
+        "description": "party who assists with the generation of the resource other than the principal investigator"
+      },
+      {
+        "code": "015",
+        "codeName": "editor",
+        "description": "party who reviewed or modified the resource to improve the content"
+      },
+      {
+        "code": "016",
+        "codeName": "mediator",
+        "description": "a class of entity that mediates access to the resource and for whom the resource is intended or useful"
+      },
+      {
+        "code": "017",
+        "codeName": "rightsHolder",
+        "description": "party owning or managing rights over the resource"
+      },
+      {
+        "code": "018",
+        "codeName": "contributor",
+        "description": "party contributing to the resource"
+      },
+      {
+        "code": "019",
+        "codeName": "funder",
+        "description": "party providing monetary support for the resource"
+      },
+      {
+        "code": "020",
+        "codeName": "stakeholder",
+        "description": "party who has an interest in the resource or the use of the resource"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "administrator",
+        "description": "party who has administrative oversight for the resource"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "client",
+        "description": "agency or person requesting a project or data collection"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "logistics",
+        "description": "entity that provides logistics support"
+      },
+      {
+        "code": "adiwg004",
+        "codeName": "coPrincipalInvestigator",
+        "description": "party who is jointly responsible for gathering information and conducting research"
+      }
+    ]
+  },
+  "iso_scope": {
+    "codelistType": "staticList",
+    "codelistName": "iso_scope",
+    "source": "ISO",
+    "sourceName": "MD_ScopeCode",
+    "extensible": true,
+    "description": "class of information to which the referencing entity applies",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "attribute",
+        "description": "information applies to the attribute class"
+      },
+      {
+        "code": "002",
+        "codeName": "attributeType",
+        "description": "information applies to the characteristic of a feature"
+      },
+      {
+        "code": "003",
+        "codeName": "collectionHardware",
+        "description": "information applies to the collection hardware class"
+      },
+      {
+        "code": "004",
+        "codeName": "collectionSession",
+        "description": "information applies to the collection session"
+      },
+      {
+        "code": "005",
+        "codeName": "dataset",
+        "description": "information applies to a geographic dataset"
+      },
+      {
+        "code": "006",
+        "codeName": "series",
+        "description": "information applies to the series"
+      },
+      {
+        "code": "007",
+        "codeName": "nonGeographicDataset",
+        "description": "information applies to non-geographic data"
+      },
+      {
+        "code": "008",
+        "codeName": "dimensionGroup",
+        "description": "information applies to a dimension group"
+      },
+      {
+        "code": "009",
+        "codeName": "feature",
+        "description": "information applies to a feature"
+      },
+      {
+        "code": "010",
+        "codeName": "featureType",
+        "description": "information applies to a feature type"
+      },
+      {
+        "code": "011",
+        "codeName": "propertyType",
+        "description": "information applies to a property type"
+      },
+      {
+        "code": "012",
+        "codeName": "fieldSession",
+        "description": "information applies to a field session"
+      },
+      {
+        "code": "013",
+        "codeName": "software",
+        "description": "information applies to a computer program or routine"
+      },
+      {
+        "code": "014",
+        "codeName": "service",
+        "description": "information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case"
+      },
+      {
+        "code": "015",
+        "codeName": "model",
+        "description": "information applies to a copy or imitation of an existing or hypothetical object"
+      },
+      {
+        "code": "016",
+        "codeName": "tile",
+        "description": "information applies to a tile, a spatial subset of geographic data"
+      },
+      {
+        "code": "017",
+        "codeName": "metadata",
+        "description": "information applies to metadata"
+      },
+      {
+        "code": "018",
+        "codeName": "initiative",
+        "description": "information applies to an initiative"
+      },
+      {
+        "code": "019",
+        "codeName": "sample",
+        "description": "information applies to a sample"
+      },
+      {
+        "code": "020",
+        "codeName": "document",
+        "description": "information applies to a document"
+      },
+      {
+        "code": "021",
+        "codeName": "repository",
+        "description": "information applies to a repository"
+      },
+      {
+        "code": "022",
+        "codeName": "aggregate",
+        "description": "information applies to an aggregate resource"
+      },
+      {
+        "code": "023",
+        "codeName": "product",
+        "description": "metadata describing an ISO 19131 data product specification"
+      },
+      {
+        "code": "024",
+        "codeName": "collection",
+        "description": "information applies to an unstructured set"
+      },
+      {
+        "code": "025",
+        "codeName": "coverage",
+        "description": "information applies to a coverage"
+      },
+      {
+        "code": "026",
+        "codeName": "application",
+        "description": "information resource hosted on a specific set of hardware and accessible over a network"
+      },
+      {
+        "code": "adiwg001",
+        "codeName": "sciencePaper",
+        "description": "document based on an experiment or research"
+      },
+      {
+        "code": "adiwg002",
+        "codeName": "userGuide",
+        "description": "operating manual for users"
+      },
+      {
+        "code": "adiwg003",
+        "codeName": "dataDictionary",
+        "description": "element and entity definitions"
+      },
+      {
+        "code": "adiwg004",
+        "codeName": "website",
+        "description": "information applies to a website such as a thematic portal"
+      },
+      {
+        "code": "adiwg005",
+        "codeName": "publication",
+        "description": "information applies to a published document"
+      },
+      {
+        "code": "adiwg006",
+        "codeName": "report",
+        "description": "information applies to an unpublished document"
+      },
+      {
+        "code": "adiwg007",
+        "codeName": "awardInfo",
+        "description": "information applies to a document related to the grant or award for the resource"
+      },
+      {
+        "code": "adiwg008",
+        "codeName": "collectionSite",
+        "description": "Locations where data are collected for scientific research"
+      },
+      {
+        "code": "adiwg009",
+        "codeName": "project",
+        "description": "high level information that applies to research activity such as project title, location, contacts, timeframe, abstract, etc."
+      },
+      {
+        "code": "adiwg010",
+        "codeName": "factSheet",
+        "description": "information applies to fact sheet, pamphlet, flyer, or brochure"
+      },
+      {
+        "code": "adiwg011",
+        "codeName": "tabularDataset",
+        "description": "information applies to a tabular dataset, spreadsheet, or relational database"
+      },
+      {
+        "code": "adiwg012",
+        "codeName": "map",
+        "description": "information applies to a printed or electronic map"
+      },
+      {
+        "code": "adiwg013",
+        "codeName": "drawing",
+        "description": "information applies to a hand drawn or digital drawing"
+      },
+      {
+        "code": "adiwg014",
+        "codeName": "photographicImage",
+        "description": "information applies to a still or moving film or video image"
+      },
+      {
+        "code": "adiwg015",
+        "codeName": "presentation",
+        "description": "information applies to a collection of presentation slides or recorded presentation"
+      }
+    ]
+  },
+  "iso_spatialRepresentation": {
+    "codelistType": "staticList",
+    "codelistName": "iso_spatialRepresentation",
+    "source": "ISO",
+    "sourceName": "MD_SpatialRepresentationTypeCode",
+    "extensible": true,
+    "description": "method used to represent geographic information in the dataset",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "vector",
+        "description": "vector data is used to represent geographic data"
+      },
+      {
+        "code": "002",
+        "codeName": "grid",
+        "description": "grid data is used to represent geographic data"
+      },
+      {
+        "code": "003",
+        "codeName": "textTable",
+        "description": "textual or tabular data is used to represent geographic data"
+      },
+      {
+        "code": "004",
+        "codeName": "tin",
+        "description": "triangulated irregular network"
+      },
+      {
+        "code": "005",
+        "codeName": "stereoModel",
+        "description": "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"
+      },
+      {
+        "code": "006",
+        "codeName": "video",
+        "description": "scene from a video recording"
+      }
+    ]
+  },
+  "iso_telephone": {
+    "codelistType": "staticList",
+    "codelistName": "iso_telephone",
+    "source": "ISO",
+    "sourceName": "MD_TelephoneTypeCode",
+    "extensible": true,
+    "description": "type of telephone",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "voice",
+        "description": "telephone provides voice service"
+      },
+      {
+        "code": "002",
+        "codeName": "facsimile",
+        "description": "telephone provides facsimile service"
+      },
+      {
+        "code": "003",
+        "codeName": "sms",
+        "description": "telephone provides sms service"
+      }
+    ]
+  },
+  "iso_topicCategory": {
+    "codelistType": "staticList",
+    "codelistName": "iso_topicCategory",
+    "source": "ISO",
+    "sourceName": "MD_TopicCategoryCode",
+    "extensible": false,
+    "description": "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive. NOTE It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate. (enumeration - cannot be extended)",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "farming",
+        "description": "rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"
+      },
+      {
+        "code": "002",
+        "codeName": "biota",
+        "description": "flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat."
+      },
+      {
+        "code": "003",
+        "codeName": "boundaries",
+        "description": "legal land descriptions. Examples: political and administrative boundaries."
+      },
+      {
+        "code": "004",
+        "codeName": "climatologyMeteorologyAtmosphere",
+        "description": "processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation"
+      },
+      {
+        "code": "005",
+        "codeName": "economy",
+        "description": "economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas"
+      },
+      {
+        "code": "006",
+        "codeName": "elevation",
+        "description": "height above or below sea level. Examples: altitude, bathymetry, digital elevation models, slope, derived products"
+      },
+      {
+        "code": "007",
+        "codeName": "environment",
+        "description": "environmental resources, protection and conservation. Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape"
+      },
+      {
+        "code": "008",
+        "codeName": "geoscientificInformation",
+        "description": "information pertaining to earth sciences. Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, ydrogeology, erosion"
+      },
+      {
+        "code": "009",
+        "codeName": "health",
+        "description": "health, health services, human ecology, and safety. Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services"
+      },
+      {
+        "code": "010",
+        "codeName": "imageryBaseMapsEarthCover",
+        "description": "base maps. Examples: land cover, topographic maps, imagery, unclassified images, annotations"
+      },
+      {
+        "code": "011",
+        "codeName": "intelligenceMilitary",
+        "description": "military bases, structures, activities. Examples: barracks, training grounds, military transportation, information collection"
+      },
+      {
+        "code": "012",
+        "codeName": "inlandWater",
+        "description": "inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"
+      },
+      {
+        "code": "013",
+        "codeName": "location",
+        "description": "positional information and services. Examples: addresses, geodetic networks, control points, postal zones and services, place names"
+      },
+      {
+        "code": "014",
+        "codeName": "oceans",
+        "description": "features and characteristics of salt water bodies (excluding inland waters). Examples: tides, tidal waves, coastal information, reefs"
+      },
+      {
+        "code": "015",
+        "codeName": "planningCadastre",
+        "description": "information used for appropriate actions for future use of the land. Examples: land use maps, zoning maps, cadastral surveys, land ownership"
+      },
+      {
+        "code": "016",
+        "codeName": "society",
+        "description": "characteristics of society and cultures. Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information"
+      },
+      {
+        "code": "017",
+        "codeName": "structure",
+        "description": "man-made construction. Examples: buildings, museums, churches, factories, housing, monuments, shops, towers"
+      },
+      {
+        "code": "018",
+        "codeName": "transportation",
+        "description": "means and aids for conveying persons and/or goods. Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways"
+      },
+      {
+        "code": "019",
+        "codeName": "utilitiesCommunication",
+        "description": "energy, water and waste systems and communications infrastructure and services. Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks"
+      },
+      {
+        "code": "020",
+        "codeName": "extraTerrestrial",
+        "description": "region more than 100 km above the surface of the Earth"
+      },
+      {
+        "code": "021",
+        "codeName": "disaster",
+        "description": "information related to disasters. Examples: Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."
+      }
+    ]
+  }
+}
