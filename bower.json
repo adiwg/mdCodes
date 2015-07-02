@@ -1,0 +1,30 @@
+{
+  "name": "mdcodes",
+  "version": "1.0.1",
+  "homepage": "https://github.com/adiwg/mdCodes",
+  "authors": [
+    "Josh Bradley <jbradley@arcticlcc.org>"
+  ],
+  "description": "Provides code lists for use in ISO 19139 compliant metadata, especially mdJSON.  The codes include all ISO 19115-1 code extensions from the Alaska Data Integration working group (ADIwg).",
+  "main": "resources/json/mdcodes.json",
+  "keywords": [
+    "adiwg",
+    "metadata",
+    "json"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib",
+    "*.gemspec",
+    "Gemfile",
+    "Gemfile.lock",
+    "pkg",
+    "Rakefile",
+    "resources/*.yml"
+  ]
+}
