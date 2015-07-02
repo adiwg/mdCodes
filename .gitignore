@@ -1,5 +1,4 @@
 /.project
-/resources/json
 *.gem
 *.rbc
 .bundle

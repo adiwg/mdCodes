@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/adiwg/mdCodes"
   spec.license       = "UNLICENSED"
 
-  spec.files         = %x(git ls-files).split($/)
+  spec.files         = %x(git ls-files).split($/).delete_if {|fn| /resources\/json\/.*$/.match(fn) }
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(tc|test|spec|features)/})
   spec.require_paths = ["lib"]
