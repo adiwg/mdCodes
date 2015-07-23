@@ -11,11 +11,12 @@
 # 0.4.0 2014-12-18 split codelists into individual YAML file
 # 1.0.0 2015-03-11 roll out as version 1
 # 1.0.1 2015-06-11 added new codes to 'scope'
+# 1.1.0 2015-07-22 added codelists for cellGeometry, dimensionNameType, imageCondition, coverageContentType
 
 module ADIWG
 
 	module Mdcodes
-		VERSION = "1.0.1"
+		VERSION = "1.1.0"
 	end
 
 end

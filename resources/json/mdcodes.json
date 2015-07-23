@@ -1,5 +1,5 @@
 {
-  "iso_associationType": {
+  "resources\\json\\iso_associationType": {
     "codelistType": "staticList",
     "codelistName": "iso_associationType",
     "source": "ISO",
@@ -69,7 +69,37 @@
       }
     ]
   },
-  "iso_characterSet": {
+  "resources\\json\\iso_cellGeometry": {
+    "codelistType": "staticList",
+    "codelistName": "iso_cellGeometry",
+    "source": "ISO",
+    "sourceName": "MD_CellGeometryCode",
+    "extensible": true,
+    "description": "code indicating the geometry represented by the grid cell value",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "point",
+        "description": "each cell represents a point"
+      },
+      {
+        "code": "002",
+        "codeName": "area",
+        "description": "each cell represents an area"
+      },
+      {
+        "code": "003",
+        "codeName": "voxel",
+        "description": "each cell represents a volumetric measurement on a regular grid in three dimensional space"
+      },
+      {
+        "code": "004",
+        "codeName": "stratum",
+        "description": "height range for a single point vertical profile"
+      }
+    ]
+  },
+  "resources\\json\\iso_characterSet": {
     "codelistType": "staticList",
     "codelistName": "iso_characterSet",
     "source": "ISO",
@@ -219,7 +249,7 @@
       }
     ]
   },
-  "iso_classification": {
+  "resources\\json\\iso_classification": {
     "codelistType": "staticList",
     "codelistName": "iso_classification",
     "source": "ISO",
@@ -274,7 +304,47 @@
       }
     ]
   },
-  "iso_dataType": {
+  "resources\\json\\iso_coverageContentType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_coverageContentType",
+    "source": "ISO",
+    "sourceName": "MD_CoverageContentTypeCode",
+    "extensible": true,
+    "description": "specific type of information represented in the cell",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "image",
+        "description": "meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter"
+      },
+      {
+        "code": "002",
+        "codeName": "thematicClassification",
+        "description": "code value with no quantitative meaning, used to represent a physical quality"
+      },
+      {
+        "code": "003",
+        "codeName": "physicalMeasurement",
+        "description": "value in physical units of the quantity being measured"
+      },
+      {
+        "code": "004",
+        "codeName": "auxillaryInformation",
+        "description": "data, usually a physical measurement, used to support the calculation of the primary physicalMeasurement coverages in the dataset"
+      },
+      {
+        "code": "005",
+        "codeName": "qualityInformation",
+        "description": "data used to characterize the quality of the physicalMeasurement coverages in the dataset"
+      },
+      {
+        "code": "006",
+        "codeName": "referenceInformation",
+        "description": "reference information used to support the calculation or use of the physicalMeasurement coverages in the dataset"
+      }
+    ]
+  },
+  "resources\\json\\iso_dataType": {
     "codelistType": "staticList",
     "codelistName": "iso_dataType",
     "source": "ISO",
@@ -364,7 +434,7 @@
       }
     ]
   },
-  "iso_dateType": {
+  "resources\\json\\iso_dateType": {
     "codelistType": "staticList",
     "codelistName": "iso_dateType",
     "source": "ISO",
@@ -454,7 +524,122 @@
       }
     ]
   },
-  "iso_initiativeType": {
+  "resources\\json\\iso_dimensionNameType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_dimensionNameType",
+    "source": "ISO",
+    "sourceName": "MD_DimensionNameTypeCode",
+    "extensible": true,
+    "description": "name of the dimension",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "row",
+        "description": "ordinate (y) axis"
+      },
+      {
+        "code": "002",
+        "codeName": "column",
+        "description": "abscissa (x) axis"
+      },
+      {
+        "code": "003",
+        "codeName": "vertical",
+        "description": "vertical (z) axis"
+      },
+      {
+        "code": "004",
+        "codeName": "track",
+        "description": "along the direction of motion of the scan point"
+      },
+      {
+        "code": "005",
+        "codeName": "crossTrack",
+        "description": "perpendicular to the direction of motion of the scan point"
+      },
+      {
+        "code": "006",
+        "codeName": "line",
+        "description": "scan line of a sensor"
+      },
+      {
+        "code": "007",
+        "codeName": "sample",
+        "description": "element along a scan line"
+      },
+      {
+        "code": "008",
+        "codeName": "time",
+        "description": "duration"
+      }
+    ]
+  },
+  "resources\\json\\iso_imageCondition": {
+    "codelistType": "staticList",
+    "codelistName": "iso_imageCondition",
+    "source": "ISO",
+    "sourceName": "MD_ImageConditionCode",
+    "extensible": true,
+    "description": "code which indicates conditions which may affect the image",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "blurredImage",
+        "description": "portion of the image is blurred"
+      },
+      {
+        "code": "002",
+        "codeName": "cloud",
+        "description": "portion of the image is partially obscured by cloud cover"
+      },
+      {
+        "code": "003",
+        "codeName": "degradingObliquity",
+        "description": "acute angle between the plane of the ecliptic (the plane of the Earth's orbit) and the plane of the celestial equator"
+      },
+      {
+        "code": "004",
+        "codeName": "fog",
+        "description": "portion of the image is partially obscured by fog"
+      },
+      {
+        "code": "005",
+        "codeName": "heavySmokeOrDust",
+        "description": "portion of the image is partially obscured by heavy smoke or dust"
+      },
+      {
+        "code": "006",
+        "codeName": "night",
+        "description": "image was taken at night"
+      },
+      {
+        "code": "007",
+        "codeName": "rain",
+        "description": "image was taken during rainfall"
+      },
+      {
+        "code": "008",
+        "codeName": "semiDarkness",
+        "description": "image was taken during semi-dark conditions - twilight conditions"
+      },
+      {
+        "code": "009",
+        "codeName": "shadow",
+        "description": "portion of the image is obscured by shadow"
+      },
+      {
+        "code": "010",
+        "codeName": "snow",
+        "description": "portion of the image is obscured by snow"
+      },
+      {
+        "code": "011",
+        "codeName": "terrainMasking",
+        "description": "the absence of collection data of a given point or area caused by the relative location of topographic features which obstruct the collection path between the collector(s) and the subject(s) of interest"
+      }
+    ]
+  },
+  "resources\\json\\iso_initiativeType": {
     "codelistType": "staticList",
     "codelistName": "iso_initiativeType",
     "source": "ISO",
@@ -539,7 +724,7 @@
       }
     ]
   },
-  "iso_keywordType": {
+  "resources\\json\\iso_keywordType": {
     "codelistType": "staticList",
     "codelistName": "iso_keywordType",
     "source": "ISO",
@@ -629,7 +814,7 @@
       }
     ]
   },
-  "iso_maintenanceFrequency": {
+  "resources\\json\\iso_maintenanceFrequency": {
     "codelistType": "staticList",
     "codelistName": "iso_maintenanceFrequency",
     "source": "ISO",
@@ -714,7 +899,7 @@
       }
     ]
   },
-  "iso_mediumFormat": {
+  "resources\\json\\iso_mediumFormat": {
     "codelistType": "staticList",
     "codelistName": "iso_mediumFormat",
     "source": "ISO",
@@ -759,7 +944,7 @@
       }
     ]
   },
-  "iso_mediumName": {
+  "resources\\json\\iso_mediumName": {
     "codelistType": "staticList",
     "codelistName": "iso_mediumName",
     "source": "ISO",
@@ -899,7 +1084,7 @@
       }
     ]
   },
-  "iso_obligation": {
+  "resources\\json\\iso_obligation": {
     "codelistType": "staticList",
     "codelistName": "iso_obligation",
     "source": "ISO",
@@ -924,7 +1109,7 @@
       }
     ]
   },
-  "iso_onlineFunction": {
+  "resources\\json\\iso_onlineFunction": {
     "codelistType": "staticList",
     "codelistName": "iso_onlineFunction",
     "source": "ISO",
@@ -994,7 +1179,7 @@
       }
     ]
   },
-  "iso_presentationForm": {
+  "resources\\json\\iso_presentationForm": {
     "codelistType": "staticList",
     "codelistName": "iso_presentationForm",
     "source": "ISO",
@@ -1124,7 +1309,7 @@
       }
     ]
   },
-  "iso_progress": {
+  "resources\\json\\iso_progress": {
     "codelistType": "staticList",
     "codelistName": "iso_progress",
     "source": "ISO",
@@ -1239,7 +1424,7 @@
       }
     ]
   },
-  "iso_restriction": {
+  "resources\\json\\iso_restriction": {
     "codelistType": "staticList",
     "codelistName": "iso_restriction",
     "source": "ISO",
@@ -1349,7 +1534,7 @@
       }
     ]
   },
-  "iso_role": {
+  "resources\\json\\iso_role": {
     "codelistType": "staticList",
     "codelistName": "iso_role",
     "source": "ISO",
@@ -1479,7 +1664,7 @@
       }
     ]
   },
-  "iso_scope": {
+  "resources\\json\\iso_scope": {
     "codelistType": "staticList",
     "codelistName": "iso_scope",
     "source": "ISO",
@@ -1694,7 +1879,7 @@
       }
     ]
   },
-  "iso_spatialRepresentation": {
+  "resources\\json\\iso_spatialRepresentation": {
     "codelistType": "staticList",
     "codelistName": "iso_spatialRepresentation",
     "source": "ISO",
@@ -1734,7 +1919,7 @@
       }
     ]
   },
-  "iso_telephone": {
+  "resources\\json\\iso_telephone": {
     "codelistType": "staticList",
     "codelistName": "iso_telephone",
     "source": "ISO",
@@ -1759,7 +1944,7 @@
       }
     ]
   },
-  "iso_topicCategory": {
+  "resources\\json\\iso_topicCategory": {
     "codelistType": "staticList",
     "codelistName": "iso_topicCategory",
     "source": "ISO",
