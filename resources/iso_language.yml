@@ -1,3 +1,15 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+# extended for ADIwg
+
+codelistType: "staticList"
+codelistName: "iso_language"
+source: "Library of Congress"
+sourceName: "LanguageCode"
+extensible: true
+description: "code for the representation of names of languages -- Part 2"
+codelist:
   - {code: "001", codeName: aar, description: "Afar"
   - {code: "002", codeName: abk, description: "Abkhazian"
   - {code: "003", codeName: ace, description: "Achinese"
