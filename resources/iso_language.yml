@@ -1,4 +1,4 @@
----
+ï»¿---
 # mdJson codelists
 # base codelist for ISO 19115-2, 19115-1
 
@@ -321,7 +321,7 @@ codelist:
    - {code: "310", codeName: nic, description: "Niger-Kordofanian languages"}
    - {code: "311", codeName: niu, description: "Niuean"}
    - {code: "312", codeName: nno, description: "Norwegian Nynorsk; Nynorsk, Norwegian"}
-   - {code: "313", codeName: nob, description: "Bokmål, Norwegian; Norwegian Bokmål"}
+   - {code: "313", codeName: nob, description: "BokmÃ¥l, Norwegian; Norwegian BokmÃ¥l"}
    - {code: "314", codeName: nog, description: "Nogai"}
    - {code: "315", codeName: non, description: "Norse, Old"}
    - {code: "316", codeName: nor, description: "Norwegian"}
@@ -334,7 +334,7 @@ codelist:
    - {code: "323", codeName: nyn, description: "Nyankole"}
    - {code: "324", codeName: nyo, description: "Nyoro"}
    - {code: "325", codeName: nzi, description: "Nzima"}
-   - {code: "326", codeName: oci, description: "Occitan (post 1500); Provençal"}
+   - {code: "326", codeName: oci, description: "Occitan (post 1500); ProvenÃ§al"}
    - {code: "327", codeName: oji, description: "Ojibwa"}
    - {code: "328", codeName: ori, description: "Oriya"}
    - {code: "329", codeName: orm, description: "Oromo"}
@@ -358,7 +358,7 @@ codelist:
    - {code: "347", codeName: pon, description: "Pohnpeian"}
    - {code: "348", codeName: por, description: "Portuguese"}
    - {code: "349", codeName: pra, description: "Prakrit languages"}
-   - {code: "350", codeName: pro, description: "Provençal, Old (to 1500)"}
+   - {code: "350", codeName: pro, description: "ProvenÃ§al, Old (to 1500)"}
    - {code: "351", codeName: pus, description: "Pushto; Pashto"}
    - {code: "353", codeName: que, description: "Quechua"}
    - {code: "354", codeName: raj, description: "Rajasthani"}
@@ -467,7 +467,7 @@ codelist:
    - {code: "457", codeName: vai, description: "Vai"}
    - {code: "458", codeName: ven, description: "Venda"}
    - {code: "459", codeName: vie, description: "Vietnamese"}
-   - {code: "460", codeName: vol, description: "Volapük"}
+   - {code: "460", codeName: vol, description: "VolapÃ¼k"}
    - {code: "461", codeName: vot, description: "Votic"}
    - {code: "462", codeName: wak, description: "Wakashan languages"}
    - {code: "463", codeName: wal, description: "Walamo"}

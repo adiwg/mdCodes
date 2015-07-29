@@ -1,4 +1,4 @@
----
+ï»¿---
 # mdJson codelists
 # base codelist for ISO 19115-2, 19115-1
 
@@ -10,7 +10,7 @@ extensible: true
 description: "three letter country codes"
 codelist:
    - {code: "004", codeName: AFG, description: "Afghanistan"}
-   - {code: "248", codeName: ALA, description: "Åland Islands"}
+   - {code: "248", codeName: ALA, description: "Ã…land Islands"}
    - {code: "008", codeName: ALB, description: "Albania"}
    - {code: "012", codeName: DZA, description: "Algeria"}
    - {code: "016", codeName: ASM, description: "American Samoa"}
@@ -63,10 +63,10 @@ codelist:
    - {code: "180", codeName: COD, description: "Congo (Democratic Republic of the)"}
    - {code: "184", codeName: COK, description: "Cook Islands"}
    - {code: "188", codeName: CRI, description: "Costa Rica"}
-   - {code: "384", codeName: CIV, description: "Côte d'Ivoire"}
+   - {code: "384", codeName: CIV, description: "CÃ´te d'Ivoire"}
    - {code: "191", codeName: HRV, description: "Croatia"}
    - {code: "192", codeName: CUB, description: "Cuba"}
-   - {code: "531", codeName: CUW, description: "Curaçao"}
+   - {code: "531", codeName: CUW, description: "CuraÃ§ao"}
    - {code: "196", codeName: CYP, description: "Cyprus"}
    - {code: "203", codeName: CZE, description: "Czech Republic"}
    - {code: "208", codeName: DNK, description: "Denmark"}
@@ -189,11 +189,11 @@ codelist:
    - {code: "620", codeName: PRT, description: "Portugal"}
    - {code: "630", codeName: PRI, description: "Puerto Rico"}
    - {code: "634", codeName: QAT, description: "Qatar"}
-   - {code: "638", codeName: REU, description: "Réunion"}
+   - {code: "638", codeName: REU, description: "RÃ©union"}
    - {code: "642", codeName: ROU, description: "Romania"}
    - {code: "643", codeName: RUS, description: "Russian Federation"}
    - {code: "646", codeName: RWA, description: "Rwanda"}
-   - {code: "652", codeName: BLM, description: "Saint Barthélemy"}
+   - {code: "652", codeName: BLM, description: "Saint BarthÃ©lemy"}
    - {code: "654", codeName: SHN, description: "Saint Helena, Ascension and Tristan da Cunha"}
    - {code: "659", codeName: KNA, description: "Saint Kitts and Nevis"}
    - {code: "662", codeName: LCA, description: "Saint Lucia"}
