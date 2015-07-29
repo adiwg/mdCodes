@@ -1569,7 +1569,7 @@
     {
       "code": "313",
       "codeName": "nob",
-      "description": "Bokm�l, Norwegian; Norwegian Bokm�l"
+      "description": "Bokmål, Norwegian; Norwegian Bokmål"
     },
     {
       "code": "314",
@@ -1634,7 +1634,7 @@
     {
       "code": "326",
       "codeName": "oci",
-      "description": "Occitan (post 1500); Proven�al"
+      "description": "Occitan (post 1500); Provençal"
     },
     {
       "code": "327",
@@ -1754,7 +1754,7 @@
     {
       "code": "350",
       "codeName": "pro",
-      "description": "Proven�al, Old (to 1500)"
+      "description": "Provençal, Old (to 1500)"
     },
     {
       "code": "351",
@@ -2299,7 +2299,7 @@
     {
       "code": "460",
       "codeName": "vol",
-      "description": "Volap�k"
+      "description": "Volapük"
     },
     {
       "code": "461",
