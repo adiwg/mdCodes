@@ -6,7 +6,7 @@
 codelistType: "staticList"
 codelistName: "iso_imageCondition"
 source: "ISO"
-sourceName: "MD_ImageConditionCode"
+sourceName: "MD_ImagingConditionCode"
 extensible: true
 description: "code which indicates conditions which may affect the image"
 codelist:
