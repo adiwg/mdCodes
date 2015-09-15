@@ -1,5 +1,5 @@
 {
-  "resources\\json\\iso_associationType": {
+  "iso_associationType": {
     "codelistType": "staticList",
     "codelistName": "iso_associationType",
     "source": "ISO",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "resources\\json\\iso_cellGeometry": {
+  "iso_cellGeometry": {
     "codelistType": "staticList",
     "codelistName": "iso_cellGeometry",
     "source": "ISO",
@@ -99,7 +99,7 @@
       }
     ]
   },
-  "resources\\json\\iso_characterSet": {
+  "iso_characterSet": {
     "codelistType": "staticList",
     "codelistName": "iso_characterSet",
     "source": "ISO",
@@ -249,7 +249,7 @@
       }
     ]
   },
-  "resources\\json\\iso_classification": {
+  "iso_classification": {
     "codelistType": "staticList",
     "codelistName": "iso_classification",
     "source": "ISO",
@@ -304,13 +304,13 @@
       }
     ]
   },
-  "resources\\json\\iso_country": {
+  "iso_country": {
     "codelistType": "staticList",
     "codelistName": "iso_countries",
     "source": "ISO",
     "sourceName": "Country",
     "extensible": true,
-    "description": "three letter country codes",
+    "description": "three letter country codes from ISO 3166-1 alpha-3 code list",
     "codelist": [
       {
         "code": "004",
@@ -1559,7 +1559,7 @@
       }
     ]
   },
-  "resources\\json\\iso_coverageContentType": {
+  "iso_coverageContentType": {
     "codelistType": "staticList",
     "codelistName": "iso_coverageContentType",
     "source": "ISO",
@@ -1599,7 +1599,7 @@
       }
     ]
   },
-  "resources\\json\\iso_dataType": {
+  "iso_dataType": {
     "codelistType": "staticList",
     "codelistName": "iso_dataType",
     "source": "ISO",
@@ -1689,7 +1689,7 @@
       }
     ]
   },
-  "resources\\json\\iso_dateType": {
+  "iso_dateType": {
     "codelistType": "staticList",
     "codelistName": "iso_dateType",
     "source": "ISO",
@@ -1779,7 +1779,7 @@
       }
     ]
   },
-  "resources\\json\\iso_dimensionNameType": {
+  "iso_dimensionNameType": {
     "codelistType": "staticList",
     "codelistName": "iso_dimensionNameType",
     "source": "ISO",
@@ -1829,7 +1829,7 @@
       }
     ]
   },
-  "resources\\json\\iso_imageCondition": {
+  "iso_imageCondition": {
     "codelistType": "staticList",
     "codelistName": "iso_imageCondition",
     "source": "ISO",
@@ -1894,7 +1894,7 @@
       }
     ]
   },
-  "resources\\json\\iso_initiativeType": {
+  "iso_initiativeType": {
     "codelistType": "staticList",
     "codelistName": "iso_initiativeType",
     "source": "ISO",
@@ -1979,7 +1979,7 @@
       }
     ]
   },
-  "resources\\json\\iso_keywordType": {
+  "iso_keywordType": {
     "codelistType": "staticList",
     "codelistName": "iso_keywordType",
     "source": "ISO",
@@ -2069,13 +2069,13 @@
       }
     ]
   },
-  "resources\\json\\iso_language": {
+  "iso_language": {
     "codelistType": "staticList",
     "codelistName": "iso_language",
     "source": "Library of Congress",
     "sourceName": "LanguageCode",
     "extensible": true,
-    "description": "code for the representation of names of languages Part 2",
+    "description": "code for the representation of names of languages ISO 639 Part 2",
     "codelist": [
       {
         "code": "001",
@@ -4504,7 +4504,7 @@
       }
     ]
   },
-  "resources\\json\\iso_maintenanceFrequency": {
+  "iso_maintenanceFrequency": {
     "codelistType": "staticList",
     "codelistName": "iso_maintenanceFrequency",
     "source": "ISO",
@@ -4589,7 +4589,7 @@
       }
     ]
   },
-  "resources\\json\\iso_mediumFormat": {
+  "iso_mediumFormat": {
     "codelistType": "staticList",
     "codelistName": "iso_mediumFormat",
     "source": "ISO",
@@ -4634,7 +4634,7 @@
       }
     ]
   },
-  "resources\\json\\iso_mediumName": {
+  "iso_mediumName": {
     "codelistType": "staticList",
     "codelistName": "iso_mediumName",
     "source": "ISO",
@@ -4774,7 +4774,7 @@
       }
     ]
   },
-  "resources\\json\\iso_obligation": {
+  "iso_obligation": {
     "codelistType": "staticList",
     "codelistName": "iso_obligation",
     "source": "ISO",
@@ -4799,7 +4799,7 @@
       }
     ]
   },
-  "resources\\json\\iso_onlineFunction": {
+  "iso_onlineFunction": {
     "codelistType": "staticList",
     "codelistName": "iso_onlineFunction",
     "source": "ISO",
@@ -4869,7 +4869,7 @@
       }
     ]
   },
-  "resources\\json\\iso_presentationForm": {
+  "iso_presentationForm": {
     "codelistType": "staticList",
     "codelistName": "iso_presentationForm",
     "source": "ISO",
@@ -4999,7 +4999,7 @@
       }
     ]
   },
-  "resources\\json\\iso_progress": {
+  "iso_progress": {
     "codelistType": "staticList",
     "codelistName": "iso_progress",
     "source": "ISO",
@@ -5114,7 +5114,7 @@
       }
     ]
   },
-  "resources\\json\\iso_restriction": {
+  "iso_restriction": {
     "codelistType": "staticList",
     "codelistName": "iso_restriction",
     "source": "ISO",
@@ -5224,7 +5224,7 @@
       }
     ]
   },
-  "resources\\json\\iso_role": {
+  "iso_role": {
     "codelistType": "staticList",
     "codelistName": "iso_role",
     "source": "ISO",
@@ -5354,7 +5354,7 @@
       }
     ]
   },
-  "resources\\json\\iso_scope": {
+  "iso_scope": {
     "codelistType": "staticList",
     "codelistName": "iso_scope",
     "source": "ISO",
@@ -5569,7 +5569,7 @@
       }
     ]
   },
-  "resources\\json\\iso_spatialRepresentation": {
+  "iso_spatialRepresentation": {
     "codelistType": "staticList",
     "codelistName": "iso_spatialRepresentation",
     "source": "ISO",
@@ -5609,7 +5609,7 @@
       }
     ]
   },
-  "resources\\json\\iso_telephone": {
+  "iso_telephone": {
     "codelistType": "staticList",
     "codelistName": "iso_telephone",
     "source": "ISO",
@@ -5634,7 +5634,7 @@
       }
     ]
   },
-  "resources\\json\\iso_topicCategory": {
+  "iso_topicCategory": {
     "codelistType": "staticList",
     "codelistName": "iso_topicCategory",
     "source": "ISO",
