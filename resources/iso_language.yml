@@ -7,7 +7,7 @@ codelistName: "iso_language"
 source: "Library of Congress"
 sourceName: "LanguageCode"
 extensible: true
-description: "code for the representation of names of languages Part 2"
+description: "code for the representation of names of languages ISO 639 Part 2"
 codelist:
    - {code: "001", codeName: aar, description: "Afar"}
    - {code: "002", codeName: abk, description: "Abkhazian"}

@@ -7,7 +7,7 @@ codelistName: "iso_countries"
 source: "ISO"
 sourceName: "Country"
 extensible: true
-description: "three letter country codes"
+description: "three letter country codes from ISO 3166-1 alpha-3 code list"
 codelist:
    - {code: "004", codeName: AFG, description: "Afghanistan"}
    - {code: "248", codeName: ALA, description: "Åland Islands"}
