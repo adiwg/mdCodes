@@ -1,0 +1,110 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_restriction",
+  "source": "ISO",
+  "sourceName": "MD_RestrictionCode",
+  "extensible": true,
+  "description": "limitation(s) placed upon the access or use of the data)",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "copyright",
+      "description": "exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor"
+    },
+    {
+      "code": "002",
+      "codeName": "patent",
+      "description": "government has granted exclusive right to make, sell, use or license an invention or discovery"
+    },
+    {
+      "code": "003",
+      "codeName": "patentPending",
+      "description": "produced or sold information awaiting a patent"
+    },
+    {
+      "code": "004",
+      "codeName": "trademark",
+      "description": "a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer"
+    },
+    {
+      "code": "005",
+      "codeName": "license",
+      "description": "formal permission to do something"
+    },
+    {
+      "code": "006",
+      "codeName": "intellectualPropertyRights",
+      "description": "rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity"
+    },
+    {
+      "code": "007",
+      "codeName": "restricted",
+      "description": "withheld from general circulation or disclosure"
+    },
+    {
+      "code": "008",
+      "codeName": "otherRestrictions",
+      "description": "limitation not listed"
+    },
+    {
+      "code": "009",
+      "codeName": "unrestricted",
+      "description": "no constraints exist"
+    },
+    {
+      "code": "010",
+      "codeName": "licenceUnrestricted",
+      "description": "formal permission not required to use the resource"
+    },
+    {
+      "code": "011",
+      "codeName": "licenceEndUser",
+      "description": "formal permission required for a person or an entity to use the resource and that may differ from the person that orders or purchases it"
+    },
+    {
+      "code": "012",
+      "codeName": "licenceDistributor",
+      "description": "formal permission required for a person or an entity to commercialize or distribute the resource"
+    },
+    {
+      "code": "013",
+      "codeName": "private",
+      "description": "protects rights of individual or organisations from observation, intrusion, or attention of others"
+    },
+    {
+      "code": "014",
+      "codeName": "statutory",
+      "description": "prescribed by law"
+    },
+    {
+      "code": "015",
+      "codeName": "confidential",
+      "description": "not available to the public. NOTE Contains information that could be prejudicial to a commercial, industrial, or national interest."
+    },
+    {
+      "code": "016",
+      "codeName": "sensitiveButUnclassified",
+      "description": "although unclassified, requires strict controls over its distribution."
+    },
+    {
+      "code": "017",
+      "codeName": "in-confidence",
+      "description": "with trust"
+    },
+    {
+      "code": "adiwg001",
+      "codeName": "threatenedOrEndangered",
+      "description": "information could risk threatened or endangered species"
+    },
+    {
+      "code": "adiwg002",
+      "codeName": "traditionalKnowledge",
+      "description": "information protected by American Indian or Alaska Native rights or culture"
+    },
+    {
+      "code": "adiwg003",
+      "codeName": "personallyIdentifiableInformation",
+      "description": "information that can be used to identify an individual"
+    }
+  ]
+}

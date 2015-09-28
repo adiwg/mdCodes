@@ -1,0 +1,70 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_associationType",
+  "source": "ISO",
+  "sourceName": "DS_AssociationTypeCode",
+  "extensible": true,
+  "description": "justification for the correlation of two resources (datasets or projects)",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "crossReference",
+      "description": "reference from one resource (dataset or project) to another"
+    },
+    {
+      "code": "002",
+      "codeName": "largerWorkCitation",
+      "description": "reference to a master resource (dataset or project) of which this one is a part"
+    },
+    {
+      "code": "003",
+      "codeName": "partOfSeamlessDatabase",
+      "description": "part of the same structured set of data held in a computer"
+    },
+    {
+      "code": "004",
+      "codeName": "source",
+      "description": "mapping and charting information from which the dataset content originates"
+    },
+    {
+      "code": "005",
+      "codeName": "stereoMate",
+      "description": "part of a set of imagery that when used together, provides three-dimensional images"
+    },
+    {
+      "code": "006",
+      "codeName": "isComposedOf",
+      "description": "reference to resources (datasets or projects) that are parts of this resource"
+    },
+    {
+      "code": "007",
+      "codeName": "collectiveTitle",
+      "description": "common title for a collection of resources. NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."
+    },
+    {
+      "code": "008",
+      "codeName": "series",
+      "description": "associated through a common heritage such as produced to a common product specification"
+    },
+    {
+      "code": "009",
+      "codeName": "dependency",
+      "description": "associated through a dependency"
+    },
+    {
+      "code": "010",
+      "codeName": "revisionOf",
+      "description": "resource is a revision of associated resource"
+    },
+    {
+      "code": "adiwg001",
+      "codeName": "projectProduct",
+      "description": "products developed as deliverables of a project or program"
+    },
+    {
+      "code": "adiwg002",
+      "codeName": "supplementalResource",
+      "description": "supplemental resource"
+    }
+  ]
+}
