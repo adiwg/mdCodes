@@ -13,7 +13,8 @@
 # 1.0.1 2015-06-11 added new codes to 'scope'
 # 1.1.0 2015-07-22 added codelists for cellGeometry, dimensionNameType, imageCondition, coverageContentType
 # 1.1.0 2015-07-28 added codelists for country, languages
-# 1.1.0 2015-09-18 change source of characterSet from ISO to IANA
+# 1.2.0 2015-09-18 change source of characterSet from ISO to IANA
+# 1.2.1 2015-09-28 bumped version number to match gem
 
 module ADIWG
 
