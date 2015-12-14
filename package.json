@@ -1,6 +1,6 @@
 {
   "name": "mdcodes",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "CodeLists for ADIwg mdJSON",
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "buildify": "^0.4.0",
+    "glob": "^6.0.1",
     "rimraf": "^2.4.4"
   }
 }

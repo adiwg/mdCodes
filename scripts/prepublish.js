@@ -23,7 +23,7 @@ for (let file of files) {
   buildify()
     .load('resources/json/' + file)
     .perform(function(content) {
-      return 'export default ' + content + ';';
+      return 'module.exports = ' + content + ';';
     })
     .save(name);
   //console.log('Created ' + name);
