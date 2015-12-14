@@ -1,6 +1,6 @@
 {
   "name": "mdcodes",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "CodeLists for ADIwg mdJSON",
   "repository": {
     "type": "git",
@@ -22,5 +22,12 @@
     "grunt-concat-json": "0.0.8",
     "grunt-convert": "^0.1.11",
     "grunt-yamllint": "^0.2.0"
+  },
+  "scripts": {
+    "prepublish": "scripts/prepublish.js"
+  },
+  "dependencies": {
+    "buildify": "^0.4.0",
+    "rimraf": "^2.4.4"
   }
 }
