@@ -1,0 +1,40 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+# extended for ADIwg
+
+codelistType: "staticList"
+codelistName: "iso_referenceSystemType"
+source: "ISO"
+sourceName: "MD_ReferenceSystemTypeCode"
+extensible: true
+description: "defines type of reference system used"
+codelist:
+  - {code: "001", codeName: compoundEngineeringParametric, description: "compound spatio-parametric coordinate reference system containing an engineering coordinate reference system and a parametric reference system; EXAMPLE [local] x, y, pressure"}
+  - {code: "002", codeName: compoundEngineeringParametricTemporal, description: "compound spatio-parametric-temporal coordinate reference system containing an engineering, a parametric, and a temporal coordinate reference system EXAMPLE [local] x, y, pressure, time"}
+  - {code: "003", codeName: compoundEngineeringTemporal, description: "compound spatio-temporal coordinate reference system containing an engineering and a temporal coordinate reference system EXAMPLE [local] x, y, time"}
+  - {code: "004", codeName: compoundEngineeringVertical, description: "compound spatial reference system containing a horizontal engineering coordinate reference system and a vertical coordinate reference system EXAMPLE [local] x, y, height"}
+  - {code: "005", codeName: compoundEngineeringVerticalTemporal, description: "compound spatio-temporal coordinate reference system containing an engineering, a vertical, and a temporal coordinate reference system EXAMPLE [local] x, y, height, time"}
+  - {code: "006", codeName: compoundGeographic2DParametric, description: "compound spatio-parametric coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a parametric reference system EXAMPLE latitude, longitude, pressure"}
+  - {code: "007", codeName: compoundGeographic2DParametricTemporal, description: "compound spatio-parametric-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a parametric and a temporal coordinate reference system EXAMPLE latitude, longitude, pressure, time"}
+  - {code: "008", codeName: compoundGeographic2DTemporal, description: "compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a temporal reference system EXAMPLE latitude, longitude, time"}
+  - {code: "009", codeName: compoundGeographic2DVertical, description: "compound coordinate reference system in which one constituent coordinate reference system is a horizontal geodetic coordinate reference system and one is a vertical coordinate reference system EXAMPLE latitude, longitude, [gravity-related] height or depth"}
+  - {code: "010", codeName: compoundGeographicVerticalTemporal, description: "compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a vertical, and a temporal coordinate reference system EXAMPLE latitude, longitude, height, time"}
+  - {code: "011", codeName: compoundGeographic3DTemporal, description: "compound spatio-temporal coordinate reference system containing a 3 dimensional geographic and a temporal coordinate reference system EXAMPLE latitude, longitude, ellipsoidal height, time"}
+  - {code: "012", codeName: compoundProjected2DParametric, description: "compound spatio-parametric coordinate reference system containing a projected horizontal coordinate reference system and a parametric reference system EXAMPLE easting, northing, density"}
+  - {code: "013", codeName: compoundProjected2DParametricTemporal, description: "compound spatio-parametric-temporal coordinate reference system containing a projected horizontal, a parametric, and a temporal coordinate reference system EXAMPLE easting, northing, density, time"}
+  - {code: "014", codeName: compoundProjectedTemporal, description: "compound spatio-temporal coordinate reference system containing a projected horizontal and a temporal coordinate reference system EXAMPLE easting, northing, time"}
+  - {code: "015", codeName: compoundProjectedVertical, description: "compound spatial reference system containing a horizontal projected coordinate reference system and a vertical coordinate reference system EXAMPLE easting, northing, [gravity-related] height or depth"}
+  - {code: "016", codeName: compoundProjectedVerticalTemporal, description: "compound spatio-temporal coordinate reference system containing a projected horizontal, a vertical, and a temporal coordinate reference system EXAMPLE easting, northing, height, time"}
+  - {code: "017", codeName: engineering, description: "coordinate reference system based on an engineering datum (datum describing the relationship of a coordinate system to a local reference) EXAMPLE [local] x,y"}
+  - {code: "018", codeName: engineeringDesign, description: "engineering coordinate reference system in which the base representation of a moving object is specified EXAMPLE [local] x,y 19. engineeringImage engineeringImage coordinate reference system"}
+  - {code: "019", codeName: engineeringImage, description: "coordinate reference system based on an image datum (engineering datum which defines the relationship of a coordinate system to an image) EXAMPLE row, column"}
+  - {code: "020", codeName: geodeticGeocentric, description: "geodetic CRS having a Cartesian 3D coordinate system EXAMPLE [geocentric] X,Y,Z"}
+  - {code: "021", codeName: geodeticGeographic2D, description: "geodetic CRS having an ellipsoidal 2D coordinate system EXAMPLE latitude, longitude"}
+  - {code: "022", codeName: geodeticGeographic3D, description: "geodetic CRS having an ellipsoidal 3D coordinate system EXAMPLE latitude, longitude, ellipsoidal height"}
+  - {code: "023", codeName: geographicIdentifier, description: "spatial reference in the form of a label or code that identifies a location EXAMPLE post code"}
+  - {code: "024", codeName: linear, description: "reference system that identifies a location by reference to a segment of a linear geographic feature and distance along that segment from a given point EXAMPLE x km along road"}
+  - {code: "025", codeName: parametric, description: "coordinate reference system based on a parametric datum (datum describing the relationship of a parametric coordinate system to an object) EXAMPLE pressure"}
+  - {code: "026", codeName: projected, description: "coordinate reference system derived from a two-dimensional geodetic coordinate reference system by applying a map projection EXAMPLE easting, northing"}
+  - {code: "027", codeName: temporal, description: "reference system against which time is measured EXAMPLE time"}
+  - {code: "028", codeName: vertical, description: "one-dimensional coordinate reference system based on a vertical datum (datum describing the relation of gravity-related heights or depths to the Earth) EXAMPLE [gravity-related] height or depth"}

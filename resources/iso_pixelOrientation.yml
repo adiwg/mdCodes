@@ -1,0 +1,17 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+# extended for ADIwg
+
+codelistType: "staticList"
+codelistName: "iso_pixelOrientation"
+source: "ISO"
+sourceName: "MD_PixelOrientationCode"
+extensible: false
+description: "point in a pixel corresponding to the Earth location of the pixel"
+codelist:
+  - {code: "001", codeName: centre, description: "point halfway between the lower left and the upper right of the pixel"}
+  - {code: "002", codeName: lowerLeft, description: "the corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value"}
+  - {code: "003", codeName: lowerRight, description: "next corner counterclockwise from the lower left"}
+  - {code: "004", codeName: upperRight, description: "next corner counterclockwise from the lower right"}
+  - {code: "005", codeName: upperLeft, description: "next corner counterclockwise from the upper right"}
