@@ -1,4 +1,64 @@
 {
+  "iso_DCPList": {
+    "codelistType": "staticList",
+    "codelistName": "iso_DCPList",
+    "source": "ISO",
+    "sourceName": "DCPList",
+    "extensible": true,
+    "description": "class of information to which the referencing entity applies",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "XML",
+        "description": "Extensible Markup Language"
+      },
+      {
+        "code": "002",
+        "codeName": "CORBA",
+        "description": "Common Object Request Broker Architecture"
+      },
+      {
+        "code": "003",
+        "codeName": "JAVA",
+        "description": "Object-oriented programming language"
+      },
+      {
+        "code": "004",
+        "codeName": "COM",
+        "description": "Component Object Model"
+      },
+      {
+        "code": "005",
+        "codeName": "SQL",
+        "description": "Structured Query Language"
+      },
+      {
+        "code": "006",
+        "codeName": "SOAP",
+        "description": "Simple Object Access Protocol"
+      },
+      {
+        "code": "007",
+        "codeName": "Z3950",
+        "description": "ISO 23950"
+      },
+      {
+        "code": "008",
+        "codeName": "HTTP",
+        "description": "HyperText Transfer Protocol"
+      },
+      {
+        "code": "009",
+        "codeName": "FTP",
+        "description": "File Transfer Protocol"
+      },
+      {
+        "code": "010",
+        "codeName": "WwbService",
+        "description": "Web service"
+      }
+    ]
+  },
   "iso_associationType": {
     "codelistType": "staticList",
     "codelistName": "iso_associationType",
@@ -2741,6 +2801,16 @@
         "code": "006",
         "codeName": "referenceInformation",
         "description": "reference information used to support the calculation or use of the physicalMeasurement coverages in the dataset"
+      },
+      {
+        "code": "007",
+        "codeName": "modelResult",
+        "description": "resources with values that are calculated using a model rather than being observed or calculated from observations"
+      },
+      {
+        "code": "008",
+        "codeName": "coordinate",
+        "description": "data used to provide coordinate axis values"
       }
     ]
   },
@@ -2971,6 +3041,46 @@
         "code": "008",
         "codeName": "time",
         "description": "duration"
+      }
+    ]
+  },
+  "iso_geometricObjectType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_geometricObjectType",
+    "source": "ISO",
+    "sourceName": "MD_GeometricObjectTypeCode",
+    "extensible": true,
+    "description": "name of point or vector objects used to locate zero-, one-, two- or three-dimensional spatial locations in the dataset",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "complex",
+        "description": "set of geometric primitives such that their boundaries can be represented as a union of other primitives"
+      },
+      {
+        "code": "002",
+        "codeName": "composite",
+        "description": "connected set of curves, solids or surfaces"
+      },
+      {
+        "code": "003",
+        "codeName": "curve",
+        "description": "bounded, 1-dimensional geometric primitive, representing the continuous image of a line"
+      },
+      {
+        "code": "004",
+        "codeName": "point",
+        "description": "zero-dimensional geometric primitive, representing a position but not having an extent"
+      },
+      {
+        "code": "005",
+        "codeName": "solid",
+        "description": "bounded, connected 3-dimensional geometric primitive, representing the continuous image of a region of space"
+      },
+      {
+        "code": "006",
+        "codeName": "surface",
+        "description": "bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane"
       }
     ]
   },
@@ -6014,6 +6124,41 @@
       }
     ]
   },
+  "iso_pixelOrientation": {
+    "codelistType": "staticList",
+    "codelistName": "iso_pixelOrientation",
+    "source": "ISO",
+    "sourceName": "MD_PixelOrientationCode",
+    "extensible": false,
+    "description": "point in a pixel corresponding to the Earth location of the pixel",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "centre",
+        "description": "point halfway between the lower left and the upper right of the pixel"
+      },
+      {
+        "code": "002",
+        "codeName": "lowerLeft",
+        "description": "the corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value"
+      },
+      {
+        "code": "003",
+        "codeName": "lowerRight",
+        "description": "next corner counterclockwise from the lower left"
+      },
+      {
+        "code": "004",
+        "codeName": "upperRight",
+        "description": "next corner counterclockwise from the lower right"
+      },
+      {
+        "code": "005",
+        "codeName": "upperLeft",
+        "description": "next corner counterclockwise from the upper right"
+      }
+    ]
+  },
   "iso_presentationForm": {
     "codelistType": "staticList",
     "codelistName": "iso_presentationForm",
@@ -6256,6 +6401,156 @@
         "code": "adiwg003",
         "codeName": "suspended",
         "description": "project has been placed on hold but is expected to resume at a latter date"
+      }
+    ]
+  },
+  "iso_referenceSystemType": {
+    "codelistType": "staticList",
+    "codelistName": "iso_referenceSystemType",
+    "source": "ISO",
+    "sourceName": "MD_ReferenceSystemTypeCode",
+    "extensible": true,
+    "description": "defines type of reference system used",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "compoundEngineeringParametric",
+        "description": "compound spatio-parametric coordinate reference system containing an engineering coordinate reference system and a parametric reference system; EXAMPLE [local] x, y, pressure"
+      },
+      {
+        "code": "002",
+        "codeName": "compoundEngineeringParametricTemporal",
+        "description": "compound spatio-parametric-temporal coordinate reference system containing an engineering, a parametric, and a temporal coordinate reference system EXAMPLE [local] x, y, pressure, time"
+      },
+      {
+        "code": "003",
+        "codeName": "compoundEngineeringTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing an engineering and a temporal coordinate reference system EXAMPLE [local] x, y, time"
+      },
+      {
+        "code": "004",
+        "codeName": "compoundEngineeringVertical",
+        "description": "compound spatial reference system containing a horizontal engineering coordinate reference system and a vertical coordinate reference system EXAMPLE [local] x, y, height"
+      },
+      {
+        "code": "005",
+        "codeName": "compoundEngineeringVerticalTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing an engineering, a vertical, and a temporal coordinate reference system EXAMPLE [local] x, y, height, time"
+      },
+      {
+        "code": "006",
+        "codeName": "compoundGeographic2DParametric",
+        "description": "compound spatio-parametric coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a parametric reference system EXAMPLE latitude, longitude, pressure"
+      },
+      {
+        "code": "007",
+        "codeName": "compoundGeographic2DParametricTemporal",
+        "description": "compound spatio-parametric-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a parametric and a temporal coordinate reference system EXAMPLE latitude, longitude, pressure, time"
+      },
+      {
+        "code": "008",
+        "codeName": "compoundGeographic2DTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a temporal reference system EXAMPLE latitude, longitude, time"
+      },
+      {
+        "code": "009",
+        "codeName": "compoundGeographic2DVertical",
+        "description": "compound coordinate reference system in which one constituent coordinate reference system is a horizontal geodetic coordinate reference system and one is a vertical coordinate reference system EXAMPLE latitude, longitude, [gravity-related] height or depth"
+      },
+      {
+        "code": "010",
+        "codeName": "compoundGeographicVerticalTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a vertical, and a temporal coordinate reference system EXAMPLE latitude, longitude, height, time"
+      },
+      {
+        "code": "011",
+        "codeName": "compoundGeographic3DTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing a 3 dimensional geographic and a temporal coordinate reference system EXAMPLE latitude, longitude, ellipsoidal height, time"
+      },
+      {
+        "code": "012",
+        "codeName": "compoundProjected2DParametric",
+        "description": "compound spatio-parametric coordinate reference system containing a projected horizontal coordinate reference system and a parametric reference system EXAMPLE easting, northing, density"
+      },
+      {
+        "code": "013",
+        "codeName": "compoundProjected2DParametricTemporal",
+        "description": "compound spatio-parametric-temporal coordinate reference system containing a projected horizontal, a parametric, and a temporal coordinate reference system EXAMPLE easting, northing, density, time"
+      },
+      {
+        "code": "014",
+        "codeName": "compoundProjectedTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing a projected horizontal and a temporal coordinate reference system EXAMPLE easting, northing, time"
+      },
+      {
+        "code": "015",
+        "codeName": "compoundProjectedVertical",
+        "description": "compound spatial reference system containing a horizontal projected coordinate reference system and a vertical coordinate reference system EXAMPLE easting, northing, [gravity-related] height or depth"
+      },
+      {
+        "code": "016",
+        "codeName": "compoundProjectedVerticalTemporal",
+        "description": "compound spatio-temporal coordinate reference system containing a projected horizontal, a vertical, and a temporal coordinate reference system EXAMPLE easting, northing, height, time"
+      },
+      {
+        "code": "017",
+        "codeName": "engineering",
+        "description": "coordinate reference system based on an engineering datum (datum describing the relationship of a coordinate system to a local reference) EXAMPLE [local] x,y"
+      },
+      {
+        "code": "018",
+        "codeName": "engineeringDesign",
+        "description": "engineering coordinate reference system in which the base representation of a moving object is specified EXAMPLE [local] x,y 19. engineeringImage engineeringImage coordinate reference system"
+      },
+      {
+        "code": "019",
+        "codeName": "engineeringImage",
+        "description": "coordinate reference system based on an image datum (engineering datum which defines the relationship of a coordinate system to an image) EXAMPLE row, column"
+      },
+      {
+        "code": "020",
+        "codeName": "geodeticGeocentric",
+        "description": "geodetic CRS having a Cartesian 3D coordinate system EXAMPLE [geocentric] X,Y,Z"
+      },
+      {
+        "code": "021",
+        "codeName": "geodeticGeographic2D",
+        "description": "geodetic CRS having an ellipsoidal 2D coordinate system EXAMPLE latitude, longitude"
+      },
+      {
+        "code": "022",
+        "codeName": "geodeticGeographic3D",
+        "description": "geodetic CRS having an ellipsoidal 3D coordinate system EXAMPLE latitude, longitude, ellipsoidal height"
+      },
+      {
+        "code": "023",
+        "codeName": "geographicIdentifier",
+        "description": "spatial reference in the form of a label or code that identifies a location EXAMPLE post code"
+      },
+      {
+        "code": "024",
+        "codeName": "linear",
+        "description": "reference system that identifies a location by reference to a segment of a linear geographic feature and distance along that segment from a given point EXAMPLE x km along road"
+      },
+      {
+        "code": "025",
+        "codeName": "parametric",
+        "description": "coordinate reference system based on a parametric datum (datum describing the relationship of a parametric coordinate system to an object) EXAMPLE pressure"
+      },
+      {
+        "code": "026",
+        "codeName": "projected",
+        "description": "coordinate reference system derived from a two-dimensional geodetic coordinate reference system by applying a map projection EXAMPLE easting, northing"
+      },
+      {
+        "code": "027",
+        "codeName": "temporal",
+        "description": "reference system against which time is measured EXAMPLE time"
+      },
+      {
+        "code": "028",
+        "codeName": "vertical",
+        "description": "one-dimensional coordinate reference system based on a vertical datum (datum describing the relation of gravity-related heights or depths to the Earth) EXAMPLE [gravity-related] height or depth"
       }
     ]
   },
@@ -6844,7 +7139,7 @@
       },
       {
         "code": "012",
-        "codeName": "inlandWater",
+        "codeName": "inlandWaters",
         "description": "inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"
       },
       {
@@ -6891,6 +7186,61 @@
         "code": "021",
         "codeName": "disaster",
         "description": "information related to disasters. Examples: Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."
+      }
+    ]
+  },
+  "iso_topologyLevel": {
+    "codelistType": "staticList",
+    "codelistName": "iso_topologyLevel",
+    "source": "ISO",
+    "sourceName": "MD_TopologyLevelCode",
+    "extensible": true,
+    "description": "degree of complexity of the spatial relationships",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "geometryOnly",
+        "description": "geometry objects without any additional structure which describes topology"
+      },
+      {
+        "code": "002",
+        "codeName": "topology1D",
+        "description": "1-dimensional topological complex – commonly called “chain-node” topology"
+      },
+      {
+        "code": "003",
+        "codeName": "planarGraph",
+        "description": "1-dimensional topological complex that is planar NOTE A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at a vertex"
+      },
+      {
+        "code": "004",
+        "codeName": "fullPlanarGraph",
+        "description": "2-dimensional topological complex that is planar NOTE A 2-dimensional topological complex is commonly called “full topology” in a cartographic 2D environment"
+      },
+      {
+        "code": "005",
+        "codeName": "surfaceGraph",
+        "description": "1-dimensional topological complex that is isomorphic to a subset of a surface NOTE A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundary-preserving correspondence to one another"
+      },
+      {
+        "code": "006",
+        "codeName": "fullSurfaceGraph",
+        "description": "2-dimensional topological complex that is isomorphic to a subset of a surface"
+      },
+      {
+        "code": "007",
+        "codeName": "topology3D",
+        "description": "3-dimensional topological complex NOTE A topological complex is a collection of topological primitives that are closed under the boundary operations"
+      },
+      {
+        "code": "008",
+        "codeName": "fullTopology3D",
+        "description": "complete coverage of a 3D Euclidean coordinate space"
+      },
+      {
+        "code": "009",
+        "codeName": "abstract",
+        "description": "topological complex without any specified geometric realisation"
       }
     ]
   }

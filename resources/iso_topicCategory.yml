@@ -20,7 +20,7 @@ codelist:
    - {code: "009", codeName: health, description: "health, health services, human ecology, and safety. Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services"}
    - {code: "010", codeName: imageryBaseMapsEarthCover, description: "base maps. Examples: land cover, topographic maps, imagery, unclassified images, annotations"}
    - {code: "011", codeName: intelligenceMilitary, description: "military bases, structures, activities. Examples: barracks, training grounds, military transportation, information collection"}
-   - {code: "012", codeName: inlandWater, description: "inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"}
+   - {code: "012", codeName: inlandWaters, description: "inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"}
    - {code: "013", codeName: location, description: "positional information and services. Examples: addresses, geodetic networks, control points, postal zones and services, place names"}
    - {code: "014", codeName: oceans, description: "features and characteristics of salt water bodies (excluding inland waters). Examples: tides, tidal waves, coastal information, reefs"}
    - {code: "015", codeName: planningCadastre, description: "information used for appropriate actions for future use of the land. Examples: land use maps, zoning maps, cadastral surveys, land ownership"}
