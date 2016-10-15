@@ -13,8 +13,8 @@ class TestMdcodes < Minitest::Test
     @errors = Array.new
 
     FileList[ADIWG::Mdcodes.getYamlPath + '**/*.yml'].each do |fname|
-      yaml = begin YAML.load_file(fname)
-      rescue Exception => e
+      begin YAML.load_file(fname)
+      rescue Exception
         @errors << "Could not parse YAML: #{fname}"
       end
     end
@@ -23,7 +23,7 @@ class TestMdcodes < Minitest::Test
 
   def test_yamlResourceDir
     yamlDir = ADIWG::Mdcodes.getYamlPath
-    assert(Dir.exists?(yamlDir), 'Did not find resource Directory.')
+    assert(Dir.exist?(yamlDir), 'Did not find resource Directory.')
   end
 
   def test_getAllCodeistsDetail
