@@ -22,3 +22,5 @@ codelist:
    - {code: "010", codeName: browsing, description: "online browsing provided"}
    - {code: "011", codeName: fileAccess, description: "online file access provided"}
    - {code: "adiwg001", codeName: webApplication, description: "online web application or data forms"}
+   - {code: "adiwg002", codeName: doi, description: "digital object identifier URL"}
+   - {code: "adiwg003", codeName: orcid, description: "Open Researcher and Contributor ID URL"}

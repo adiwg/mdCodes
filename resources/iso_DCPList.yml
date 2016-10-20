@@ -8,7 +8,7 @@ codelistName: "iso_DCPList"
 source: "ISO"
 sourceName: "DCPList"
 extensible: true
-description: "class of information to which the referencing entity applies"
+description: "distributed computing platforms on which the operation has been implemented"
 codelist:
   - {code: "001", codeName: XML, description: "Extensible Markup Language"}
   - {code: "002", codeName: CORBA, description: "Common Object Request Broker Architecture"}
@@ -19,4 +19,4 @@ codelist:
   - {code: "007", codeName: Z3950, description: "ISO 23950"}
   - {code: "008", codeName: HTTP, description: "HyperText Transfer Protocol"}
   - {code: "009", codeName: FTP, description: "File Transfer Protocol"}
-  - {code: "010", codeName: WwbService, description: "Web service"}
+  - {code: "010", codeName: WebServices, description: "Web service"}
