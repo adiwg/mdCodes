@@ -19,7 +19,7 @@ codelist:
   - {code: "008", codeName: unavailable, description: "date identifies when resource became not available or obtainable"}
   - {code: "009", codeName: inForce, description: "date identifies when resource became in force"}
   - {code: "010", codeName: adopted, description: "date identifies when resource was adopted"}
-  - {code: "011", codeName: depreciated, description: "date identifies when resource was deprecated"}
+  - {code: "011", codeName: deprecated, description: "date identifies when resource was deprecated"}
   - {code: "012", codeName: superseded, description: "date identifies when resource was superseded or replaced by another resource"}
   - {code: "013", codeName: validityBegins, description: "time at which the data are considered to become valid. NOTE: There could be quite a delay between creation and validity begins"}
   - {code: "014", codeName: validityExpires, description: "time at which the data are no longer considered to be valid"}
