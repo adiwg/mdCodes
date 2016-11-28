@@ -1,0 +1,15 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+
+codelistType: "staticList"
+codelistName: "iso_geometryTypeCode"
+source: "ISO"
+sourceName: "MI_GeometryTypeCode"
+extensible: true
+description: "geometric description of the collection"
+codelist:
+  - {code: "001", codeName: point, description: "single geographic point of interest"}
+  - {code: "002", codeName: linear, description: "extended collection in a single vector"}
+  - {code: "003", codeName: areal, description: "collection of a geographic area defined by a polygon (coverage)"}
+  - {code: "004", codeName: stripe, description: "series of linear collections grouped by way points"}

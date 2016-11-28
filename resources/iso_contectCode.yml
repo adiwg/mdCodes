@@ -1,0 +1,14 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+
+codelistType: "staticList"
+codelistName: "iso_contextCode"
+source: "ISO"
+sourceName: "MI_ContextCode"
+extensible: true
+description: "designation of criterion for defining the context of the scanning process event"
+codelist:
+  - {code: "001", codeName: acquisition, description: "event related to a specific collection"}
+  - {code: "002", codeName: pass, description: "event related to a sequence of collections"}
+  - {code: "003", codeName: wayPoint, description: "event related to a navigational manoeuvre"}

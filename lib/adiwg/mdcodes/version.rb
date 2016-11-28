@@ -1,7 +1,9 @@
 # adiwg mdCodes
 
-# version history
+# version 2 history
+# 2.1.0 2016-11-27 added 10 MI codelists
 
+# version 1 history
 # 0.1.0 2014-11-05 first release
 # 0.1.1 2014-11-06 added factSheet to scope
 # 0.2.0 2014-11-07 add option to return only codeNames
@@ -19,7 +21,7 @@
 module ADIWG
 
 	module Mdcodes
-		VERSION = "2.0.0"
+		VERSION = "2.1.0"
 	end
 
 end

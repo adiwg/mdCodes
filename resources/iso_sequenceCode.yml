@@ -1,0 +1,14 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+
+codelistType: "staticList"
+codelistName: "iso_sequenceCode"
+source: "ISO"
+sourceName: "MI_SequenceCode"
+extensible: true
+description: "temporal relation of activation"
+codelist:
+  - {code: "001", codeName: start, description: "beginning of a collection"}
+  - {code: "002", codeName: end, description: "end of a collection"}
+  - {code: "003", codeName: instantaneous, description: "collection without a significant duration"}

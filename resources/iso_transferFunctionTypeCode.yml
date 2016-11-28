@@ -1,0 +1,14 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+
+codelistType: "staticList"
+codelistName: "iso_transferFunctionTypeCode"
+source: "ISO"
+sourceName: "MI_TransferFunctionTypeCode"
+extensible: true
+description: "transform function to be used when scaling a physical value for a given element"
+codelist:
+  - {code: "001", codeName: linear, description: "function used for transformation is first order polynomial"}
+  - {code: "002", codeName: logarithmic, description: "function used for transformation is logarithmic"}
+  - {code: "003", codeName: exponential, description: "function used for transformation is exponential"}
