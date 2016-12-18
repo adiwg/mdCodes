@@ -3,11 +3,11 @@
 # base codelist for ISO 19115-2, 19115-1
 
 codelistType: "staticList"
-codelistName: "iso_polarizationOrientationCode"
+codelistName: "iso_polarisationOrientationCode"
 source: "ISO"
-sourceName: "MI_PolarizationOrientationCode"
+sourceName: "MI_PolarisationOrientationCode"
 extensible: true
-description: "polarization of the antenna relative to the waveform"
+description: "polarisation of the antenna relative to the waveform"
 codelist:
   - {code: "001", codeName: horizontal, description: "polarization of the sensor oriented in the horizontal plane in relation to swath direction"}
   - {code: "002", codeName: vertical, description: "polarization of the sensor oriented in the vertical plane in relation to swath direction"}
