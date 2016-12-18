@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.1.1 2016-12-18 change to European spelling 'polarisation'
 # 2.1.0 2016-11-27 added 10 MI codelists
 
 # version 1 history
