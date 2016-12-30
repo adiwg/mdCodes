@@ -24,3 +24,4 @@ codelist:
    - {code: "adiwg001", codeName: webApplication, description: "online web application or data forms"}
    - {code: "adiwg002", codeName: doi, description: "digital object identifier URL"}
    - {code: "adiwg003", codeName: orcid, description: "Open Researcher and Contributor ID URL"}
+   - {code: "adiwg004", codeName: dataUri, description: "data file encoded per RFC 2397, the data URL scheme"}
