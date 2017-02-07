@@ -20,5 +20,9 @@ codelist:
   - {code: "008", codeName: series, description: "associated through a common heritage such as produced to a common product specification"}
   - {code: "009", codeName: dependency, description: "associated through a dependency"}
   - {code: "010", codeName: revisionOf, description: "resource is a revision of associated resource"}
-  - {code: "adiwg001", codeName: projectProduct, description: "products developed as deliverables of a project or program"}
+  - {code: "adiwg001", codeName: projectProduct, description: "products developed as deliverables of a project or program (DEPRECATED: use productOf)"}
   - {code: "adiwg002", codeName: supplementalResource, description: "supplemental resource"}
+  - {code: "adiwg003", codeName: produced, description: "reference to a product or deliverable produced by the resource (e.g. project or program)"}
+  - {code: "adiwg004", codeName: productOf, description: "reference to a project or program which produced the resource as a deliverable"}
+  - {code: "adiwg005", codeName: mainprojectOf, description: "reference to a project which is a derivative of the resource"}
+  - {code: "adiwg006", codeName: subprojectOf, description: "reference to a project of which the resource is a derivative"}
