@@ -4,7 +4,7 @@
   "authors": [
     "Josh Bradley <jbradley@arcticlcc.org>"
   ],
-  "description": "Provides code lists for use in ISO 19139 compliant metadata, especially mdJSON.  The codes include all ISO 19115-1 code extensions from the Alaska Data Integration working group (ADIwg).",
+  "description": "Provides code lists for use in ISO 19139 compliant metadata, especially mdJSON.",
   "main": "resources/json/mdcodes.json",
   "keywords": [
     "adiwg",
