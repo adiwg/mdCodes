@@ -32,6 +32,7 @@ class TestMdcodes < Minitest::Test
 
   def test_getCodelistDetail
     yaml = ADIWG::Mdcodes.getAllCodeistsDetail
+    refute_empty(yaml)
     key = yaml.keys[0]
     assert_instance_of(Hash,ADIWG::Mdcodes.getCodelistDetail(key))
   end
@@ -42,6 +43,7 @@ class TestMdcodes < Minitest::Test
 
   def test_getStaticCodelist
     yaml = ADIWG::Mdcodes.getAllStaticCodelists
+    refute_empty(yaml)
     key = yaml.keys[0]
     assert_instance_of(Hash,ADIWG::Mdcodes.getStaticCodelist(key))
   end

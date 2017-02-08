@@ -20,7 +20,7 @@ module ADIWG
 
         # return the path to yaml files.
         def self.getYamlPath
-            File.join(File.dirname(__FILE__),'..','..','resources')
+            File.join(File.dirname(File.expand_path(__FILE__)),'..','..','resources')
         end
 
         # return all codelists with full details
