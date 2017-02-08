@@ -33,9 +33,10 @@ class TestMdcodes < Minitest::Test
   def test_getCodelistDetail
     yaml = ADIWG::Mdcodes.getAllCodeistsDetail
     refute_empty(yaml)
-    key = yaml.keys[0]
-    p key
-    assert_instance_of(Hash,ADIWG::Mdcodes.getCodelistDetail(key))
+
+    yaml.keys.each do |key|
+      assert_instance_of(Hash,ADIWG::Mdcodes.getCodelistDetail(key), 'Failed to load ' + key)
+    end
   end
 
   def test_getAllStaticCodelists
@@ -45,8 +46,9 @@ class TestMdcodes < Minitest::Test
   def test_getStaticCodelist
     yaml = ADIWG::Mdcodes.getAllStaticCodelists
     refute_empty(yaml)
-    key = yaml.keys[0]
-    p key
-    assert_instance_of(Hash,ADIWG::Mdcodes.getStaticCodelist(key))
+
+    yaml.keys.each do |key|
+      assert_instance_of(Hash,ADIWG::Mdcodes.getStaticCodelist(key), 'Failed to load ' + key)
+    end
   end
 end
