@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["stansmith907, jlblcc"]
   spec.email         = ["stansmith@usgs.gov"]
   spec.summary       = %q{adiwg-mdcodes provides code lists for mdJSON.}
-  spec.description   = %q{adiwg-mdcodes provides code lists for use in ISO 19139 compliant metadata, especially mdJSON.  The codes include all ISO 19115-1 code extensions from the Alaska Data Integration working group (ADIwg).}
+  spec.description   = %q{adiwg-mdcodes provides code lists for use with editors of ISO 19115-1, ISO 19115-2, ISO 19110, and mdJson compliant metadata.  Some codelists include extensions added by the Alaska Data Integration working group (ADIwg).}
   spec.homepage      = "https://github.com/adiwg/mdCodes"
   spec.license       = "UNLICENSED"
 
