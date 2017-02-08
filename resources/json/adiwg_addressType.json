@@ -1,6 +1,6 @@
 {
   "codelistType": "staticList",
-  "codelistName": "addressType",
+  "codelistName": "adiwg_addressType",
   "source": "Alaska Data Integration working group",
   "sourceName": "ADIwg_AddressType",
   "extensible": true,

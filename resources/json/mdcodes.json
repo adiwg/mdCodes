@@ -1564,7 +1564,7 @@
       }
     ]
   },
-  "iso_contectCode": {
+  "iso_contextCode": {
     "codelistType": "staticList",
     "codelistName": "iso_contextCode",
     "source": "ISO",
@@ -1589,7 +1589,7 @@
       }
     ]
   },
-  "iso_country": {
+  "iso_countries": {
     "codelistType": "staticList",
     "codelistName": "iso_countries",
     "source": "ISO",
