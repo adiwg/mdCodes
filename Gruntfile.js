@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         },
         "concat-json": {
             mdjson: {
-                src: ["iso_*.json"],
+                src: ["iso_*.json","adiwg_*.json"],
                 dest: "resources/json/mdcodes.json",
                 cwd: "resources/json",
                 options: {
