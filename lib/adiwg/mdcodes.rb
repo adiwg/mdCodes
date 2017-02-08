@@ -41,6 +41,7 @@ module ADIWG
         # return a single codelist with full details
         def self.getCodelistDetail(codeList, format='hash')
             file = File.join(getYamlPath, codeList + '.yml')
+            p file
             if File.exist?(file)
                 hCodeList = YAML.load_file(file)
             else
