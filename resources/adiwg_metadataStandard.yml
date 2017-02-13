@@ -1,0 +1,19 @@
+---
+# mdJson codelists
+# base codelist for ISO mdEditor
+
+codelistType: "staticList"
+codelistName: "adiwg_metadataStandard"
+source: "Alaska Data Integration working group"
+sourceName: "ADIwg_MetadataStandard"
+extensible: true
+description: "documented standard for scientific metadata encoding"
+codelist:
+  - {code: "001", codeName: FGDC-CSDGM, description: "Content Standard for Digital Geospatial Metadata FGDC_STD_001-1998"}
+  - {code: "002", codeName: ISO19110, description: "International Standard for Feature Catalogue - 2005-02-15"}
+  - {code: "003", codeName: ISO19115, description: "International Standard for Geographic Information - Metadata 2003-05-01"}
+  - {code: "004", codeName: ISO19115-2, description: "International Standard for Geographic Information - Metadata 2009-02-15"}
+  - {code: "005", codeName: ISO19115-1, description: "International Standard for Geographic Information - Metadata 2014-04-01"}
+  - {code: "006", codeName: mdJson, description: "Alaska Data Integration working group JSON encoded metadata for exchange"}
+  - {code: "007", codeName: HTML, description: "Alaska Data Integration working group HTML5 encoded metadata for viewing"}
+  - {code: "008", codeName: sbJSON, description: "U.S. Geological Survey JSON encoded metadata for ScienceBase"}
