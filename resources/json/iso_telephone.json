@@ -19,7 +19,32 @@
     {
       "code": "003",
       "codeName": "sms",
-      "description": "telephone provides sms service"
+      "description": "telephone provides short message service"
+    },
+    {
+      "code": "adiwg001",
+      "codeName": "mms",
+      "description": "telephone provides multimedia message service"
+    },
+    {
+      "code": "adiwg002",
+      "codeName": "tty",
+      "description": "telephone provides text telephone service"
+    },
+    {
+      "code": "adiwg003",
+      "codeName": "imessage",
+      "description": "telephone provides Apple iMessage service"
+    },
+    {
+      "code": "adiwg004",
+      "codeName": "mobile",
+      "description": "telephone is a mobile or cell phone"
+    },
+    {
+      "code": "adiwg005",
+      "codeName": "message",
+      "description": "telephone can receive messages"
     }
   ]
 }
