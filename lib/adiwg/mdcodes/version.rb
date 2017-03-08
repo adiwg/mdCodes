@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.1.4 2017-03-07 added phone types to telephone codes
 # 2.1.4 2017-02-13 added adiwg_metadataStandard, adiwg_metadataRepository codelists
 # 2.1.3 2017-02-07 added adiwg_addressType codelist
 # 2.1.1 2016-12-18 change to European spelling 'polarisation'
@@ -25,7 +26,7 @@
 module ADIWG
 
 	module Mdcodes
-		VERSION = "2.1.4-beta1"
+		VERSION = "2.1.5-beta1"
 	end
 
 end
