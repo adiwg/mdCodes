@@ -24,9 +24,7 @@
 # 1.2.1 2015-09-28 bumped version number to match gem
 
 module ADIWG
-
 	module Mdcodes
-		VERSION = "2.1.5-beta1"
+		VERSION = "2.1.5-beta2"
 	end
-
 end
