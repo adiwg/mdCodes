@@ -1,6 +1,6 @@
 {
   "name": "mdcodes",
-  "version": "2.1.5-beta2",
+  "version": "2.1.5",
   "description": "CodeLists for ADIwg mdJSON",
   "repository": {
     "type": "git",

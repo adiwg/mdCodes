@@ -26,6 +26,6 @@
 
 module ADIWG
 	module Mdcodes
-		VERSION = "2.1.5-beta2"
+		VERSION = "2.1.5"
 	end
 end
