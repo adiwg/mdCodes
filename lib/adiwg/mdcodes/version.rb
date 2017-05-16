@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.1.6 2017-05-16 added 'isoTopicCategory' to keyword type code list
 # 2.1.5 2017-03-15 added adiwg_entityType codelist
 # 2.1.4 2017-03-07 added phone types to telephone codes
 # 2.1.4 2017-02-13 added adiwg_metadataStandard, adiwg_metadataRepository codelists
@@ -26,6 +27,6 @@
 
 module ADIWG
 	module Mdcodes
-		VERSION = "2.1.5"
+		VERSION = "2.1.6"
 	end
 end
