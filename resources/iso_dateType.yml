@@ -25,3 +25,14 @@ codelist:
   - {code: "014", codeName: validityExpires, description: "time at which the data are no longer considered to be valid"}
   - {code: "015", codeName: released, description: "the date that the resource shall be released for public access"}
   - {code: "016", codeName: distribution, description: "date identifies when an instance of the resource was distributed"}
+  - {code: "adiwg001", codeName: acquisition, description: "date ownership of the resource was acquired generally by purchase"}
+  - {code: "adiwg002", codeName: assessment, description: "date the resource was reviewed or assessed"}
+  - {code: "adiwg003", codeName: award, description: "date a grant or funding was awarded"}
+  - {code: "adiwg004", codeName: collected, description: "date a sample or data was collected"}
+  - {code: "adiwg005", codeName: deprecated, description: "date a resource, data, or standard was deprecated"}
+  - {code: "adiwg006", codeName: due, description: "date a resource or task is to be completed"}
+  - {code: "adiwg007", codeName: end, description: "end date"}
+  - {code: "adiwg008", codeName: received, description: "date a resource was received"}
+  - {code: "adiwg009", codeName: reported, description: "date something was reported or announced"}
+  - {code: "adiwg010", codeName: start, description: "start or begin date"}
+  - {code: "adiwg011", codeName: transmitted, description: "date resource was transmitted to another party"}
