@@ -1,0 +1,115 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_topicCategory",
+  "source": "ISO",
+  "sourceName": "MD_TopicCategoryCode",
+  "extensible": false,
+  "description": "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive. NOTE It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate. (enumeration - cannot be extended)",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "farming",
+      "description": "rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"
+    },
+    {
+      "code": "002",
+      "codeName": "biota",
+      "description": "flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat."
+    },
+    {
+      "code": "003",
+      "codeName": "boundaries",
+      "description": "legal land descriptions. Examples: political and administrative boundaries."
+    },
+    {
+      "code": "004",
+      "codeName": "climatologyMeteorologyAtmosphere",
+      "description": "processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation"
+    },
+    {
+      "code": "005",
+      "codeName": "economy",
+      "description": "economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas"
+    },
+    {
+      "code": "006",
+      "codeName": "elevation",
+      "description": "height above or below sea level. Examples: altitude, bathymetry, digital elevation models, slope, derived products"
+    },
+    {
+      "code": "007",
+      "codeName": "environment",
+      "description": "environmental resources, protection and conservation. Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape"
+    },
+    {
+      "code": "008",
+      "codeName": "geoscientificInformation",
+      "description": "information pertaining to earth sciences. Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, ydrogeology, erosion"
+    },
+    {
+      "code": "009",
+      "codeName": "health",
+      "description": "health, health services, human ecology, and safety. Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services"
+    },
+    {
+      "code": "010",
+      "codeName": "imageryBaseMapsEarthCover",
+      "description": "base maps. Examples: land cover, topographic maps, imagery, unclassified images, annotations"
+    },
+    {
+      "code": "011",
+      "codeName": "intelligenceMilitary",
+      "description": "military bases, structures, activities. Examples: barracks, training grounds, military transportation, information collection"
+    },
+    {
+      "code": "012",
+      "codeName": "inlandWaters",
+      "description": "inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"
+    },
+    {
+      "code": "013",
+      "codeName": "location",
+      "description": "positional information and services. Examples: addresses, geodetic networks, control points, postal zones and services, place names"
+    },
+    {
+      "code": "014",
+      "codeName": "oceans",
+      "description": "features and characteristics of salt water bodies (excluding inland waters). Examples: tides, tidal waves, coastal information, reefs"
+    },
+    {
+      "code": "015",
+      "codeName": "planningCadastre",
+      "description": "information used for appropriate actions for future use of the land. Examples: land use maps, zoning maps, cadastral surveys, land ownership"
+    },
+    {
+      "code": "016",
+      "codeName": "society",
+      "description": "characteristics of society and cultures. Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information"
+    },
+    {
+      "code": "017",
+      "codeName": "structure",
+      "description": "man-made construction. Examples: buildings, museums, churches, factories, housing, monuments, shops, towers"
+    },
+    {
+      "code": "018",
+      "codeName": "transportation",
+      "description": "means and aids for conveying persons and/or goods. Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways"
+    },
+    {
+      "code": "019",
+      "codeName": "utilitiesCommunication",
+      "description": "energy, water and waste systems and communications infrastructure and services. Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks"
+    },
+    {
+      "code": "020",
+      "codeName": "extraTerrestrial",
+      "description": "region more than 100 km above the surface of the Earth"
+    },
+    {
+      "code": "021",
+      "codeName": "disaster",
+      "description": "information related to disasters. Examples: Site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities."
+    }
+  ]
+}

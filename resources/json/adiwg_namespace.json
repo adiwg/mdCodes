@@ -1,0 +1,35 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "adiwg_namespace",
+  "source": "Alaska Data Integration working group",
+  "sourceName": "ADIwg_Namespace",
+  "extensible": true,
+  "description": "namespace of frequently referenced organizations",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "scienceBase",
+      "description": "ScienceBase is a U.S. Geological Survey cataloging and collaborative data management platform."
+    },
+    {
+      "code": "002",
+      "codeName": "isbn",
+      "description": "International Standard Book Number"
+    },
+    {
+      "code": "003",
+      "codeName": "issn",
+      "description": "International Standard Serial Number"
+    },
+    {
+      "code": "004",
+      "codeName": "doi",
+      "description": "Digital Object Identifier"
+    },
+    {
+      "code": "005",
+      "codeName": "ark",
+      "description": "Archival Resource Key"
+    }
+  ]
+}
