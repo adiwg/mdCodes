@@ -7,10 +7,13 @@ codelistName: "adiwg_namespace"
 source: "Alaska Data Integration working group"
 sourceName: "ADIwg_Namespace"
 extensible: true
-description: "namespace of frequently referenced organizations"
+description: "frequently referenced namespaces"
 codelist:
-  - {code: "001", codeName: scienceBase, description: "ScienceBase is a U.S. Geological Survey cataloging and collaborative data management platform."}
-  - {code: "002", codeName: isbn, description: "International Standard Book Number"}
-  - {code: "003", codeName: issn, description: "International Standard Serial Number"}
-  - {code: "004", codeName: doi, description: "Digital Object Identifier"}
-  - {code: "005", codeName: ark, description: "Archival Resource Key"}
+  - {code: "info:ark/", codeName: ark, description: "Archival Resource Key"}
+  - {code: "info:doi/", codeName: doi, description: "Digital Object Identifier"}
+  - {code: "urn:isan", codeName: isan, description: "International Standard Audiovisual Number"}
+  - {code: "urn:isbn", codeName: isbn, description: "International Standard Book Number"}
+  - {code: "urn:ISSN", codeName: issn, description: "International Standard Serial Number"}
+  - {code: "gov.sciencebase.catalog", codeName: scienceBase, description: "ScienceBase is a U.S. Geological Survey cataloging and collaborative data management platform."}
+  - {code: "itis.gov", codeName: itis, description: "Integrated Taxonomic Information System"}
+  - {code: "urn:uuid", codeName: issn, description: "Universally unique identifier"}
