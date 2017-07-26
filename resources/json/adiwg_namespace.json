@@ -8,27 +8,32 @@
   "codelist": [
     {
       "code": "info:ark/",
-      "codeName": "ark",
+      "codeName": "ARK",
       "description": "Archival Resource Key"
     },
     {
       "code": "info:doi/",
-      "codeName": "doi",
+      "codeName": "DOI",
       "description": "Digital Object Identifier"
     },
     {
+      "code": "urn:ogc:def:crs:EPSG",
+      "codeName": "epsgCRS",
+      "description": "Coordinate reference system from European Petroleum Survey Group database"
+    },
+    {
       "code": "urn:isan",
-      "codeName": "isan",
+      "codeName": "ISAN",
       "description": "International Standard Audiovisual Number"
     },
     {
       "code": "urn:isbn",
-      "codeName": "isbn",
+      "codeName": "ISBN",
       "description": "International Standard Book Number"
     },
     {
       "code": "urn:ISSN",
-      "codeName": "issn",
+      "codeName": "ISSN",
       "description": "International Standard Serial Number"
     },
     {
@@ -38,12 +43,12 @@
     },
     {
       "code": "itis.gov",
-      "codeName": "itis",
+      "codeName": "ITIS",
       "description": "Integrated Taxonomic Information System"
     },
     {
       "code": "urn:uuid",
-      "codeName": "issn",
+      "codeName": "UUID",
       "description": "Universally unique identifier"
     }
   ]
