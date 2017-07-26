@@ -9,11 +9,12 @@ sourceName: "ADIwg_Namespace"
 extensible: true
 description: "frequently referenced namespaces"
 codelist:
-  - {code: "info:ark/", codeName: ark, description: "Archival Resource Key"}
-  - {code: "info:doi/", codeName: doi, description: "Digital Object Identifier"}
-  - {code: "urn:isan", codeName: isan, description: "International Standard Audiovisual Number"}
-  - {code: "urn:isbn", codeName: isbn, description: "International Standard Book Number"}
-  - {code: "urn:ISSN", codeName: issn, description: "International Standard Serial Number"}
+  - {code: "info:ark/", codeName: ARK, description: "Archival Resource Key"}
+  - {code: "info:doi/", codeName: DOI, description: "Digital Object Identifier"}
+  - {code: "urn:ogc:def:crs:EPSG", codeName: epsgCRS, description: "Coordinate reference system from European Petroleum Survey Group database"}
+  - {code: "urn:isan", codeName: ISAN, description: "International Standard Audiovisual Number"}
+  - {code: "urn:isbn", codeName: ISBN, description: "International Standard Book Number"}
+  - {code: "urn:ISSN", codeName: ISSN, description: "International Standard Serial Number"}
   - {code: "gov.sciencebase.catalog", codeName: scienceBase, description: "ScienceBase is a U.S. Geological Survey cataloging and collaborative data management platform."}
-  - {code: "itis.gov", codeName: itis, description: "Integrated Taxonomic Information System"}
-  - {code: "urn:uuid", codeName: issn, description: "Universally unique identifier"}
+  - {code: "itis.gov", codeName: ITIS, description: "Integrated Taxonomic Information System"}
+  - {code: "urn:uuid", codeName: UUID, description: "Universally unique identifier"}
