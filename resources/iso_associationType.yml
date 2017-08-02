@@ -10,19 +10,22 @@ sourceName: "DS_AssociationTypeCode"
 extensible: true
 description: "justification for the correlation of two resources (datasets or projects)"
 codelist:
-  - {code: "001", codeName: crossReference, description: "reference from one resource (dataset or project) to another"}
-  - {code: "002", codeName: largerWorkCitation, description: "reference to a master resource (dataset or project) of which this one is a part"}
-  - {code: "003", codeName: partOfSeamlessDatabase, description: "part of the same structured set of data held in a computer"}
-  - {code: "004", codeName: source, description: "mapping and charting information from which the dataset content originates"}
-  - {code: "005", codeName: stereoMate, description: "part of a set of imagery that when used together, provides three-dimensional images"}
-  - {code: "006", codeName: isComposedOf, description: "reference to resources (datasets or projects) that are parts of this resource"}
-  - {code: "007", codeName: collectiveTitle, description: "common title for a collection of resources. NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."}
-  - {code: "008", codeName: series, description: "associated through a common heritage such as produced to a common product specification"}
-  - {code: "009", codeName: dependency, description: "associated through a dependency"}
-  - {code: "010", codeName: revisionOf, description: "resource is a revision of associated resource"}
-  - {code: "adiwg001", codeName: projectProduct, description: "products developed as deliverables of a project or program (DEPRECATED: use productOf)"}
-  - {code: "adiwg002", codeName: supplementalResource, description: "supplemental resource"}
-  - {code: "adiwg003", codeName: produced, description: "reference to a product or deliverable produced by the resource (e.g. project or program)"}
-  - {code: "adiwg004", codeName: productOf, description: "reference to a project or program which produced the resource as a deliverable"}
-  - {code: "adiwg005", codeName: mainprojectOf, description: "reference to a project which is a derivative of the resource"}
-  - {code: "adiwg006", codeName: subprojectOf, description: "reference to a project of which the resource is a derivative"}
+  - {code: "001", codeName: crossReference, description: "the associated resource is a reference to another dataset or project"}
+  - {code: "002", codeName: largerWorkCitation, description: "the associated resource is a citation to a master resource of the main resource"}
+  - {code: "003", codeName: partOfSeamlessDatabase, description: "the associated resource is a part of the same structured dataset as the main resource"}
+  - {code: "004", codeName: source, description: "the associated resource is mapping and charting information from which the main resource content originates"}
+  - {code: "005", codeName: stereoMate, description: "the associated resource is part of a set of imagery that when used together provide three-dimensional images"}
+  - {code: "006", codeName: isComposedOf, description: "the associated resource is a dataset or project that is part of the main resource"}
+  - {code: "007", codeName: collectiveTitle, description: "the associated resource is a common title for a collection of resources. NOTE Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."}
+  - {code: "008", codeName: series, description: "the associated resource was produced via the same product specifications as the main resource"}
+  - {code: "009", codeName: dependency, description: "the associated resource is dependent on the main resource"}
+  - {code: "010", codeName: revisionOf, description: "the main resource is a revision of the associated resource"}
+  - {code: "adiwg001", codeName: projectProduct, description: "DEPRECATED: use product", deprecated: true}
+  - {code: "adiwg002", codeName: supplementalResource, description: "the associated resource is a supplemental resource to the main resource"}
+  - {code: "adiwg003", codeName: produced, description: "DEPRECATED: use product", deprecated: true}
+  - {code: "adiwg004", codeName: productOf, description: "DEPRECATED: use parentProject", deprecated: true}
+  - {code: "adiwg005", codeName: mainProjectOf, description: "DEPRECATED: use subProject", deprecated: true}
+  - {code: "adiwg006", codeName: subProjectOf, description: "DEPRECATED: use parentProject", deprecated: true}
+  - {code: "adiwg007", codeName: product, description: "the associated resource is a product developed as deliverable of the main resource"}
+  - {code: "adiwg008", codeName: parentProject, description: "the associated resource is a parent project of the main resource"}
+  - {code: "adiwg009", codeName: subProject, description: "the associated resource is sub-project or task of the main resource"}

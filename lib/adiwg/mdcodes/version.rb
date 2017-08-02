@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.3.0 2017-08-01 change to associationTypes: revised definitions, deprecated some codes
 # 2.2.0 2017-06-29 added adiwg namespace codelist
 # 2.1.7 2017-06-08 added scienceBase date codes to dateType
 # 2.1.6 2017-05-16 added 'isoTopicCategory' to keyword type code list
@@ -12,7 +13,6 @@
 # 2.1.0 2016-11-27 added 10 MI codelists
 
 # version 1 history
-
 # 0.1.0 2014-11-05 first release
 # 0.1.1 2014-11-06 added factSheet to scope
 # 0.2.0 2014-11-07 add option to return only codeNames
@@ -29,6 +29,6 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.2.2"
+      VERSION = "2.3.0"
    end
 end

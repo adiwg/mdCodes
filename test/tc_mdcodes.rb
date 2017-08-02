@@ -6,49 +6,51 @@
 =end
 
 require 'minitest/autorun'
-require File.join(File.dirname(__FILE__),'..','lib', 'adiwg-mdcodes.rb')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'adiwg-mdcodes.rb')
 
 class TestMdcodes < Minitest::Test
-  def test_parseYaml
-    @errors = Array.new
+   def test_parseYaml
+      @errors = Array.new
 
-    FileList[ADIWG::Mdcodes.getYamlPath + '**/*.yml'].each do |fname|
-      begin YAML.load_file(fname)
-      rescue Exception
-        @errors << "Could not parse YAML: #{fname}"
+      path = ADIWG::Mdcodes.getYamlPath
+      Dir["#{File.join(path, '**/*.yml')}"].each do |fname|
+         begin
+            YAML.load_file(fname)
+         rescue Exception
+            @errors << "Could not parse YAML: #{fname}"
+         end
       end
-    end
-    assert(@errors.empty?, @errors.join("\n"))
-  end
+      assert(@errors.empty?, @errors.join("\n"))
+   end
 
-  def test_yamlResourceDir
-    yamlDir = ADIWG::Mdcodes.getYamlPath
-    assert(Dir.exist?(yamlDir), 'Did not find resource Directory.')
-  end
+   def test_yamlResourceDir
+      yamlDir = ADIWG::Mdcodes.getYamlPath
+      assert(Dir.exist?(yamlDir), 'Did not find resource Directory.')
+   end
 
-  def test_getAllCodeistsDetail
-    assert_instance_of(Hash,ADIWG::Mdcodes.getAllCodeistsDetail)
-  end
+   def test_getAllCodeistsDetail
+      assert_instance_of(Hash, ADIWG::Mdcodes.getAllCodeistsDetail)
+   end
 
-  def test_getCodelistDetail
-    yaml = ADIWG::Mdcodes.getAllCodeistsDetail
-    refute_empty(yaml)
+   def test_getCodelistDetail
+      yaml = ADIWG::Mdcodes.getAllCodeistsDetail
+      refute_empty(yaml)
 
-    yaml.keys.each do |key|
-      assert_instance_of(Hash,ADIWG::Mdcodes.getCodelistDetail(key), 'Failed to load ' + key)
-    end
-  end
+      yaml.keys.each do |key|
+         assert_instance_of(Hash, ADIWG::Mdcodes.getCodelistDetail(key), 'Failed to load ' + key)
+      end
+   end
 
-  def test_getAllStaticCodelists
-    assert_instance_of(Hash,ADIWG::Mdcodes.getAllStaticCodelists)
-  end
+   def test_getAllStaticCodelists
+      assert_instance_of(Hash, ADIWG::Mdcodes.getAllStaticCodelists)
+   end
 
-  def test_getStaticCodelist
-    yaml = ADIWG::Mdcodes.getAllStaticCodelists
-    refute_empty(yaml)
+   def test_getStaticCodelist
+      yaml = ADIWG::Mdcodes.getAllStaticCodelists
+      refute_empty(yaml)
 
-    yaml.keys.each do |key|
-      assert_instance_of(Hash,ADIWG::Mdcodes.getStaticCodelist(key), 'Failed to load ' + key)
-    end
-  end
+      yaml.keys.each do |key|
+         assert_instance_of(Hash, ADIWG::Mdcodes.getStaticCodelist(key), 'Failed to load ' + key)
+      end
+   end
 end
