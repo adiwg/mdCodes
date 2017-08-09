@@ -9,6 +9,7 @@ require 'minitest/autorun'
 require File.join(File.dirname(__FILE__), '..', 'lib', 'adiwg-mdcodes.rb')
 
 class TestMdcodes < Minitest::Test
+
    def test_parseYaml
       @errors = Array.new
 
@@ -28,12 +29,12 @@ class TestMdcodes < Minitest::Test
       assert(Dir.exist?(yamlDir), 'Did not find resource Directory.')
    end
 
-   def test_getAllCodeistsDetail
-      assert_instance_of(Hash, ADIWG::Mdcodes.getAllCodeistsDetail)
+   def test_getAllCodelistsDetail
+      assert_instance_of(Hash, ADIWG::Mdcodes.getAllCodelistsDetail)
    end
 
    def test_getCodelistDetail
-      yaml = ADIWG::Mdcodes.getAllCodeistsDetail
+      yaml = ADIWG::Mdcodes.getAllCodelistsDetail
       refute_empty(yaml)
 
       yaml.keys.each do |key|
@@ -53,4 +54,23 @@ class TestMdcodes < Minitest::Test
          assert_instance_of(Hash, ADIWG::Mdcodes.getStaticCodelist(key), 'Failed to load ' + key)
       end
    end
+
+   def test_getStaticCodelist_deprecated
+      yaml = ADIWG::Mdcodes.getStaticCodelist('iso_associationType')
+      yamlDeprecated = ADIWG::Mdcodes.getStaticCodelist('iso_associationType', 'hash', true)
+
+      refute_empty yaml['iso_associationType']
+      refute_empty yamlDeprecated['iso_associationType']
+      assert (yaml['iso_associationType'].length < yamlDeprecated['iso_associationType'].length)
+   end
+
+   def test_getAllCodelistsDetail_deprecated
+      yaml = ADIWG::Mdcodes.getAllCodelistsDetail
+      yamlDeprecated = ADIWG::Mdcodes.getAllCodelistsDetail('hash', true)
+
+      refute_empty yaml['iso_associationType']['codelist']
+      refute_empty yamlDeprecated['iso_associationType']['codelist']
+      assert (yaml['iso_associationType']['codelist'].length < yamlDeprecated['iso_associationType']['codelist'].length)
+   end
+
 end

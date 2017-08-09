@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.3.0 2017-08-01 added showDeprecated parameter to mdCodes methods
 # 2.3.0 2017-08-01 change to associationTypes: revised definitions, deprecated some codes
 # 2.2.0 2017-06-29 added adiwg namespace codelist
 # 2.1.7 2017-06-08 added scienceBase date codes to dateType

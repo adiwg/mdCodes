@@ -29,3 +29,4 @@ codelist:
   - {code: "adiwg007", codeName: product, description: "the associated resource is a product developed as deliverable of the main resource"}
   - {code: "adiwg008", codeName: parentProject, description: "the associated resource is a parent project of the main resource"}
   - {code: "adiwg009", codeName: subProject, description: "the associated resource is sub-project or task of the main resource"}
+  - {code: "adiwg010", codeName: derivativeProduct, description: "the associated resource is product derived from main resource"}

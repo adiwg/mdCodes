@@ -1,9 +1,9 @@
-# Mdcodes - ADIwg codeLists to be used with adiwgJson and mdEditor
-# ... codeLists are maintained in a YAML file 'mdCodes.yml'
-# ... the Mdcodes module has methods to access and return codeLists
+# Mdcodes - ADIwg codelists to be used with adiwgJson and mdEditor
+# ... codelists are maintained in a YAML file 'mdCodes.yml'
+# ... the Mdcodes module has methods to access and return codelists
 
 # History:
-#  Stan Smith 2017-08-02 add deprecated element to YAML codelist
+#  Stan Smith 2017-08-08 add deprecated parameter to codelists
 #  Stan Smith 2014-12-18 split codelists into individual YAML file
 #  Stan Smith 2014-11-10 added README.md text
 #  Stan Smith 2014-11-10 added support for JSON returns
@@ -22,76 +22,87 @@ module ADIWG
          File.join(File.dirname(File.expand_path(__FILE__)), '..', '..', 'resources')
       end
 
-      # return all codelists with full details
-      def self.getAllCodeistsDetail(format='hash')
+      # return all codelists with all elements
+      def self.getAllCodelistsDetail(format='hash', showDeprecated=false)
          path = getYamlPath + '/*.yml'
-         hCodeLists = {}
+         hCodelists = {}
          Dir.glob(path) do |item|
-            hCodeList = YAML.load_file(item)
-            hCodeLists[hCodeList['codelistName']] = hCodeList
+            hCodelist = YAML.load_file(item)
+            hCodelists[hCodelist['codelistName']] = hCodelist
          end
-         if format == 'json'
-            return hCodeLists.to_json
-         else
-            return hCodeLists
+         unless showDeprecated
+            hCodelists.each do |key, value|
+               aKeepItems = []
+               value['codelist'].each do |item|
+                  if item.has_key?('deprecated')
+                     unless item['deprecated']
+                        aKeepItems << item
+                     end
+                  else
+                     aKeepItems << item
+                  end
+                  value['codelist'] = aKeepItems
+               end
+            end
          end
+         return hCodelists.to_json if format == 'json'
+         return hCodelists
       end
 
-      # return a single codelist with full details
-      def self.getCodelistDetail(codeList, format='hash')
-         file = File.join(getYamlPath, codeList + '.yml')
+      # return a single codelist with all elements
+      def self.getCodelistDetail(codelist, format='hash', showDeprecated=false)
+         file = File.join(getYamlPath, codelist + '.yml')
          if File.exist?(file)
-            hCodeList = YAML.load_file(file)
+            hCodelist = YAML.load_file(file)
+            unless showDeprecated
+               aKeepItems = []
+               hCodelist['codelist'].each do |item|
+                  if item.has_key?('deprecated')
+                     unless item['deprecated']
+                        aKeepItems << item
+                     end
+                  else
+                     aKeepItems << item
+                  end
+                  hCodelist['codelist'] = aKeepItems
+               end
+            end
          else
             return nil
          end
-         if format == 'json'
-            return hCodeList.to_json
-         else
-            return hCodeList
-         end
+         return hCodelist.to_json if format == 'json'
+         return hCodelist
       end
 
-      # return all static codelist with only the item names
-      def self.getAllStaticCodelists(format='hash')
-         codeLists = getAllCodeistsDetail
-         hCodeLists = {}
-         codeLists.each do |key, value|
-            if value['codelistType'] == 'staticList'
-               aItems = value['codelist']
-               aList = []
-               aItems.each do |item|
-                  aList << item['codeName']
-               end
-               hCodeLists[key] = aList
-            end
-         end
-         if format == 'json'
-            hCodeLists.to_json if format == 'json'
-         else
-            return hCodeLists
-         end
-      end
-
-      # return a single static codelist with only the item names
-      def self.getStaticCodelist(codeList, format='hash')
-         hCodeList = getCodelistDetail(codeList)
-         if hCodeList
-            hCodeNames = {}
-            aItems = hCodeList['codelist']
+      # return all codelist with only the codeName
+      def self.getAllStaticCodelists(format='hash', showDeprecated=false)
+         hCodelists = {}
+         codelists = getAllCodelistsDetail('hash', showDeprecated)
+         codelists.each do |key, value|
             aList = []
-            aItems.each do |item|
+            value['codelist'].each do |item|
                aList << item['codeName']
             end
-            hCodeNames[hCodeList['codelistName']] = aList
-            if format == 'json'
-               return hCodeNames.to_json
-            else
-               return hCodeNames
-            end
-         else
-            return nil
+            hCodelists[key] = aList
          end
+         return hCodelists.to_json if format == 'json'
+         return hCodelists
+      end
+
+      # return a single codelist with only the codeName
+      def self.getStaticCodelist(codelist, format='hash', showDeprecated=false)
+         hCodelist = getCodelistDetail(codelist, 'hash', showDeprecated)
+         unless hCodelist.nil?
+            hCodeNames = {}
+            aList = []
+            hCodelist['codelist'].each do |item|
+               aList << item['codeName']
+            end
+            hCodeNames[hCodelist['codelistName']] = aList
+            return hCodeNames.to_json if format == 'json'
+            return hCodeNames
+         end
+         return nil
       end
 
    end
