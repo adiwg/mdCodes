@@ -1,0 +1,85 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_initiativeType",
+  "source": "ISO",
+  "sourceName": "DS_InitiativeTypeCode",
+  "extensible": true,
+  "description": "type of initiative under which the resource was produced - the activity that resulted in the resource",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "campaign",
+      "description": "series of organized planned actions"
+    },
+    {
+      "code": "002",
+      "codeName": "collection",
+      "description": "accumulation of datasets assembled for a specific purpose"
+    },
+    {
+      "code": "003",
+      "codeName": "exercise",
+      "description": "specific performance of a function or group of functions"
+    },
+    {
+      "code": "004",
+      "codeName": "experiment",
+      "description": "process designed to find if something is effective or valid"
+    },
+    {
+      "code": "005",
+      "codeName": "investigation",
+      "description": "search or systematic inquiry"
+    },
+    {
+      "code": "006",
+      "codeName": "mission",
+      "description": "specific operation of a data collection system"
+    },
+    {
+      "code": "007",
+      "codeName": "sensor",
+      "description": "device or piece of equipment which detects or records"
+    },
+    {
+      "code": "008",
+      "codeName": "operation",
+      "description": "action that is part of a series of actions"
+    },
+    {
+      "code": "009",
+      "codeName": "platform",
+      "description": "vehicle or other support base that holds a sensor"
+    },
+    {
+      "code": "010",
+      "codeName": "process",
+      "description": "method of doing something involving a number of steps"
+    },
+    {
+      "code": "011",
+      "codeName": "program",
+      "description": "specific planned activity"
+    },
+    {
+      "code": "012",
+      "codeName": "project",
+      "description": "organized undertaking, research, or development"
+    },
+    {
+      "code": "013",
+      "codeName": "study",
+      "description": "examination or investigation"
+    },
+    {
+      "code": "014",
+      "codeName": "task",
+      "description": "piece of work"
+    },
+    {
+      "code": "015",
+      "codeName": "trial",
+      "description": "process of testing to discover or demonstrate something"
+    }
+  ]
+}

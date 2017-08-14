@@ -1,0 +1,90 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_dataType",
+  "source": "ISO",
+  "sourceName": "MD_DatatypeCode",
+  "extensible": true,
+  "description": "datatype of element or entity",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "class",
+      "description": "descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior"
+    },
+    {
+      "code": "002",
+      "codeName": "codelist",
+      "description": "flexible enumeration useful for expressing a long list of values, can be extended"
+    },
+    {
+      "code": "003",
+      "codeName": "enumerations",
+      "description": "data type whose instances form a list of named literal values, not extendable"
+    },
+    {
+      "code": "004",
+      "codeName": "codelistElement",
+      "description": "permissible value for a codelist or enumeration"
+    },
+    {
+      "code": "005",
+      "codeName": "abstractClass",
+      "description": "class that cannot be directly instantiated"
+    },
+    {
+      "code": "006",
+      "codeName": "aggregateClass",
+      "description": "class that is composed of classes it is connected to by an aggregate relationship"
+    },
+    {
+      "code": "007",
+      "codeName": "specifiedClass",
+      "description": "subclass that may be substituted for its superclass"
+    },
+    {
+      "code": "008",
+      "codeName": "datatypeClass",
+      "description": "class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage"
+    },
+    {
+      "code": "009",
+      "codeName": "interfaceClass",
+      "description": "named set of operations that characterize the behavior of an element"
+    },
+    {
+      "code": "010",
+      "codeName": "unionClass",
+      "description": "class describing a selection of one of the specified types"
+    },
+    {
+      "code": "011",
+      "codeName": "metaClass",
+      "description": "class whose instances are classes"
+    },
+    {
+      "code": "012",
+      "codeName": "typeClass",
+      "description": "class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"
+    },
+    {
+      "code": "013",
+      "codeName": "characterString",
+      "description": "free text field"
+    },
+    {
+      "code": "014",
+      "codeName": "integer",
+      "description": "numeric filed"
+    },
+    {
+      "code": "015",
+      "codeName": "association",
+      "description": "semantic relationship between two classes that involves connections among their instances"
+    },
+    {
+      "code": "016",
+      "codeName": "typeClass",
+      "description": "class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"
+    }
+  ]
+}
