@@ -1,0 +1,1405 @@
+{
+  "codelistType": "currency",
+  "codelistName": "iso_currency",
+  "source": "SNV",
+  "sourceName": "Swiss Association for Standards",
+  "extensible": false,
+  "description": "currency and funds codelist",
+  "codelist": [
+    {
+      "code": "971",
+      "codeName": "AFN",
+      "description": "AFGHANISTAN-Afghani"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "ÅLAND ISLANDS-Euro"
+    },
+    {
+      "code": "008",
+      "codeName": "ALL",
+      "description": "ALBANIA-Lek"
+    },
+    {
+      "code": "012",
+      "codeName": "DZD",
+      "description": "ALGERIA-Algerian Dinar"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "AMERICAN SAMOA-US Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "ANDORRA-Euro"
+    },
+    {
+      "code": "973",
+      "codeName": "AOA",
+      "description": "ANGOLA-Kwanza"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "ANGUILLA-East Caribbean Dollar"
+    },
+    {
+      "code": "0",
+      "codeName": "_",
+      "description": "ANTARCTICA-No universal currency"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "ANTIGUA AND BARBUDA-East Caribbean Dollar"
+    },
+    {
+      "code": "032",
+      "codeName": "ARS",
+      "description": "ARGENTINA-Argentine Peso"
+    },
+    {
+      "code": "051",
+      "codeName": "AMD",
+      "description": "ARMENIA-Armenian Dram"
+    },
+    {
+      "code": "533",
+      "codeName": "AWG",
+      "description": "ARUBA-Aruban Florin"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "AUSTRALIA-Australian Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "AUSTRIA-Euro"
+    },
+    {
+      "code": "944",
+      "codeName": "AZN",
+      "description": "AZERBAIJAN-Azerbaijanian Manat"
+    },
+    {
+      "code": "044",
+      "codeName": "BSD",
+      "description": "BAHAMAS (THE)-Bahamian Dollar"
+    },
+    {
+      "code": "048",
+      "codeName": "BHD",
+      "description": "BAHRAIN-Bahraini Dinar"
+    },
+    {
+      "code": "050",
+      "codeName": "BDT",
+      "description": "BANGLADESH-Taka"
+    },
+    {
+      "code": "052",
+      "codeName": "BBD",
+      "description": "BARBADOS-Barbados Dollar"
+    },
+    {
+      "code": "933",
+      "codeName": "BYN",
+      "description": "BELARUS-Belarusian Ruble"
+    },
+    {
+      "code": "974",
+      "codeName": "BYR",
+      "description": "BELARUS-Belarusian Ruble"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "BELGIUM-Euro"
+    },
+    {
+      "code": "084",
+      "codeName": "BZD",
+      "description": "BELIZE-Belize Dollar"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "BENIN-CFA Franc BCEAO"
+    },
+    {
+      "code": "060",
+      "codeName": "BMD",
+      "description": "BERMUDA-Bermudian Dollar"
+    },
+    {
+      "code": "356",
+      "codeName": "INR",
+      "description": "BHUTAN-Indian Rupee"
+    },
+    {
+      "code": "064",
+      "codeName": "BTN",
+      "description": "BHUTAN-Ngultrum"
+    },
+    {
+      "code": "068",
+      "codeName": "BOB",
+      "description": "BOLIVIA (PLURINATIONAL STATE OF)-Boliviano"
+    },
+    {
+      "code": "984",
+      "codeName": "BOV",
+      "description": "BOLIVIA (PLURINATIONAL STATE OF)-Mvdol"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "BONAIRE, SINT EUSTATIUS AND SABA-US Dollar"
+    },
+    {
+      "code": "977",
+      "codeName": "BAM",
+      "description": "BOSNIA AND HERZEGOVINA-Convertible Mark"
+    },
+    {
+      "code": "072",
+      "codeName": "BWP",
+      "description": "BOTSWANA-Pula"
+    },
+    {
+      "code": "578",
+      "codeName": "NOK",
+      "description": "BOUVET ISLAND-Norwegian Krone"
+    },
+    {
+      "code": "986",
+      "codeName": "BRL",
+      "description": "BRAZIL-Brazilian Real"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "BRITISH INDIAN OCEAN TERRITORY (THE)-US Dollar"
+    },
+    {
+      "code": "096",
+      "codeName": "BND",
+      "description": "BRUNEI DARUSSALAM-Brunei Dollar"
+    },
+    {
+      "code": "975",
+      "codeName": "BGN",
+      "description": "BULGARIA-Bulgarian Lev"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "BURKINA FASO-CFA Franc BCEAO"
+    },
+    {
+      "code": "108",
+      "codeName": "BIF",
+      "description": "BURUNDI-Burundi Franc"
+    },
+    {
+      "code": "132",
+      "codeName": "CVE",
+      "description": "CABO VERDE-Cabo Verde Escudo"
+    },
+    {
+      "code": "116",
+      "codeName": "KHR",
+      "description": "CAMBODIA-Riel"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "CAMEROON-CFA Franc BEAC"
+    },
+    {
+      "code": "124",
+      "codeName": "CAD",
+      "description": "CANADA-Canadian Dollar"
+    },
+    {
+      "code": "136",
+      "codeName": "KYD",
+      "description": "CAYMAN ISLANDS (THE)-Cayman Islands Dollar"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "CENTRAL AFRICAN REPUBLIC (THE)-CFA Franc BEAC"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "CHAD-CFA Franc BEAC"
+    },
+    {
+      "code": "152",
+      "codeName": "CLP",
+      "description": "CHILE-Chilean Peso"
+    },
+    {
+      "code": "990",
+      "codeName": "CLF",
+      "description": "CHILE-Unidad de Fomento"
+    },
+    {
+      "code": "156",
+      "codeName": "CNY",
+      "description": "CHINA-Yuan Renminbi"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "CHRISTMAS ISLAND-Australian Dollar"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "COCOS (KEELING) ISLANDS (THE)-Australian Dollar"
+    },
+    {
+      "code": "170",
+      "codeName": "COP",
+      "description": "COLOMBIA-Colombian Peso"
+    },
+    {
+      "code": "970",
+      "codeName": "COU",
+      "description": "COLOMBIA-Unidad de Valor Real"
+    },
+    {
+      "code": "174",
+      "codeName": "KMF",
+      "description": "COMOROS (THE)-Comoro Franc"
+    },
+    {
+      "code": "976",
+      "codeName": "CDF",
+      "description": "CONGO (THE DEMOCRATIC REPUBLIC OF THE)-Congolese Franc"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "CONGO (THE)-CFA Franc BEAC"
+    },
+    {
+      "code": "554",
+      "codeName": "NZD",
+      "description": "COOK ISLANDS (THE)-New Zealand Dollar"
+    },
+    {
+      "code": "188",
+      "codeName": "CRC",
+      "description": "COSTA RICA-Costa Rican Colon"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "CÔTE D'IVOIRE-CFA Franc BCEAO"
+    },
+    {
+      "code": "191",
+      "codeName": "HRK",
+      "description": "CROATIA-Kuna"
+    },
+    {
+      "code": "192",
+      "codeName": "CUP",
+      "description": "CUBA-Cuban Peso"
+    },
+    {
+      "code": "931",
+      "codeName": "CUC",
+      "description": "CUBA-Peso Convertible"
+    },
+    {
+      "code": "532",
+      "codeName": "ANG",
+      "description": "CURAÇAO-Netherlands Antillean Guilder"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "CYPRUS-Euro"
+    },
+    {
+      "code": "203",
+      "codeName": "CZK",
+      "description": "CZECH REPUBLIC (THE)-Czech Koruna"
+    },
+    {
+      "code": "208",
+      "codeName": "DKK",
+      "description": "DENMARK-Danish Krone"
+    },
+    {
+      "code": "262",
+      "codeName": "DJF",
+      "description": "DJIBOUTI-Djibouti Franc"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "DOMINICA-East Caribbean Dollar"
+    },
+    {
+      "code": "214",
+      "codeName": "DOP",
+      "description": "DOMINICAN REPUBLIC (THE)-Dominican Peso"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "ECUADOR-US Dollar"
+    },
+    {
+      "code": "818",
+      "codeName": "EGP",
+      "description": "EGYPT-Egyptian Pound"
+    },
+    {
+      "code": "222",
+      "codeName": "SVC",
+      "description": "EL SALVADOR-El Salvador Colon"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "EL SALVADOR-US Dollar"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "EQUATORIAL GUINEA-CFA Franc BEAC"
+    },
+    {
+      "code": "232",
+      "codeName": "ERN",
+      "description": "ERITREA-Nakfa"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "ESTONIA-Euro"
+    },
+    {
+      "code": "230",
+      "codeName": "ETB",
+      "description": "ETHIOPIA-Ethiopian Birr"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "EUROPEAN UNION-Euro"
+    },
+    {
+      "code": "238",
+      "codeName": "FKP",
+      "description": "FALKLAND ISLANDS (THE) [MALVINAS]-Falkland Islands Pound"
+    },
+    {
+      "code": "208",
+      "codeName": "DKK",
+      "description": "FAROE ISLANDS (THE)-Danish Krone"
+    },
+    {
+      "code": "242",
+      "codeName": "FJD",
+      "description": "FIJI-Fiji Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "FINLAND-Euro"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "FRANCE-Euro"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "FRENCH GUIANA-Euro"
+    },
+    {
+      "code": "953",
+      "codeName": "XPF",
+      "description": "FRENCH POLYNESIA-CFP Franc"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "FRENCH SOUTHERN TERRITORIES (THE)-Euro"
+    },
+    {
+      "code": "950",
+      "codeName": "XAF",
+      "description": "GABON-CFA Franc BEAC"
+    },
+    {
+      "code": "270",
+      "codeName": "GMD",
+      "description": "GAMBIA (THE)-Dalasi"
+    },
+    {
+      "code": "981",
+      "codeName": "GEL",
+      "description": "GEORGIA-Lari"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "GERMANY-Euro"
+    },
+    {
+      "code": "936",
+      "codeName": "GHS",
+      "description": "GHANA-Ghana Cedi"
+    },
+    {
+      "code": "292",
+      "codeName": "GIP",
+      "description": "GIBRALTAR-Gibraltar Pound"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "GREECE-Euro"
+    },
+    {
+      "code": "208",
+      "codeName": "DKK",
+      "description": "GREENLAND-Danish Krone"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "GRENADA-East Caribbean Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "GUADELOUPE-Euro"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "GUAM-US Dollar"
+    },
+    {
+      "code": "320",
+      "codeName": "GTQ",
+      "description": "GUATEMALA-Quetzal"
+    },
+    {
+      "code": "826",
+      "codeName": "GBP",
+      "description": "GUERNSEY-Pound Sterling"
+    },
+    {
+      "code": "324",
+      "codeName": "GNF",
+      "description": "GUINEA-Guinea Franc"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "GUINEA-BISSAU-CFA Franc BCEAO"
+    },
+    {
+      "code": "328",
+      "codeName": "GYD",
+      "description": "GUYANA-Guyana Dollar"
+    },
+    {
+      "code": "332",
+      "codeName": "HTG",
+      "description": "HAITI-Gourde"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "HAITI-US Dollar"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "HEARD ISLAND AND McDONALD ISLANDS-Australian Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "HOLY SEE (THE)-Euro"
+    },
+    {
+      "code": "340",
+      "codeName": "HNL",
+      "description": "HONDURAS-Lempira"
+    },
+    {
+      "code": "344",
+      "codeName": "HKD",
+      "description": "HONG KONG-Hong Kong Dollar"
+    },
+    {
+      "code": "348",
+      "codeName": "HUF",
+      "description": "HUNGARY-Forint"
+    },
+    {
+      "code": "352",
+      "codeName": "ISK",
+      "description": "ICELAND-Iceland Krona"
+    },
+    {
+      "code": "356",
+      "codeName": "INR",
+      "description": "INDIA-Indian Rupee"
+    },
+    {
+      "code": "360",
+      "codeName": "IDR",
+      "description": "INDONESIA-Rupiah"
+    },
+    {
+      "code": "960",
+      "codeName": "XDR",
+      "description": "INTERNATIONAL MONETARY FUND (IMF) -SDR (Special Drawing Right)"
+    },
+    {
+      "code": "364",
+      "codeName": "IRR",
+      "description": "IRAN (ISLAMIC REPUBLIC OF)-Iranian Rial"
+    },
+    {
+      "code": "368",
+      "codeName": "IQD",
+      "description": "IRAQ-Iraqi Dinar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "IRELAND-Euro"
+    },
+    {
+      "code": "826",
+      "codeName": "GBP",
+      "description": "ISLE OF MAN-Pound Sterling"
+    },
+    {
+      "code": "376",
+      "codeName": "ILS",
+      "description": "ISRAEL-New Israeli Sheqel"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "ITALY-Euro"
+    },
+    {
+      "code": "388",
+      "codeName": "JMD",
+      "description": "JAMAICA-Jamaican Dollar"
+    },
+    {
+      "code": "392",
+      "codeName": "JPY",
+      "description": "JAPAN-Yen"
+    },
+    {
+      "code": "826",
+      "codeName": "GBP",
+      "description": "JERSEY-Pound Sterling"
+    },
+    {
+      "code": "400",
+      "codeName": "JOD",
+      "description": "JORDAN-Jordanian Dinar"
+    },
+    {
+      "code": "398",
+      "codeName": "KZT",
+      "description": "KAZAKHSTAN-Tenge"
+    },
+    {
+      "code": "404",
+      "codeName": "KES",
+      "description": "KENYA-Kenyan Shilling"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "KIRIBATI-Australian Dollar"
+    },
+    {
+      "code": "408",
+      "codeName": "KPW",
+      "description": "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)-North Korean Won"
+    },
+    {
+      "code": "410",
+      "codeName": "KRW",
+      "description": "KOREA (THE REPUBLIC OF)-Won"
+    },
+    {
+      "code": "414",
+      "codeName": "KWD",
+      "description": "KUWAIT-Kuwaiti Dinar"
+    },
+    {
+      "code": "417",
+      "codeName": "KGS",
+      "description": "KYRGYZSTAN-Som"
+    },
+    {
+      "code": "418",
+      "codeName": "LAK",
+      "description": "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)-Kip"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "LATVIA-Euro"
+    },
+    {
+      "code": "422",
+      "codeName": "LBP",
+      "description": "LEBANON-Lebanese Pound"
+    },
+    {
+      "code": "426",
+      "codeName": "LSL",
+      "description": "LESOTHO-Loti"
+    },
+    {
+      "code": "710",
+      "codeName": "ZAR",
+      "description": "LESOTHO-Rand"
+    },
+    {
+      "code": "430",
+      "codeName": "LRD",
+      "description": "LIBERIA-Liberian Dollar"
+    },
+    {
+      "code": "434",
+      "codeName": "LYD",
+      "description": "LIBYA-Libyan Dinar"
+    },
+    {
+      "code": "756",
+      "codeName": "CHF",
+      "description": "LIECHTENSTEIN-Swiss Franc"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "LITHUANIA-Euro"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "LUXEMBOURG-Euro"
+    },
+    {
+      "code": "446",
+      "codeName": "MOP",
+      "description": "MACAO-Pataca"
+    },
+    {
+      "code": "807",
+      "codeName": "MKD",
+      "description": "MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF)-Denar"
+    },
+    {
+      "code": "969",
+      "codeName": "MGA",
+      "description": "MADAGASCAR-Malagasy Ariary"
+    },
+    {
+      "code": "454",
+      "codeName": "MWK",
+      "description": "MALAWI-Malawi Kwacha"
+    },
+    {
+      "code": "458",
+      "codeName": "MYR",
+      "description": "MALAYSIA-Malaysian Ringgit"
+    },
+    {
+      "code": "462",
+      "codeName": "MVR",
+      "description": "MALDIVES-Rufiyaa"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "MALI-CFA Franc BCEAO"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "MALTA-Euro"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "MARSHALL ISLANDS (THE)-US Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "MARTINIQUE-Euro"
+    },
+    {
+      "code": "478",
+      "codeName": "MRO",
+      "description": "MAURITANIA-Ouguiya"
+    },
+    {
+      "code": "480",
+      "codeName": "MUR",
+      "description": "MAURITIUS-Mauritius Rupee"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "MAYOTTE-Euro"
+    },
+    {
+      "code": "965",
+      "codeName": "XUA",
+      "description": "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP-ADB Unit of Account"
+    },
+    {
+      "code": "484",
+      "codeName": "MXN",
+      "description": "MEXICO-Mexican Peso"
+    },
+    {
+      "code": "979",
+      "codeName": "MXV",
+      "description": "MEXICO-Mexican Unidad de Inversion (UDI)"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "MICRONESIA (FEDERATED STATES OF)-US Dollar"
+    },
+    {
+      "code": "498",
+      "codeName": "MDL",
+      "description": "MOLDOVA (THE REPUBLIC OF)-Moldovan Leu"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "MONACO-Euro"
+    },
+    {
+      "code": "496",
+      "codeName": "MNT",
+      "description": "MONGOLIA-Tugrik"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "MONTENEGRO-Euro"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "MONTSERRAT-East Caribbean Dollar"
+    },
+    {
+      "code": "504",
+      "codeName": "MAD",
+      "description": "MOROCCO-Moroccan Dirham"
+    },
+    {
+      "code": "943",
+      "codeName": "MZN",
+      "description": "MOZAMBIQUE-Mozambique Metical"
+    },
+    {
+      "code": "104",
+      "codeName": "MMK",
+      "description": "MYANMAR-Kyat"
+    },
+    {
+      "code": "516",
+      "codeName": "NAD",
+      "description": "NAMIBIA-Namibia Dollar"
+    },
+    {
+      "code": "710",
+      "codeName": "ZAR",
+      "description": "NAMIBIA-Rand"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "NAURU-Australian Dollar"
+    },
+    {
+      "code": "524",
+      "codeName": "NPR",
+      "description": "NEPAL-Nepalese Rupee"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "NETHERLANDS (THE)-Euro"
+    },
+    {
+      "code": "953",
+      "codeName": "XPF",
+      "description": "NEW CALEDONIA-CFP Franc"
+    },
+    {
+      "code": "554",
+      "codeName": "NZD",
+      "description": "NEW ZEALAND-New Zealand Dollar"
+    },
+    {
+      "code": "558",
+      "codeName": "NIO",
+      "description": "NICARAGUA-Cordoba Oro"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "NIGER (THE)-CFA Franc BCEAO"
+    },
+    {
+      "code": "566",
+      "codeName": "NGN",
+      "description": "NIGERIA-Naira"
+    },
+    {
+      "code": "554",
+      "codeName": "NZD",
+      "description": "NIUE-New Zealand Dollar"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "NORFOLK ISLAND-Australian Dollar"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "NORTHERN MARIANA ISLANDS (THE)-US Dollar"
+    },
+    {
+      "code": "578",
+      "codeName": "NOK",
+      "description": "NORWAY-Norwegian Krone"
+    },
+    {
+      "code": "512",
+      "codeName": "OMR",
+      "description": "OMAN-Rial Omani"
+    },
+    {
+      "code": "586",
+      "codeName": "PKR",
+      "description": "PAKISTAN-Pakistan Rupee"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "PALAU-US Dollar"
+    },
+    {
+      "code": "0",
+      "codeName": "_",
+      "description": "PALESTINE, STATE OF-No universal currency"
+    },
+    {
+      "code": "590",
+      "codeName": "PAB",
+      "description": "PANAMA-Balboa"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "PANAMA-US Dollar"
+    },
+    {
+      "code": "598",
+      "codeName": "PGK",
+      "description": "PAPUA NEW GUINEA-Kina"
+    },
+    {
+      "code": "600",
+      "codeName": "PYG",
+      "description": "PARAGUAY-Guarani"
+    },
+    {
+      "code": "604",
+      "codeName": "PEN",
+      "description": "PERU-Sol"
+    },
+    {
+      "code": "608",
+      "codeName": "PHP",
+      "description": "PHILIPPINES (THE)-Philippine Peso"
+    },
+    {
+      "code": "554",
+      "codeName": "NZD",
+      "description": "PITCAIRN-New Zealand Dollar"
+    },
+    {
+      "code": "985",
+      "codeName": "PLN",
+      "description": "POLAND-Zloty"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "PORTUGAL-Euro"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "PUERTO RICO-US Dollar"
+    },
+    {
+      "code": "634",
+      "codeName": "QAR",
+      "description": "QATAR-Qatari Rial"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "RÉUNION-Euro"
+    },
+    {
+      "code": "946",
+      "codeName": "RON",
+      "description": "ROMANIA-Romanian Leu"
+    },
+    {
+      "code": "643",
+      "codeName": "RUB",
+      "description": "RUSSIAN FEDERATION (THE)-Russian Ruble"
+    },
+    {
+      "code": "646",
+      "codeName": "RWF",
+      "description": "RWANDA-Rwanda Franc"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SAINT BARTHÉLEMY-Euro"
+    },
+    {
+      "code": "654",
+      "codeName": "SHP",
+      "description": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA-Saint Helena Pound"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "SAINT KITTS AND NEVIS-East Caribbean Dollar"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "SAINT LUCIA-East Caribbean Dollar"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SAINT MARTIN (FRENCH PART)-Euro"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SAINT PIERRE AND MIQUELON-Euro"
+    },
+    {
+      "code": "951",
+      "codeName": "XCD",
+      "description": "SAINT VINCENT AND THE GRENADINES-East Caribbean Dollar"
+    },
+    {
+      "code": "882",
+      "codeName": "WST",
+      "description": "SAMOA-Tala"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SAN MARINO-Euro"
+    },
+    {
+      "code": "678",
+      "codeName": "STD",
+      "description": "SAO TOME AND PRINCIPE-Dobra"
+    },
+    {
+      "code": "682",
+      "codeName": "SAR",
+      "description": "SAUDI ARABIA-Saudi Riyal"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "SENEGAL-CFA Franc BCEAO"
+    },
+    {
+      "code": "941",
+      "codeName": "RSD",
+      "description": "SERBIA-Serbian Dinar"
+    },
+    {
+      "code": "690",
+      "codeName": "SCR",
+      "description": "SEYCHELLES-Seychelles Rupee"
+    },
+    {
+      "code": "694",
+      "codeName": "SLL",
+      "description": "SIERRA LEONE-Leone"
+    },
+    {
+      "code": "702",
+      "codeName": "SGD",
+      "description": "SINGAPORE-Singapore Dollar"
+    },
+    {
+      "code": "532",
+      "codeName": "ANG",
+      "description": "SINT MAARTEN (DUTCH PART)-Netherlands Antillean Guilder"
+    },
+    {
+      "code": "994",
+      "codeName": "XSU",
+      "description": "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS 'SUCRE'-Sucre"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SLOVAKIA-Euro"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SLOVENIA-Euro"
+    },
+    {
+      "code": "090",
+      "codeName": "SBD",
+      "description": "SOLOMON ISLANDS-Solomon Islands Dollar"
+    },
+    {
+      "code": "706",
+      "codeName": "SOS",
+      "description": "SOMALIA-Somali Shilling"
+    },
+    {
+      "code": "710",
+      "codeName": "ZAR",
+      "description": "SOUTH AFRICA-Rand"
+    },
+    {
+      "code": "0",
+      "codeName": "_",
+      "description": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS-No universal currency"
+    },
+    {
+      "code": "728",
+      "codeName": "SSP",
+      "description": "SOUTH SUDAN-South Sudanese Pound"
+    },
+    {
+      "code": "978",
+      "codeName": "EUR",
+      "description": "SPAIN-Euro"
+    },
+    {
+      "code": "144",
+      "codeName": "LKR",
+      "description": "SRI LANKA-Sri Lanka Rupee"
+    },
+    {
+      "code": "938",
+      "codeName": "SDG",
+      "description": "SUDAN (THE)-Sudanese Pound"
+    },
+    {
+      "code": "968",
+      "codeName": "SRD",
+      "description": "SURINAME-Surinam Dollar"
+    },
+    {
+      "code": "578",
+      "codeName": "NOK",
+      "description": "SVALBARD AND JAN MAYEN-Norwegian Krone"
+    },
+    {
+      "code": "748",
+      "codeName": "SZL",
+      "description": "SWAZILAND-Lilangeni"
+    },
+    {
+      "code": "752",
+      "codeName": "SEK",
+      "description": "SWEDEN-Swedish Krona"
+    },
+    {
+      "code": "756",
+      "codeName": "CHF",
+      "description": "SWITZERLAND-Swiss Franc"
+    },
+    {
+      "code": "947",
+      "codeName": "CHE",
+      "description": "SWITZERLAND-WIR Euro"
+    },
+    {
+      "code": "948",
+      "codeName": "CHW",
+      "description": "SWITZERLAND-WIR Franc"
+    },
+    {
+      "code": "760",
+      "codeName": "SYP",
+      "description": "SYRIAN ARAB REPUBLIC-Syrian Pound"
+    },
+    {
+      "code": "901",
+      "codeName": "TWD",
+      "description": "TAIWAN (PROVINCE OF CHINA)-New Taiwan Dollar"
+    },
+    {
+      "code": "972",
+      "codeName": "TJS",
+      "description": "TAJIKISTAN-Somoni"
+    },
+    {
+      "code": "834",
+      "codeName": "TZS",
+      "description": "TANZANIA, UNITED REPUBLIC OF-Tanzanian Shilling"
+    },
+    {
+      "code": "764",
+      "codeName": "THB",
+      "description": "THAILAND-Baht"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "TIMOR-LESTE-US Dollar"
+    },
+    {
+      "code": "952",
+      "codeName": "XOF",
+      "description": "TOGO-CFA Franc BCEAO"
+    },
+    {
+      "code": "554",
+      "codeName": "NZD",
+      "description": "TOKELAU-New Zealand Dollar"
+    },
+    {
+      "code": "776",
+      "codeName": "TOP",
+      "description": "TONGA-Pa’anga"
+    },
+    {
+      "code": "780",
+      "codeName": "TTD",
+      "description": "TRINIDAD AND TOBAGO-Trinidad and Tobago Dollar"
+    },
+    {
+      "code": "788",
+      "codeName": "TND",
+      "description": "TUNISIA-Tunisian Dinar"
+    },
+    {
+      "code": "949",
+      "codeName": "TRY",
+      "description": "TURKEY-Turkish Lira"
+    },
+    {
+      "code": "934",
+      "codeName": "TMT",
+      "description": "TURKMENISTAN-Turkmenistan New Manat"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "TURKS AND CAICOS ISLANDS (THE)-US Dollar"
+    },
+    {
+      "code": "036",
+      "codeName": "AUD",
+      "description": "TUVALU-Australian Dollar"
+    },
+    {
+      "code": "800",
+      "codeName": "UGX",
+      "description": "UGANDA-Uganda Shilling"
+    },
+    {
+      "code": "980",
+      "codeName": "UAH",
+      "description": "UKRAINE-Hryvnia"
+    },
+    {
+      "code": "784",
+      "codeName": "AED",
+      "description": "UNITED ARAB EMIRATES (THE)-UAE Dirham"
+    },
+    {
+      "code": "826",
+      "codeName": "GBP",
+      "description": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)-Pound Sterling"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "UNITED STATES MINOR OUTLYING ISLANDS (THE)-US Dollar"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "UNITED STATES OF AMERICA (THE)-US Dollar"
+    },
+    {
+      "code": "997",
+      "codeName": "USN",
+      "description": "UNITED STATES OF AMERICA (THE)-US Dollar (Next day)"
+    },
+    {
+      "code": "858",
+      "codeName": "UYU",
+      "description": "URUGUAY-Peso Uruguayo"
+    },
+    {
+      "code": "940",
+      "codeName": "UYI",
+      "description": "URUGUAY-Uruguay Peso en Unidades Indexadas (URUIURUI)"
+    },
+    {
+      "code": "860",
+      "codeName": "UZS",
+      "description": "UZBEKISTAN-Uzbekistan Sum"
+    },
+    {
+      "code": "548",
+      "codeName": "VUV",
+      "description": "VANUATU-Vatu"
+    },
+    {
+      "code": "937",
+      "codeName": "VEF",
+      "description": "VENEZUELA (BOLIVARIAN REPUBLIC OF)-Bolívar"
+    },
+    {
+      "code": "704",
+      "codeName": "VND",
+      "description": "VIET NAM-Dong"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "VIRGIN ISLANDS (BRITISH)-US Dollar"
+    },
+    {
+      "code": "840",
+      "codeName": "USD",
+      "description": "VIRGIN ISLANDS (U.S.)-US Dollar"
+    },
+    {
+      "code": "953",
+      "codeName": "XPF",
+      "description": "WALLIS AND FUTUNA-CFP Franc"
+    },
+    {
+      "code": "504",
+      "codeName": "MAD",
+      "description": "WESTERN SAHARA-Moroccan Dirham"
+    },
+    {
+      "code": "886",
+      "codeName": "YER",
+      "description": "YEMEN-Yemeni Rial"
+    },
+    {
+      "code": "967",
+      "codeName": "ZMW",
+      "description": "ZAMBIA-Zambian Kwacha"
+    },
+    {
+      "code": "932",
+      "codeName": "ZWL",
+      "description": "ZIMBABWE-Zimbabwe Dollar"
+    },
+    {
+      "code": "955",
+      "codeName": "XBA",
+      "description": "ZZ01_Bond Markets Unit European_EURCO-Bond Markets Unit European Composite Unit (EURCO)"
+    },
+    {
+      "code": "956",
+      "codeName": "XBB",
+      "description": "ZZ02_Bond Markets Unit European_EMU-6-Bond Markets Unit European Monetary Unit (E.M.U.-6)"
+    },
+    {
+      "code": "957",
+      "codeName": "XBC",
+      "description": "ZZ03_Bond Markets Unit European_EUA-9-Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
+    },
+    {
+      "code": "958",
+      "codeName": "XBD",
+      "description": "ZZ04_Bond Markets Unit European_EUA-17-Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
+    },
+    {
+      "code": "963",
+      "codeName": "XTS",
+      "description": "ZZ06_Testing_Code-Codes specifically reserved for testing purposes"
+    },
+    {
+      "code": "999",
+      "codeName": "XXX",
+      "description": "ZZ07_No_Currency-The codes assigned for transactions where no currency is involved"
+    },
+    {
+      "code": "959",
+      "codeName": "XAU",
+      "description": "ZZ08_Gold-Gold"
+    },
+    {
+      "code": "964",
+      "codeName": "XPD",
+      "description": "ZZ09_Palladium-Palladium"
+    },
+    {
+      "code": "962",
+      "codeName": "XPT",
+      "description": "ZZ10_Platinum-Platinum"
+    },
+    {
+      "code": "961",
+      "codeName": "XAG",
+      "description": "ZZ11_Silver-Silver"
+    }
+  ]
+}
