@@ -34,3 +34,5 @@ codelist:
    - {code: "adiwg002", codeName: client, description: "agency or person requesting a project or data collection"}
    - {code: "adiwg003", codeName: logistics, description: "entity that provides logistics support"}
    - {code: "adiwg004", codeName: coPrincipalInvestigator, description: "party who is jointly responsible for gathering information and conducting research"}
+   - {code: "adiwg005", codeName: observer, description: "party who determines the identification of a species, mineral, or other sample"}
+   - {code: "adiwg006", codeName: curator, description: "party who serves as curator for specimens deposited in a repository"}

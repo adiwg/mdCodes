@@ -1,6 +1,9 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.3.3 2017-10-11 added associationType code 'isPartOf'
+# 2.3.2 2017-10-05 added spatialRepresentation code 'coordinate'
+# 2.3.1 2017-09-21 added role codes 'observer', 'curator'
 # 2.3.0 2017-08-01 added showDeprecated parameter to mdCodes methods
 # 2.3.0 2017-08-01 change to associationTypes: revised definitions, deprecated some codes
 # 2.2.0 2017-06-29 added adiwg namespace codelist
@@ -30,6 +33,6 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.3.0"
+      VERSION = "2.3.2"
    end
 end
