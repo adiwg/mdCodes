@@ -1,6 +1,8 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.4.0 2018-01-10 added adiwg mapGridSystem codelist
+# 2.4.0 2018-01-10 added adiwg mapProjection codelist
 # 2.3.3 2017-10-11 added associationType code 'isPartOf'
 # 2.3.2 2017-10-05 added spatialRepresentation code 'coordinate'
 # 2.3.1 2017-09-21 added role codes 'observer', 'curator'
@@ -33,6 +35,6 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.3.2"
+      VERSION = "2.4.0"
    end
 end

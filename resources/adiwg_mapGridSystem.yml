@@ -1,0 +1,16 @@
+---
+# mdJson codelists
+# base codelist for mdEditor
+
+codelistType: "staticList"
+codelistName: "adiwg_mapGridSystem"
+source: "Alaska Data Integration working group"
+sourceName: "ADIwg_MapGridSystem"
+extensible: true
+description: "map grid systems"
+codelist:
+  - {code: "utm", codeName: UTM, description: "Universal Transverse Mercator (UTM) grid system based on the transverse mercator projection, applied between latitudes 84 degrees north and 80 degrees south on the Earth's surface."}
+  - {code: "ups", codeName: UPS, description: "Universal Polar Stereographic (UPS) grid system based on the polar stereographic projection, applied to the Earth's polar regions north of 84 degrees north and south of 80 degrees south."}
+  - {code: "spcs", codeName: SPCS, description: "State Plane Coordinate System (SPCS), a plane-rectangular coordinate system established for each state in the United States by the National Geodetic Survey"}
+  - {code: "arcsys", codeName: ARC, description: "Equal Arc-second Coordinate System (ARC) grid system, a plane-rectangular coordinate system established in Department of Defense in 1990."}
+  - {code: "other", codeName: other, description: "other grid system"}
