@@ -1,7 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
-# 2.4.0 2018-01-10 added adiwg mapGridSystem codelist
+# 2.5.0 2018-03-28 added adiwg dataTypes codelist (ANSI and SQL data types)
 # 2.4.0 2018-01-10 added adiwg mapProjection codelist
 # 2.3.3 2017-10-11 added associationType code 'isPartOf'
 # 2.3.2 2017-10-05 added spatialRepresentation code 'coordinate'
@@ -18,6 +18,12 @@
 # 2.1.1 2016-12-18 change to European spelling 'polarisation'
 # 2.1.0 2016-11-27 added 10 MI codelists
 
+module ADIWG
+   module Mdcodes
+      VERSION = "2.5.0"
+   end
+end
+
 # version 1 history
 # 0.1.0 2014-11-05 first release
 # 0.1.1 2014-11-06 added factSheet to scope
@@ -32,9 +38,3 @@
 # 1.1.0 2015-07-28 added codelists for country, languages
 # 1.2.0 2015-09-18 change source of characterSet from ISO to IANA
 # 1.2.1 2015-09-28 bumped version number to match gem
-
-module ADIWG
-   module Mdcodes
-      VERSION = "2.4.0"
-   end
-end
