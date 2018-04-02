@@ -10,7 +10,7 @@ extensible: true
 description: "ANSI and SQL dataTypes"
 codelist:
   - {code: "char01", codeName: character, description: "fixed length character strings"}
-  - {code: "char03", codeName: character varying", description: "variable length character strings"}
+  - {code: "char03", codeName: character varying, description: "variable length character strings"}
   - {code: "char06", codeName: character large object, description: "character large object"}
   - {code: "nchar01", codeName: national character, description: "fixed length national character strings (2 byte unicode)"}
   - {code: "nchar04", codeName: national character varying, description: "variable length national character strings (2 byte unicode)"}
