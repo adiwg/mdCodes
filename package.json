@@ -24,7 +24,7 @@
     "grunt-yamllint": "^0.2.0"
   },
   "scripts": {
-    "prepublish": "scripts/prepublish.js"
+    "prepublishOnly": "scripts/prepublish.js"
   },
   "dependencies": {
     "buildify": "^0.4.0",
