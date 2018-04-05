@@ -1,6 +1,6 @@
 {
   "codelistType": "staticList",
-  "codelistName": "iso_dataType",
+  "codelistName": "iso_entityType",
   "source": "ISO",
   "sourceName": "MD_DatatypeCode",
   "extensible": true,
