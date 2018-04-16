@@ -4529,9 +4529,9 @@
       }
     ]
   },
-  "iso_entityType": {
+  "iso_entityClass": {
     "codelistType": "staticList",
-    "codelistName": "iso_entityType",
+    "codelistName": "iso_entityClass",
     "source": "ISO",
     "sourceName": "MD_DatatypeCode",
     "extensible": true,
