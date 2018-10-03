@@ -31,4 +31,3 @@ codelist:
   - {code: "stereographic", codeName: stereographic, description: "stereographic projection"}
   - {code: "transverseMercator", codeName: transverse Mercator, description: "transverse Mercator projection"}
   - {code: "grinten", codeName: Van Der Grinten, description: "van der Grinten projection"}
-  - {code: "local", codeName: local system, description: "local coordinate system"}
