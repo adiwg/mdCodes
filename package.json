@@ -19,17 +19,17 @@
   },
   "homepage": "https://github.com/adiwg/mdCodes",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-concat-json": "0.0.8",
+    "grunt": "^1.0.3",
+    "grunt-concat-json": "0.0.10",
     "grunt-convert": "^0.1.11",
-    "grunt-yamllint": "^0.2.0"
+    "grunt-yamllint": "^0.3.0"
   },
   "scripts": {
     "prepublishOnly": "scripts/prepublish.js"
   },
   "dependencies": {
     "buildify": "powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
-    "glob": "^6.0.1",
-    "rimraf": "^2.4.4"
+    "glob": "^7.1.0",
+    "rimraf": "^2.6.2"
   }
 }
