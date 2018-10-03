@@ -9551,11 +9551,6 @@
         "code": "grinten",
         "codeName": "Van Der Grinten",
         "description": "van der Grinten projection"
-      },
-      {
-        "code": "local",
-        "codeName": "local system",
-        "description": "local coordinate system"
       }
     ]
   },
@@ -9691,6 +9686,16 @@
         "code": "urn:uuid",
         "codeName": "UUID",
         "description": "Universally unique identifier"
+      },
+      {
+        "code": "org.adiwg.code.mapGridSystem",
+        "codeName": "mapGridSystem",
+        "description": "Name of the grid UTM, State Plane, or other grid system used by a spatial reference system."
+      },
+      {
+        "code": "org.adiwg.code.mapProjection",
+        "codeName": "mapProjection",
+        "description": "Name of the planar, grid, or local projection used by a spatial reference system."
       }
     ]
   }

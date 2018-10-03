@@ -115,11 +115,6 @@
       "code": "grinten",
       "codeName": "Van Der Grinten",
       "description": "van der Grinten projection"
-    },
-    {
-      "code": "local",
-      "codeName": "local system",
-      "description": "local coordinate system"
     }
   ]
 }
