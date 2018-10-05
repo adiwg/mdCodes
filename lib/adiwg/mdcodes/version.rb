@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.7.1 2018-10-06 added local projections to mapProjection
 # 2.6.2 2018-04-05 renamed iso_dataType to iso_entityType
 # 2.5.0 2018-03-28 added adiwg dataTypes codelist (ANSI and SQL data types)
 # 2.4.0 2018-01-10 added adiwg mapProjection codelist
@@ -21,7 +22,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.7.0"
+      VERSION = "2.7.1"
    end
 end
 
