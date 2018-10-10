@@ -57,6 +57,16 @@
       "description": "Mercator projection"
     },
     {
+      "code": "localPlanar",
+      "codeName": "local planar coordinate system",
+      "description": "any right-handed planar coordinate system with z-axis locally aligned with the surface of the earth"
+    },
+    {
+      "code": "localSystem",
+      "codeName": "Local coordinate system",
+      "description": "any right-handed planar coordinate system"
+    },
+    {
       "code": "miller",
       "codeName": "Miller",
       "description": "Miller cylindrical projection"
