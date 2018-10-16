@@ -24,6 +24,7 @@ codelist:
   - {code: "miller", codeName: Miller, description: "Miller cylindrical projection"}
   - {code: "obliqueMercator", codeName: oblique Mercator, description: "oblique Mercator projection"}
   - {code: "orthographic", codeName: orthographic, description: "orthographic projection"}
+  - {code: "other", codeName: other projection, description: "other projection definition"}
   - {code: "parameters", codeName: parameters, description: "projection parameter set"}
   - {code: "polarStereo", codeName: polar stereographic, description: "polar stereographic projection"}
   - {code: "polyconic", codeName: polyconic, description: "polyconic projection"}
