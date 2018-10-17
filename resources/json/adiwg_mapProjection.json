@@ -82,6 +82,11 @@
       "description": "orthographic projection"
     },
     {
+      "code": "other",
+      "codeName": "other projection",
+      "description": "other projection definition"
+    },
+    {
       "code": "parameters",
       "codeName": "parameters",
       "description": "projection parameter set"
