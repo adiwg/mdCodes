@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.7.2 2018-11-02 added 'methodology' to keywordType
 # 2.7.2 2018-10-15 added 'other' to mapProjection
 # 2.7.1 2018-10-06 added 'localPlanar' and 'localSystem' to mapProjection
 # 2.6.2 2018-04-05 renamed iso_dataType to iso_entityType
@@ -23,7 +24,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.7.2"
+      VERSION = "2.7.3"
    end
 end
 
