@@ -27,3 +27,4 @@ codelist:
    - {code: "015", codeName: taxon, description: "keyword identifies a taxonomy of the resource"}
    - {code: "adiwg001", codeName: region, description: "keyword identifies a known geographic region (such as US Census Area, ecoregion type, etc.)"}
    - {code: "adiwg002", codeName: isoTopicCategory, description: "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets"}
+   - {code: "adiwg003", codeName: methodology, description: "keyword or phrase that summarizes a field or laboratory methods used"}
