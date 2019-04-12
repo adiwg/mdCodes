@@ -1,6 +1,8 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.7.3 2019-04-12 fixed country source name 'CountryCode'
+# 2.7.3 2018-11-04 updated ruby version in travis.yml
 # 2.7.2 2018-11-02 added 'methodology' to keywordType
 # 2.7.2 2018-10-15 added 'other' to mapProjection
 # 2.7.1 2018-10-06 added 'localPlanar' and 'localSystem' to mapProjection
@@ -24,7 +26,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.7.3"
+      VERSION = "2.7.4"
    end
 end
 
