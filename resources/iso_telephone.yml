@@ -5,7 +5,7 @@
 codelistType: "staticList"
 codelistName: "iso_telephone"
 source: "ISO"
-sourceName: "MD_TelephoneTypeCode"
+sourceName: "CI_TelephoneTypeCode"
 extensible: true
 description: "type of telephone"
 codelist:

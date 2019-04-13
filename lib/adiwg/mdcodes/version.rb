@@ -1,7 +1,8 @@
 # adiwg mdCodes
 
 # version 2 history
-# 2.7.3 2019-04-12 fixed country source name 'CountryCode'
+# 2.7.4 2019-04-12 fixed iso_telephone changed sourceName to CI_TelephoneTypeCode
+# 2.7.4 2019-04-12 fixed iso_countries changed sourceName 'CountryCode'
 # 2.7.3 2018-11-04 updated ruby version in travis.yml
 # 2.7.2 2018-11-02 added 'methodology' to keywordType
 # 2.7.2 2018-10-15 added 'other' to mapProjection
