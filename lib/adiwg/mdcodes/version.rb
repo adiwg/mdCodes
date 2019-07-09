@@ -1,6 +1,7 @@
 # adiwg mdCodes
 
 # version 2 history
+# 2.7.6 2019-07-09 fixed iso_role changed use to user
 # 2.7.4 2019-04-12 fixed iso_telephone changed sourceName to CI_TelephoneTypeCode
 # 2.7.4 2019-04-12 fixed iso_countries changed sourceName 'CountryCode'
 # 2.7.3 2018-11-04 updated ruby version in travis.yml
@@ -27,7 +28,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.7.5"
+      VERSION = "2.7.6"
    end
 end
 
