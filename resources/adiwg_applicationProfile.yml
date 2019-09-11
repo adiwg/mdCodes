@@ -1,0 +1,20 @@
+---
+# mdJson codelists
+# base codelist for mdEditor
+
+codelistType:  "staticList"
+codelistName:  "adiwg_applicationProfile"
+source:        "Alaska Data Integration working group"
+sourceName:    "ADIwg_ApplicationProfile"
+extensible:    true
+description:   "application profiles that can be used with online resources"
+codelist:
+  - {code: "001", codeName: "http://opengis.net/spec/wms", description: OGC Web Map Service (WMS)}
+  - {code: "002", codeName: "http://opengis.net/spec/wfs", description: OGC Web Feature Service (WFS)}
+  - {code: "003", codeName: "http://opengis.net/spec/wcs", description: OGC Web Coverage Service (WCS)}
+  - {code: "004", codeName: "http://opengis.net/spec/wmts", description: OGC Web Map Tile Service (WMTS)}
+  - {code: "005", codeName: "http://opengis.net/spec/csw", description: OGC Catalog Service (CSW)}
+  - {code: "006", codeName: "http://opengis.net/spec/kml", description: OGC Keyhole Markup Language (KML)}
+  - {code: "007", codeName: "http://www.geoplatform.gov/spec/esri-map-rest", description: Esri REST Map Service}
+  - {code: "008", codeName: "http://www.geoplatform.gov/spec/esri-image-rest", description: Esri REST Image Service}
+  - {code: "009", codeName: "http://www.geoplatform.gov/spec/esri-feature-rest", description: Esri REST Feature Service}
