@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/adiwg/mdCodes",
   "devDependencies": {
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-concat-json": "0.0.10",
     "grunt-convert": "^0.1.11",
     "grunt-yamllint": "^0.3.0"
