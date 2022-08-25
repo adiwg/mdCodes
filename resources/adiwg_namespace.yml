@@ -18,5 +18,7 @@ codelist:
   - {code: "gov.sciencebase.catalog", codeName: scienceBase, description: "ScienceBase is a U.S. Geological Survey cataloging and collaborative data management platform."}
   - {code: "itis.gov", codeName: ITIS, description: "Integrated Taxonomic Information System"}
   - {code: "urn:uuid", codeName: UUID, description: "Universally unique identifier"}
+  - {code: "org.adiwg.code.ORCID", codeName: orcid, description: "Open Researcher and Contributor ID"}
+  - {code: "org.adiwg.code.ROR", codeName: ror, description: "Research Organization Registry ID"}
   - {code: "org.adiwg.code.mapGridSystem", codeName: mapGridSystem, description: "Name of the grid UTM, State Plane, or other grid system used by a spatial reference system."}
   - {code: "org.adiwg.code.mapProjection", codeName: mapProjection, description: "Name of the planar, grid, or local projection used by a spatial reference system."}
