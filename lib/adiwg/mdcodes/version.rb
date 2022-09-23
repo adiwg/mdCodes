@@ -28,7 +28,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.8.0"
+      VERSION = "2.8.2"
    end
 end
 
