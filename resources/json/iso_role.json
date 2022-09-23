@@ -1,0 +1,140 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_role",
+  "source": "ISO",
+  "sourceName": "CI_RoleCode",
+  "extensible": true,
+  "description": "function performed by the responsible party",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "resourceProvider",
+      "description": "party that supplies the resource"
+    },
+    {
+      "code": "002",
+      "codeName": "custodian",
+      "description": "party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource"
+    },
+    {
+      "code": "003",
+      "codeName": "owner",
+      "description": "party that owns the resource"
+    },
+    {
+      "code": "004",
+      "codeName": "user",
+      "description": "party that uses the resource"
+    },
+    {
+      "code": "005",
+      "codeName": "distributor",
+      "description": "party that distributes the resource"
+    },
+    {
+      "code": "006",
+      "codeName": "originator",
+      "description": "party that created the resource"
+    },
+    {
+      "code": "007",
+      "codeName": "pointOfContact",
+      "description": "party who can be contacted for acquiring knowledge about or acquisition of the resource"
+    },
+    {
+      "code": "008",
+      "codeName": "principalInvestigator",
+      "description": "key party responsible for gathering information and conducting research"
+    },
+    {
+      "code": "009",
+      "codeName": "processor",
+      "description": "party who has processed the data in a manner such that the resource has been modified"
+    },
+    {
+      "code": "010",
+      "codeName": "publisher",
+      "description": "party who published the resource"
+    },
+    {
+      "code": "011",
+      "codeName": "author",
+      "description": "party who authored the resource"
+    },
+    {
+      "code": "012",
+      "codeName": "sponsor",
+      "description": "party who speaks for the resource"
+    },
+    {
+      "code": "013",
+      "codeName": "coAuthor",
+      "description": "party who jointly authors the resource"
+    },
+    {
+      "code": "014",
+      "codeName": "collaborator",
+      "description": "party who assists with the generation of the resource other than the principal investigator"
+    },
+    {
+      "code": "015",
+      "codeName": "editor",
+      "description": "party who reviewed or modified the resource to improve the content"
+    },
+    {
+      "code": "016",
+      "codeName": "mediator",
+      "description": "a class of entity that mediates access to the resource and for whom the resource is intended or useful"
+    },
+    {
+      "code": "017",
+      "codeName": "rightsHolder",
+      "description": "party owning or managing rights over the resource"
+    },
+    {
+      "code": "018",
+      "codeName": "contributor",
+      "description": "party contributing to the resource"
+    },
+    {
+      "code": "019",
+      "codeName": "funder",
+      "description": "party providing monetary support for the resource"
+    },
+    {
+      "code": "020",
+      "codeName": "stakeholder",
+      "description": "party who has an interest in the resource or the use of the resource"
+    },
+    {
+      "code": "adiwg001",
+      "codeName": "administrator",
+      "description": "party who has administrative oversight for the resource"
+    },
+    {
+      "code": "adiwg002",
+      "codeName": "client",
+      "description": "agency or person requesting a project or data collection"
+    },
+    {
+      "code": "adiwg003",
+      "codeName": "logistics",
+      "description": "entity that provides logistics support"
+    },
+    {
+      "code": "adiwg004",
+      "codeName": "coPrincipalInvestigator",
+      "description": "party who is jointly responsible for gathering information and conducting research"
+    },
+    {
+      "code": "adiwg005",
+      "codeName": "observer",
+      "description": "party who determines the identification of a species, mineral, or other sample"
+    },
+    {
+      "code": "adiwg006",
+      "codeName": "curator",
+      "description": "party who serves as curator for specimens deposited in a repository"
+    }
+  ]
+}

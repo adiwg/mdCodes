@@ -1,0 +1,45 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_spatialRepresentation",
+  "source": "ISO",
+  "sourceName": "MD_SpatialRepresentationTypeCode",
+  "extensible": true,
+  "description": "method used to represent geographic information in the dataset",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "vector",
+      "description": "vector data is used to represent geographic data"
+    },
+    {
+      "code": "002",
+      "codeName": "grid",
+      "description": "grid data is used to represent geographic data"
+    },
+    {
+      "code": "003",
+      "codeName": "textTable",
+      "description": "textual or tabular data is used to represent geographic data"
+    },
+    {
+      "code": "004",
+      "codeName": "tin",
+      "description": "triangulated irregular network"
+    },
+    {
+      "code": "005",
+      "codeName": "stereoModel",
+      "description": "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"
+    },
+    {
+      "code": "006",
+      "codeName": "video",
+      "description": "scene from a video recording"
+    },
+    {
+      "code": "adiwg001",
+      "codeName": "coordinate",
+      "description": "data associated with coordinate pairs"
+    }
+  ]
+}
