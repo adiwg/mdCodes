@@ -7,7 +7,7 @@ codelistName: "iso_dataQualityElement"
 source: "ISO"
 sourceName: "dataQualityElement"
 extensible: true
-description: "Elements for describing data quality measures"
+description: "elements for describing data quality measures"
 codelist: 
   - {code: "000", codeName: DQ_AbsoluteExternalPositionalAccuracy, description: "closeness of reported coordinate values to values accepted as or being true"}
   - {code: "001", codeName: DQ_AccuracyOfATimeMeasurement, description: "correctness of the temporal references of an item (reporting of error in time measurement)"}

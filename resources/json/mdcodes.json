@@ -4280,7 +4280,7 @@
     "source": "ISO",
     "sourceName": "dataQualityElement",
     "extensible": true,
-    "description": "Elements for describing data quality measures",
+    "description": "elements for describing data quality measures",
     "codelist": [
       {
         "code": "000",
