@@ -4280,125 +4280,125 @@
     "source": "ISO",
     "sourceName": "dataQualityElement",
     "extensible": true,
-    "description": "elements for describing data quality measures",
+    "description": "ISO data quality elements",
     "codelist": [
       {
-        "code": "000",
+        "code": "001",
         "codeName": "DQ_AbsoluteExternalPositionalAccuracy",
         "description": "closeness of reported coordinate values to values accepted as or being true"
       },
       {
-        "code": "001",
+        "code": "002",
         "codeName": "DQ_AccuracyOfATimeMeasurement",
         "description": "correctness of the temporal references of an item (reporting of error in time measurement)"
       },
       {
-        "code": "002",
+        "code": "003",
         "codeName": "DQ_ConceptualConsistency",
         "description": "adherence to rules of the conceptual schema"
       },
       {
-        "code": "003",
+        "code": "004",
         "codeName": "DQ_CompletenessCommission",
         "description": "excess data present in the dataset, as described by the scope"
       },
       {
-        "code": "004",
+        "code": "005",
         "codeName": "DQ_CompletenessOmission",
         "description": "data absent from the dataset, as described by the scope"
       },
       {
-        "code": "005",
+        "code": "006",
         "codeName": "DQ_Confidence",
         "description": "trustworthiness of a data quality result"
       },
       {
-        "code": "006",
+        "code": "007",
         "codeName": "DQ_CoverageResult",
         "description": "result of a data quality measure organising the measured values as a coverage"
       },
       {
-        "code": "007",
+        "code": "008",
         "codeName": "DQ_DomainConsistency",
         "description": "adherence of values to the value domains"
       },
       {
-        "code": "008",
+        "code": "009",
         "codeName": "DQ_FormatConsistency",
         "description": "degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope"
       },
       {
-        "code": "009",
+        "code": "010",
         "codeName": "DQ_GriddedDataPositionalAccuracy",
         "description": "closeness of gridded data position values to values accepted as or being true"
       },
       {
-        "code": "010",
+        "code": "011",
         "codeName": "DQ_Homogeneity",
         "description": "expected or tested uniformity of the results obtained for a data quality evaluation"
       },
       {
-        "code": "011",
+        "code": "012",
         "codeName": "DQ_NonQuantitativeAttributeCorrectness",
         "description": "correctness of non-quantitative attributes"
       },
       {
-        "code": "012",
+        "code": "013",
         "codeName": "DQ_QuantitativeAttributeAccuracy",
         "description": "accuracy of quantitative attributes"
       },
       {
-        "code": "013",
+        "code": "014",
         "codeName": "DQ_RelativeInternalPositionalAccuracy",
         "description": "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true"
       },
       {
-        "code": "014",
+        "code": "015",
         "codeName": "DQ_Representativity",
         "description": "degree to which the sample used has produced a result which is representative of the data within the data quality scope"
       },
       {
-        "code": "015",
+        "code": "016",
         "codeName": "DQ_TemporalConsistency",
         "description": "correctness of ordered events or sequences, if reported"
       },
       {
-        "code": "016",
+        "code": "017",
         "codeName": "DQ_TemporalValidity",
         "description": "validity of data specified by the scope with respect to time"
       },
       {
-        "code": "017",
+        "code": "018",
         "codeName": "DQ_ThematicClassificationCorrectness",
         "description": "comparison of the classes assigned to features or their attributes to a universe of discourse"
       },
       {
-        "code": "018",
+        "code": "019",
         "codeName": "DQ_TopologicalConsistency",
         "description": "correctness of the explicitly encoded topological characteristics of the dataset as described by the scope"
       },
       {
-        "code": "019",
+        "code": "020",
         "codeName": "DQ_UsabilityElement",
         "description": "degree of adherence of a dataset to a specific set of requirements"
       },
       {
-        "code": "020",
+        "code": "021",
         "codeName": "DQ_Completeness",
         "description": "presence and absence of features, their attributes and their relationships"
       },
       {
-        "code": "021",
+        "code": "022",
         "codeName": "DQ_LogicalConsistency",
         "description": "adherence to rules of the conceptual schema"
       },
       {
-        "code": "022",
+        "code": "023",
         "codeName": "DQ_PositionalAccuracy",
         "description": "closeness of reported coordinate values to values accepted as or being true"
       },
       {
-        "code": "023",
+        "code": "024",
         "codeName": "DQ_TemporalQuality",
         "description": "correctness of the temporal references of an item (reporting of error in time measurement)"
       }
