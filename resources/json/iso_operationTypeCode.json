@@ -1,0 +1,25 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_operationTypeCode",
+  "source": "ISO",
+  "sourceName": "MI_OperationTypeCode",
+  "extensible": true,
+  "description": "code indicating whether the data contained in this packet is real (originates from live-fly or other non-simulated operational sources), simulated (originates from target simulator sources), or synthesized (a mix of real and simulated data).",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "instantaneousCollection",
+      "description": "originates from live-fly or other non-simulated operational source"
+    },
+    {
+      "code": "002",
+      "codeName": "persistentView",
+      "description": "originates from target simulator sources"
+    },
+    {
+      "code": "003",
+      "codeName": "survey",
+      "description": "mix of real and simulated data"
+    }
+  ]
+}

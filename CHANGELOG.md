@@ -1,7 +1,27 @@
 # Change Log
 
-## [v2.7.0](https://github.com/adiwg/mdCodes/tree/v2.7.0)
+## [v2.8.0](https://github.com/adiwg/mdCodes/tree/v2.8.0)
 
+[Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.7.5...v2.8.0)
+
+**Closed issues:**
+
+- Add applicationProfile [\#29](https://github.com/adiwg/mdCodes/issues/29)
+- Role "use" should be "user" [\#28](https://github.com/adiwg/mdCodes/issues/28)
+
+## [v2.7.5](https://github.com/adiwg/mdCodes/tree/v2.7.5) (2019-05-16)
+[Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.7.4...v2.7.5)
+
+## [v2.7.4](https://github.com/adiwg/mdCodes/tree/v2.7.4) (2019-05-16)
+[Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.7.2...v2.7.4)
+
+## [v2.7.2](https://github.com/adiwg/mdCodes/tree/v2.7.2) (2018-10-17)
+[Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.7.1...v2.7.2)
+
+## [v2.7.1](https://github.com/adiwg/mdCodes/tree/v2.7.1) (2018-10-10)
+[Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.7.0...v2.7.1)
+
+## [v2.7.0](https://github.com/adiwg/mdCodes/tree/v2.7.0) (2018-10-03)
 [Full Changelog](https://github.com/adiwg/mdCodes/compare/v2.6.3...v2.7.0)
 
 **Closed issues:**
