@@ -7,9 +7,13 @@ let buildify = require('buildify');
 let rimraf = require('rimraf');
 let path = 'resources/js';
 
-if (fs.statSync(path).isDirectory()) {
+console.log('Start Preprocess for npm publishing')
+
+if (fs.existsSync(path)) {
   rimraf.sync(path);
-  console.log('Removed existing resources/js files.');
+  console.log('Removed existing resources/js files');
+} else {
+  console.log('No existing resources/js files');
 }
 
 fs.mkdirSync(path);
