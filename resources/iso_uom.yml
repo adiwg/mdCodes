@@ -1,0 +1,17 @@
+---
+# mdJson codelists
+
+codelistType: "staticList"
+codelistName: "iso_uom"
+source: "ISO"
+sourceName: ""
+extensible: true
+description: ""
+codelist:
+  - { code: "001", codeName: metre, description: "m" }
+  - { code: "002", codeName: second, description: "s" }
+  - { code: "003", codeName: gram, description: "g" }
+  - { code: "004", codeName: coulomb, description: "C" }
+  - { code: "005", codeName: kelvin, description: "K" }
+  - { code: "006", codeName: candela, description: "cd" }
+  - { code: "007", codeName: radian, description: "rad" }
