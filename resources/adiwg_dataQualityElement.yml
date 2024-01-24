@@ -1,6 +1,5 @@
 ---
 # mdJson codelists
-# base codelist for ISO 19115-2, 19115-1
 
 codelistType: "staticList"
 codelistName: "adiwg_dataQualityElement"
