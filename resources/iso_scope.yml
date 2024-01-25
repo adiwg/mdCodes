@@ -33,7 +33,7 @@ codelist:
   - {
       code: "005",
       codeName: dataset,
-      description: "information applies to a dataset",
+      description: "information applies to the dataset",
     }
   - {
       code: "006",
