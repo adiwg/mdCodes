@@ -6,7 +6,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adiwg/mdCodes.git"
-    "url": "git+https://github.com/adiwg/mdCodes.git"
   },
   "keywords": [
     "metadata",
@@ -30,13 +29,8 @@
   },
   "dependencies": {
     "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
-    "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
     "glob": "^7.1.0",
     "rimraf": "^2.6.2"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
   },
   "directories": {
     "lib": "lib",

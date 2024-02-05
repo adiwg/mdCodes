@@ -2,7 +2,6 @@
 
 # version 2 history
 # 2.8.4 2023-03-06 added data quality
-# 2.8.4 2023-03-06 added data quality
 # 2.7.6 2019-07-09 fixed iso_role changed use to user
 # 2.7.4 2019-04-12 fixed iso_telephone changed sourceName to CI_TelephoneTypeCode
 # 2.7.4 2019-04-12 fixed iso_countries changed sourceName 'CountryCode'
