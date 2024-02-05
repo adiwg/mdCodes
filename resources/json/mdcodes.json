@@ -4749,6 +4749,31 @@
       }
     ]
   },
+  "iso_evaluationMethodTypeCode": {
+    "codelistType": "staticList",
+    "codelistName": "iso_evaluationMethodTypeCode",
+    "source": "ISO",
+    "sourceName": "DQ_EvaluationMethodTypeCode",
+    "extensible": true,
+    "description": "type of method for evaluating an identified data quality measure",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "directInternal",
+        "description": "method of evaluating the quality of a data set based on inspection of items within the data set, where all data required is internal to the data set being evaluated"
+      },
+      {
+        "code": "002",
+        "codeName": "directExternal",
+        "description": "method of evaluating the quality of a data set based on inspection of items within the data set, where reference data external to the data set being evaluated is required"
+      },
+      {
+        "code": "003",
+        "codeName": "indirect",
+        "description": "method of evaluating the quality of a data set based on external knowledge"
+      }
+    ]
+  },
   "iso_geometricObjectType": {
     "codelistType": "staticList",
     "codelistName": "iso_geometricObjectType",
@@ -8715,7 +8740,7 @@
       {
         "code": "005",
         "codeName": "dataset",
-        "description": "information applies to a geographic dataset"
+        "description": "information applies to the dataset"
       },
       {
         "code": "006",
@@ -9239,6 +9264,46 @@
       }
     ]
   },
+  "iso_valueStructure": {
+    "codelistType": "staticList",
+    "codelistName": "iso_valueStructure",
+    "source": "ISO",
+    "sourceName": "DQM_ValueStructure",
+    "extensible": true,
+    "description": "structure for reporting a complex data quality result",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "bag",
+        "description": "finite, unordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"
+      },
+      {
+        "code": "002",
+        "codeName": "set",
+        "description": "unordered collection of related items (objects or values) with no repetition (ISO 19107:2003)"
+      },
+      {
+        "code": "003",
+        "codeName": "sequence",
+        "description": "finite, ordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"
+      },
+      {
+        "code": "004",
+        "codeName": "table",
+        "description": "an arrangement of data in which each item may be identified by means of arguments or keys (ISO/IEC 2382-4:1999)"
+      },
+      {
+        "code": "005",
+        "codeName": "matrix",
+        "description": "rectangular array of numbers (ISO/TS 19129:2009)"
+      },
+      {
+        "code": "006",
+        "codeName": "coverage",
+        "description": "feature that acts as a function to return values from its range for any direct position within its spatial, temporal or spatiotemporal domain (ISO 19123:2005)"
+      }
+    ]
+  },
   "adiwg_addressType": {
     "codelistType": "staticList",
     "codelistName": "adiwg_addressType",
@@ -9311,6 +9376,136 @@
         "code": "009",
         "codeName": "http://www.geoplatform.gov/spec/esri-feature-rest",
         "description": "Esri REST Feature Service"
+      }
+    ]
+  },
+  "adiwg_dataQualityElement": {
+    "codelistType": "staticList",
+    "codelistName": "adiwg_dataQualityElement",
+    "source": "Alaska Data Integration working group",
+    "sourceName": "ADIwg_DataQualityElement",
+    "extensible": true,
+    "description": "ISO data quality element class names",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "DQ_AbsoluteExternalPositionalAccuracy",
+        "description": "closeness of reported coordinate values to values accepted as or being true"
+      },
+      {
+        "code": "002",
+        "codeName": "DQ_AccuracyOfATimeMeasurement",
+        "description": "correctness of the temporal references of an item (reporting of error in time measurement)"
+      },
+      {
+        "code": "003",
+        "codeName": "DQ_ConceptualConsistency",
+        "description": "adherence to rules of the conceptual schema"
+      },
+      {
+        "code": "004",
+        "codeName": "DQ_CompletenessCommission",
+        "description": "excess data present in the dataset, as described by the scope"
+      },
+      {
+        "code": "005",
+        "codeName": "DQ_CompletenessOmission",
+        "description": "data absent from the dataset, as described by the scope"
+      },
+      {
+        "code": "006",
+        "codeName": "DQ_Confidence",
+        "description": "trustworthiness of a data quality result"
+      },
+      {
+        "code": "007",
+        "codeName": "DQ_CoverageResult",
+        "description": "result of a data quality measure organising the measured values as a coverage"
+      },
+      {
+        "code": "008",
+        "codeName": "DQ_DomainConsistency",
+        "description": "adherence of values to the value domains"
+      },
+      {
+        "code": "009",
+        "codeName": "DQ_FormatConsistency",
+        "description": "degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope"
+      },
+      {
+        "code": "010",
+        "codeName": "DQ_GriddedDataPositionalAccuracy",
+        "description": "closeness of gridded data position values to values accepted as or being true"
+      },
+      {
+        "code": "011",
+        "codeName": "DQ_Homogeneity",
+        "description": "expected or tested uniformity of the results obtained for a data quality evaluation"
+      },
+      {
+        "code": "012",
+        "codeName": "DQ_NonQuantitativeAttributeCorrectness",
+        "description": "correctness of non-quantitative attributes"
+      },
+      {
+        "code": "013",
+        "codeName": "DQ_QuantitativeAttributeAccuracy",
+        "description": "accuracy of quantitative attributes"
+      },
+      {
+        "code": "014",
+        "codeName": "DQ_RelativeInternalPositionalAccuracy",
+        "description": "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true"
+      },
+      {
+        "code": "015",
+        "codeName": "DQ_Representativity",
+        "description": "degree to which the sample used has produced a result which is representative of the data within the data quality scope"
+      },
+      {
+        "code": "016",
+        "codeName": "DQ_TemporalConsistency",
+        "description": "correctness of ordered events or sequences, if reported"
+      },
+      {
+        "code": "017",
+        "codeName": "DQ_TemporalValidity",
+        "description": "validity of data specified by the scope with respect to time"
+      },
+      {
+        "code": "018",
+        "codeName": "DQ_ThematicClassificationCorrectness",
+        "description": "comparison of the classes assigned to features or their attributes to a universe of discourse"
+      },
+      {
+        "code": "019",
+        "codeName": "DQ_TopologicalConsistency",
+        "description": "correctness of the explicitly encoded topological characteristics of the dataset as described by the scope"
+      },
+      {
+        "code": "020",
+        "codeName": "DQ_UsabilityElement",
+        "description": "degree of adherence of a dataset to a specific set of requirements"
+      },
+      {
+        "code": "021",
+        "codeName": "DQ_Completeness",
+        "description": "presence and absence of features, their attributes and their relationships"
+      },
+      {
+        "code": "022",
+        "codeName": "DQ_LogicalConsistency",
+        "description": "adherence to rules of the conceptual schema"
+      },
+      {
+        "code": "023",
+        "codeName": "DQ_PositionalAccuracy",
+        "description": "closeness of reported coordinate values to values accepted as or being true"
+      },
+      {
+        "code": "024",
+        "codeName": "DQ_TemporalQuality",
+        "description": "correctness of the temporal references of an item (reporting of error in time measurement)"
       }
     ]
   },
@@ -9586,6 +9781,41 @@
         "code": "011",
         "codeName": "tribal",
         "description": "any organization of indigenous people"
+      }
+    ]
+  },
+  "adiwg_evaluationMethod": {
+    "codelistType": "staticList",
+    "codelistName": "adiwg_evaluationMethod",
+    "source": "Alaska Data Integration working group",
+    "sourceName": "ADIwg_EvaluationMethod",
+    "extensible": true,
+    "description": "the type of Evaluation Method",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "evaluationMethod",
+        "description": "type of method used to evaluate quality of the data"
+      },
+      {
+        "code": "002",
+        "codeName": "data",
+        "description": "data evaluation method"
+      },
+      {
+        "code": "003",
+        "codeName": "fullInspection",
+        "description": "full inspection"
+      },
+      {
+        "code": "004",
+        "codeName": "sampleBasedInspection",
+        "description": "sample based inspection"
+      },
+      {
+        "code": "005",
+        "codeName": "aggregationDerivation",
+        "description": "aggregation or derivation method"
       }
     ]
   },
@@ -9916,6 +10146,241 @@
         "code": "org.adiwg.code.mapProjection",
         "codeName": "mapProjection",
         "description": "Name of the planar, grid, or local projection used by a spatial reference system."
+      }
+    ]
+  },
+  "adiwg_unitsOfMeasure": {
+    "codelistType": "staticList",
+    "codelistName": "adiwg_unitsOfMeasure",
+    "source": "Alaska Data Integration working group",
+    "sourceName": "ADIwg_UnitsOfMeasure",
+    "extensible": true,
+    "description": "units of measure",
+    "codelist": [
+      {
+        "code": "001",
+        "codeName": "metres",
+        "description": "m"
+      },
+      {
+        "code": "002",
+        "codeName": "millimetres",
+        "description": "mm"
+      },
+      {
+        "code": "003",
+        "codeName": "centimetres",
+        "description": "cm"
+      },
+      {
+        "code": "004",
+        "codeName": "kilometres",
+        "description": "km"
+      },
+      {
+        "code": "005",
+        "codeName": "inches",
+        "description": "in"
+      },
+      {
+        "code": "006",
+        "codeName": "feet",
+        "description": "ft"
+      },
+      {
+        "code": "007",
+        "codeName": "yards",
+        "description": "yd"
+      },
+      {
+        "code": "008",
+        "codeName": "miles",
+        "description": "mi"
+      },
+      {
+        "code": "009",
+        "codeName": "kilometresPerHour",
+        "description": "km/h"
+      },
+      {
+        "code": "010",
+        "codeName": "milesPerHour",
+        "description": "mph"
+      },
+      {
+        "code": "011",
+        "codeName": "metresPerSecond",
+        "description": "m/s"
+      },
+      {
+        "code": "012",
+        "codeName": "feetPerSecond",
+        "description": "ft/s"
+      },
+      {
+        "code": "013",
+        "codeName": "metresPerSecondSquared",
+        "description": "m/s²"
+      },
+      {
+        "code": "014",
+        "codeName": "seconds",
+        "description": "s"
+      },
+      {
+        "code": "015",
+        "codeName": "degCelsius",
+        "description": "°C"
+      },
+      {
+        "code": "016",
+        "codeName": "degFahrenheit",
+        "description": "°F"
+      },
+      {
+        "code": "017",
+        "codeName": "kelvin",
+        "description": "K"
+      },
+      {
+        "code": "018",
+        "codeName": "candela",
+        "description": "cd"
+      },
+      {
+        "code": "019",
+        "codeName": "radian",
+        "description": "rad"
+      },
+      {
+        "code": "020",
+        "codeName": "steradian",
+        "description": "sr"
+      },
+      {
+        "code": "021",
+        "codeName": "hertz",
+        "description": "Hz"
+      },
+      {
+        "code": "022",
+        "codeName": "newton",
+        "description": "N"
+      },
+      {
+        "code": "023",
+        "codeName": "pascal",
+        "description": "Pa"
+      },
+      {
+        "code": "024",
+        "codeName": "joule",
+        "description": "J"
+      },
+      {
+        "code": "025",
+        "codeName": "watt",
+        "description": "W"
+      },
+      {
+        "code": "026",
+        "codeName": "ampere",
+        "description": "A"
+      },
+      {
+        "code": "027",
+        "codeName": "volt",
+        "description": "V"
+      },
+      {
+        "code": "028",
+        "codeName": "farad",
+        "description": "F"
+      },
+      {
+        "code": "029",
+        "codeName": "ohm",
+        "description": "Ω"
+      },
+      {
+        "code": "030",
+        "codeName": "siemens",
+        "description": "S"
+      },
+      {
+        "code": "031",
+        "codeName": "weber",
+        "description": "Wb"
+      },
+      {
+        "code": "032",
+        "codeName": "tesla",
+        "description": "T"
+      },
+      {
+        "code": "033",
+        "codeName": "henry",
+        "description": "H"
+      },
+      {
+        "code": "034",
+        "codeName": "lumen",
+        "description": "lm"
+      },
+      {
+        "code": "035",
+        "codeName": "squareInches",
+        "description": "in²"
+      },
+      {
+        "code": "036",
+        "codeName": "squareFeet",
+        "description": "ft²"
+      },
+      {
+        "code": "037",
+        "codeName": "squareMiles",
+        "description": "mi²"
+      },
+      {
+        "code": "038",
+        "codeName": "squareMetres",
+        "description": "m²"
+      },
+      {
+        "code": "039",
+        "codeName": "hectares",
+        "description": "ha"
+      },
+      {
+        "code": "040",
+        "codeName": "acres",
+        "description": "ac"
+      },
+      {
+        "code": "041",
+        "codeName": "cubicInches",
+        "description": "in³"
+      },
+      {
+        "code": "042",
+        "codeName": "cubicFeet",
+        "description": "ft³"
+      },
+      {
+        "code": "043",
+        "codeName": "cubicMetres",
+        "description": "m³"
+      },
+      {
+        "code": "044",
+        "codeName": "grams",
+        "description": "g"
+      },
+      {
+        "code": "045",
+        "codeName": "coulombs",
+        "description": "C"
       }
     ]
   }

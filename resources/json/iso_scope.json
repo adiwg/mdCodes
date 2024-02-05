@@ -29,7 +29,7 @@
     {
       "code": "005",
       "codeName": "dataset",
-      "description": "information applies to a geographic dataset"
+      "description": "information applies to the dataset"
     },
     {
       "code": "006",
