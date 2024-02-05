@@ -1,6 +1,6 @@
 {
   "name": "mdcodes",
-  "version": "2.8.4",
+  "version": "2.9.0",
   "main": "index.js",
   "description": "CodeLists for ADIwg mdJSON",
   "repository": {
