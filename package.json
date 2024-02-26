@@ -25,7 +25,8 @@
     "grunt-yamllint": "^0.3.0"
   },
   "scripts": {
-    "prepublishOnly": "scripts/prepublish.js"
+    "prepublishOnly": "scripts/prepublish.js",
+    "build": "npm i --force && grunt convert && grunt concat-json && npm run prepublishOnly"
   },
   "dependencies": {
     "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
