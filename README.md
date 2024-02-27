@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/adiwg/mdCodes.svg)](https://travis-ci.org/adiwg/mdCodes)
 [![Gem Version](https://badge.fury.io/rb/adiwg-mdcodes.svg)](http://badge.fury.io/rb/adiwg-mdcodes)
-[![Bower version](https://badge.fury.io/bo/mdcodes.svg)](https://badge.fury.io/bo/mdcodes)
 [![npm version](https://badge.fury.io/js/mdcodes.svg)](https://badge.fury.io/js/mdcodes)
 
 # mdCodes
@@ -9,12 +7,8 @@ mdCodes provides code lists in hash or JSON formats for loading of mdEditor and 
 tools that use the ADIwg [mdJson-schemas](https://github.com/adiwg/mdJson-schemas).  The code lists
 include all ISO 19115-2 and ISO 19115-1 codes plus supplemental codes added by NGDC and ADIwg. The
 code lists may be accessed in Ruby using the gem. Alternatively, JSON may be generated from the YAML
-using [Grunt](http://gruntjs.com/getting-started). Bower and NPM packages are available as well.
+using [Grunt](http://gruntjs.com/getting-started). NPM package is available as well.
 See the following for instructions.
-
-## Bower
-
-    bower install mdcodes
 
 ## npm
 

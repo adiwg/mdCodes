@@ -1,0 +1,235 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "adiwg_unitsOfMeasure",
+  "source": "Alaska Data Integration working group",
+  "sourceName": "ADIwg_UnitsOfMeasure",
+  "extensible": true,
+  "description": "units of measure",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "metres",
+      "description": "m"
+    },
+    {
+      "code": "002",
+      "codeName": "millimetres",
+      "description": "mm"
+    },
+    {
+      "code": "003",
+      "codeName": "centimetres",
+      "description": "cm"
+    },
+    {
+      "code": "004",
+      "codeName": "kilometres",
+      "description": "km"
+    },
+    {
+      "code": "005",
+      "codeName": "inches",
+      "description": "in"
+    },
+    {
+      "code": "006",
+      "codeName": "feet",
+      "description": "ft"
+    },
+    {
+      "code": "007",
+      "codeName": "yards",
+      "description": "yd"
+    },
+    {
+      "code": "008",
+      "codeName": "miles",
+      "description": "mi"
+    },
+    {
+      "code": "009",
+      "codeName": "kilometresPerHour",
+      "description": "km/h"
+    },
+    {
+      "code": "010",
+      "codeName": "milesPerHour",
+      "description": "mph"
+    },
+    {
+      "code": "011",
+      "codeName": "metresPerSecond",
+      "description": "m/s"
+    },
+    {
+      "code": "012",
+      "codeName": "feetPerSecond",
+      "description": "ft/s"
+    },
+    {
+      "code": "013",
+      "codeName": "metresPerSecondSquared",
+      "description": "m/s²"
+    },
+    {
+      "code": "014",
+      "codeName": "seconds",
+      "description": "s"
+    },
+    {
+      "code": "015",
+      "codeName": "degCelsius",
+      "description": "°C"
+    },
+    {
+      "code": "016",
+      "codeName": "degFahrenheit",
+      "description": "°F"
+    },
+    {
+      "code": "017",
+      "codeName": "kelvin",
+      "description": "K"
+    },
+    {
+      "code": "018",
+      "codeName": "candela",
+      "description": "cd"
+    },
+    {
+      "code": "019",
+      "codeName": "radian",
+      "description": "rad"
+    },
+    {
+      "code": "020",
+      "codeName": "steradian",
+      "description": "sr"
+    },
+    {
+      "code": "021",
+      "codeName": "hertz",
+      "description": "Hz"
+    },
+    {
+      "code": "022",
+      "codeName": "newton",
+      "description": "N"
+    },
+    {
+      "code": "023",
+      "codeName": "pascal",
+      "description": "Pa"
+    },
+    {
+      "code": "024",
+      "codeName": "joule",
+      "description": "J"
+    },
+    {
+      "code": "025",
+      "codeName": "watt",
+      "description": "W"
+    },
+    {
+      "code": "026",
+      "codeName": "ampere",
+      "description": "A"
+    },
+    {
+      "code": "027",
+      "codeName": "volt",
+      "description": "V"
+    },
+    {
+      "code": "028",
+      "codeName": "farad",
+      "description": "F"
+    },
+    {
+      "code": "029",
+      "codeName": "ohm",
+      "description": "Ω"
+    },
+    {
+      "code": "030",
+      "codeName": "siemens",
+      "description": "S"
+    },
+    {
+      "code": "031",
+      "codeName": "weber",
+      "description": "Wb"
+    },
+    {
+      "code": "032",
+      "codeName": "tesla",
+      "description": "T"
+    },
+    {
+      "code": "033",
+      "codeName": "henry",
+      "description": "H"
+    },
+    {
+      "code": "034",
+      "codeName": "lumen",
+      "description": "lm"
+    },
+    {
+      "code": "035",
+      "codeName": "squareInches",
+      "description": "in²"
+    },
+    {
+      "code": "036",
+      "codeName": "squareFeet",
+      "description": "ft²"
+    },
+    {
+      "code": "037",
+      "codeName": "squareMiles",
+      "description": "mi²"
+    },
+    {
+      "code": "038",
+      "codeName": "squareMetres",
+      "description": "m²"
+    },
+    {
+      "code": "039",
+      "codeName": "hectares",
+      "description": "ha"
+    },
+    {
+      "code": "040",
+      "codeName": "acres",
+      "description": "ac"
+    },
+    {
+      "code": "041",
+      "codeName": "cubicInches",
+      "description": "in³"
+    },
+    {
+      "code": "042",
+      "codeName": "cubicFeet",
+      "description": "ft³"
+    },
+    {
+      "code": "043",
+      "codeName": "cubicMetres",
+      "description": "m³"
+    },
+    {
+      "code": "044",
+      "codeName": "grams",
+      "description": "g"
+    },
+    {
+      "code": "045",
+      "codeName": "coulombs",
+      "description": "C"
+    }
+  ]
+}
