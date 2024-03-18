@@ -73,56 +73,61 @@
     },
     {
       "code": "014",
+      "codeName": "NonQuantitativeAttributeAccuracy",
+      "description": "accuracy of non-quantitative attributes"
+    },
+    {
+      "code": "015",
       "codeName": "RelativeInternalPositionalAccuracy",
       "description": "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true"
     },
     {
-      "code": "015",
+      "code": "016",
       "codeName": "Representativity",
       "description": "degree to which the sample used has produced a result which is representative of the data within the data quality scope"
     },
     {
-      "code": "016",
+      "code": "017",
       "codeName": "TemporalConsistency",
       "description": "correctness of ordered events or sequences, if reported"
     },
     {
-      "code": "017",
+      "code": "018",
       "codeName": "TemporalValidity",
       "description": "validity of data specified by the scope with respect to time"
     },
     {
-      "code": "018",
+      "code": "019",
       "codeName": "ThematicClassificationCorrectness",
       "description": "comparison of the classes assigned to features or their attributes to a universe of discourse"
     },
     {
-      "code": "019",
+      "code": "020",
       "codeName": "TopologicalConsistency",
       "description": "correctness of the explicitly encoded topological characteristics of the dataset as described by the scope"
     },
     {
-      "code": "020",
+      "code": "021",
       "codeName": "UsabilityElement",
       "description": "degree of adherence of a dataset to a specific set of requirements"
     },
     {
-      "code": "021",
+      "code": "022",
       "codeName": "Completeness",
       "description": "presence and absence of features, their attributes and their relationships"
     },
     {
-      "code": "022",
+      "code": "023",
       "codeName": "LogicalConsistency",
       "description": "adherence to rules of the conceptual schema"
     },
     {
-      "code": "023",
+      "code": "024",
       "codeName": "PositionalAccuracy",
       "description": "closeness of reported coordinate values to values accepted as or being true"
     },
     {
-      "code": "024",
+      "code": "025",
       "codeName": "TemporalQuality",
       "description": "correctness of the temporal references of an item (reporting of error in time measurement)"
     }
