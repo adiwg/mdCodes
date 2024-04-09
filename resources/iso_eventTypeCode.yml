@@ -3,9 +3,9 @@
 # base codelist for ISO 19115-2, 19115-1
 
 codelistType: "staticList"
-codelistName: "iso_operationTypeCode"
+codelistName: "iso_eventTypeCode"
 source: "ISO"
-sourceName: "MI_OperationTypeCode"
+sourceName: "MI_EventTypeCode"
 extensible: true
 description: "code indicating whether the data contained in this packet is real (originates from live-fly or other non-simulated operational sources), simulated (originates from target simulator sources), or synthesized (a mix of real and simulated data)."
 codelist:
