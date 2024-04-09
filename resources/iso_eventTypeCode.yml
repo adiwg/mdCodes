@@ -1,0 +1,25 @@
+---
+# mdJson codelists
+# base codelist for ISO 19115-2, 19115-1
+
+codelistType: "staticList"
+codelistName: "iso_operationTypeCode"
+source: "ISO"
+sourceName: "MI_OperationTypeCode"
+extensible: true
+description: "code indicating whether the data contained in this packet is real (originates from live-fly or other non-simulated operational sources), simulated (originates from target simulator sources), or synthesized (a mix of real and simulated data)."
+codelist:
+  - {code: "announcement", codeName: "announcement", description: "announcement about future events relevant to the platform/instrument/sensor"}
+  - {code: "calibration", codeName: "calibration", description: "calibration event for the platform/instrument/sensor"}
+  - {code: "calibrationCoefficientUpdate", codeName: "calibrationCoefficientUpdate", description: "update of calibration information for the platform/instrument/sensor"}
+  - {code: "dataLoss", codeName: "dataLoss", description: "event related to data loss"}
+  - {code: "fatal", codeName: "fatal", description: "event that renders the platform/instrument/sensor unusable"}
+  - {code: "manoeuvre", codeName: "manoeuvre", description: "event related to a manoeuvre of the platform/instrument/sensor"}
+  - {code: "missingData", codeName: "missingData", description: "event related to missing data from the platform/instrument/sensor"}
+  - {code: "notice", codeName: "notice", description: "notice about events related to the platform/instrument/sensor"}
+  - {code: "prelaunch", codeName: "prelaunch", description: "event related to prelaunch period for the platform/instrument/sensor"}
+  - {code: "severe", codeName: "severe", description: "event with significant impact on the performance of the platform/instrument/sensor"}
+  - {code: "switchOff", codeName: "switchOff", description: "event related to switching off platform/instrument/sensor"}
+  - {code: "switchOn", codeName: "switchOn", description: "event related to switching on platform/instrument/sensor"}
+  - {code: "clean", codeName: "clean", description: "event related to cleaning the platform/instrument/sensor"}
+
