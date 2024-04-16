@@ -12,4 +12,4 @@ codelist:
   - {code: "001", codeName: point, description: "single geographic point of interest"}
   - {code: "002", codeName: linear, description: "extended collection in a single vector"}
   - {code: "003", codeName: areal, description: "collection of a geographic area defined by a polygon (coverage)"}
-  - {code: "004", codeName: stripe, description: "series of linear collections grouped by way points"}
+  - {code: "004", codeName: strip, description: "series of linear collections grouped by way points"}
