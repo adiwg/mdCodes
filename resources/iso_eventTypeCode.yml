@@ -7,7 +7,7 @@ codelistName: "iso_eventTypeCode"
 source: "ISO"
 sourceName: "MI_EventTypeCode"
 extensible: true
-description: "code indicating whether the data contained in this packet is real (originates from live-fly or other non-simulated operational sources), simulated (originates from target simulator sources), or synthesized (a mix of real and simulated data)."
+description: "type of event related to platform/instrument/sensor"
 codelist:
   - {code: "001", codeName: "announcement", description: "announcement about future events relevant to the platform/instrument/sensor"}
   - {code: "002", codeName: "calibration", description: "calibration event for the platform/instrument/sensor"}
