@@ -11,8 +11,8 @@ codelist:
   - { code: "001", codeName: AbsolutePositionalAccuracy, description: "closeness of reported coordinate values to values accepted as or being true" }
   - { code: "002", codeName: AccuracyOfATimeMeasurement, description: "correctness of the temporal references of an item (reporting of error in time measurement)" }
   - { code: "003", codeName: ConceptualConsistency, description: "adherence to rules of the conceptual schema" }
-  - { code: "004", codeName: CompletenessCommission, description: "excess data present in the dataset, as described by the scope" }
-  - { code: "005", codeName: CompletenessOmission, description: "data absent from the dataset, as described by the scope" }
+  - { code: "004", codeName: Commission, description: "excess data present in the dataset, as described by the scope" }
+  - { code: "005", codeName: Omission, description: "data absent from the dataset, as described by the scope" }
   - { code: "006", codeName: DomainConsistency, description: "adherence of values to the value domains" }
   - { code: "007", codeName: FormatConsistency, description: "degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope" }
   - { code: "008", codeName: GriddedDataPositionalAccuracy, description: "closeness of gridded data position values to values accepted as or being true" }
