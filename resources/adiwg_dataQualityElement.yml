@@ -16,11 +16,10 @@ codelist:
   - { code: "006", codeName: DomainConsistency, description: "adherence of values to the value domains" }
   - { code: "007", codeName: FormatConsistency, description: "degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope" }
   - { code: "008", codeName: GriddedDataPositionalAccuracy, description: "closeness of gridded data position values to values accepted as or being true" }
-  - { code: "009", codeName: Homogeneity, description: "expected or tested uniformity of the results obtained for a data quality evaluation" }
-  - { code: "010", codeName: NonQuantitativeAttributeCorrectness, description: "correctness of non-quantitative attributes" }
-  - { code: "011", codeName: QuantitativeAttributeAccuracy, description: "accuracy of quantitative attributes" }
-  - { code: "012", codeName: RelativePositionalAccuracy, description: "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true" }
-  - { code: "013", codeName: TemporalConsistency, description: "correctness of ordered events or sequences, if reported" }
-  - { code: "014", codeName: TemporalValidity, description: "validity of data specified by the scope with respect to time" }
-  - { code: "015", codeName: ThematicClassificationCorrectness, description: "comparison of the classes assigned to features or their attributes to a universe of discourse" }
-  - { code: "016", codeName: TopologicalConsistency, description: "correctness of the explicitly encoded topological characteristics of the dataset as described by the scope" }
+  - { code: "009", codeName: NonQuantitativeAttributeCorrectness, description: "correctness of non-quantitative attributes" }
+  - { code: "010", codeName: QuantitativeAttributeAccuracy, description: "accuracy of quantitative attributes" }
+  - { code: "011", codeName: RelativePositionalAccuracy, description: "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true" }
+  - { code: "012", codeName: TemporalConsistency, description: "correctness of ordered events or sequences, if reported" }
+  - { code: "013", codeName: TemporalValidity, description: "validity of data specified by the scope with respect to time" }
+  - { code: "014", codeName: ThematicClassificationCorrectness, description: "comparison of the classes assigned to features or their attributes to a universe of discourse" }
+  - { code: "015", codeName: TopologicalConsistency, description: "correctness of the explicitly encoded topological characteristics of the dataset as described by the scope" }
