@@ -8,8 +8,8 @@ sourceName: "ADIwg_DataQualityElement"
 extensible: true
 description: "ISO data quality element class names"
 codelist:
-  - { code: "001", codeName: AbsolutePositionalAccuracy, description: "closeness of reported coordinate values to values accepted as or being true" }
-  - { code: "002", codeName: RelativePositionalAccuracy, description: "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true" }
+  - { code: "001", codeName: AbsoluteExternalPositionalAccuracy, description: "closeness of reported coordinate values to values accepted as or being true" }
+  - { code: "002", codeName: RelativeInternalPositionalAccuracy, description: "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true" }
   - { code: "003", codeName: GriddedDataPositionalAccuracy, description: "closeness of gridded data position values to values accepted as or being true" }
   - { code: "004", codeName: ConceptualConsistency, description: "adherence to rules of the conceptual schema" }
   - { code: "005", codeName: DomainConsistency, description: "adherence of values to the value domains" }
@@ -21,5 +21,5 @@ codelist:
   - { code: "011", codeName: AccuracyOfATimeMeasurement, description: "correctness of the temporal references of an item (reporting of error in time measurement)" }
   - { code: "012", codeName: TemporalValidity, description: "validity of data specified by the scope with respect to time" }
   - { code: "013", codeName: TemporalConsistency, description: "correctness of ordered events or sequences, if reported" }
-  - { code: "014", codeName: Commission, description: "excess data present in the dataset, as described by the scope" }
-  - { code: "015", codeName: Omission, description: "data absent from the dataset, as described by the scope" }
+  - { code: "014", codeName: CompletenessCommission, description: "excess data present in the dataset, as described by the scope" }
+  - { code: "015", codeName: CompletenessOmission, description: "data absent from the dataset, as described by the scope" }
