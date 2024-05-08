@@ -8,12 +8,12 @@
   "codelist": [
     {
       "code": "001",
-      "codeName": "AbsolutePositionalAccuracy",
+      "codeName": "AbsoluteExternalPositionalAccuracy",
       "description": "closeness of reported coordinate values to values accepted as or being true"
     },
     {
       "code": "002",
-      "codeName": "RelativePositionalAccuracy",
+      "codeName": "RelativeInternalPositionalAccuracy",
       "description": "closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true"
     },
     {
@@ -73,12 +73,12 @@
     },
     {
       "code": "014",
-      "codeName": "Commission",
+      "codeName": "CompletenessCommission",
       "description": "excess data present in the dataset, as described by the scope"
     },
     {
       "code": "015",
-      "codeName": "Omission",
+      "codeName": "CompletenessOmission",
       "description": "data absent from the dataset, as described by the scope"
     }
   ]

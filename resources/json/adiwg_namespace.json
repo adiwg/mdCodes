@@ -75,6 +75,16 @@
       "code": "org.adiwg.code.mapProjection",
       "codeName": "mapProjection",
       "description": "Name of the planar, grid, or local projection used by a spatial reference system."
+    },
+    {
+      "code": "org.adiwg.code.bureauCode",
+      "codeName": "bureauCode",
+      "description": "DCAT-US combined federal agency and bureau code from OMB Circular A-11."
+    },
+    {
+      "code": "org.adiwg.code.programCode",
+      "codeName": "programCode",
+      "description": "DCAT-US Federal Program Inventory program code."
     }
   ]
 }
