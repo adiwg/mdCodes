@@ -30,7 +30,7 @@
 
 module ADIWG
    module Mdcodes
-      VERSION = "2.9.4-beta.0"
+      VERSION = "2.9.4-beta.1"
    end
 end
 
