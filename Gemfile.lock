@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    adiwg-mdcodes (2.9.3)
+      json (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.7.1)
+    minitest (5.22.2)
+    rake (11.3.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  adiwg-mdcodes!
+  bundler (~> 2)
+  minitest (~> 5)
+  rake (~> 11)
+
+BUNDLED WITH
+   2.4.21
