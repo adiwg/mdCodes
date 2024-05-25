@@ -8,17 +8,17 @@
   "codelist": [
     {
       "code": "001",
-      "codeName": "instantaneousCollection",
+      "codeName": "real",
       "description": "originates from live-fly or other non-simulated operational source"
     },
     {
       "code": "002",
-      "codeName": "persistentView",
+      "codeName": "simulated",
       "description": "originates from target simulator sources"
     },
     {
       "code": "003",
-      "codeName": "survey",
+      "codeName": "synthetic",
       "description": "mix of real and simulated data"
     }
   ]

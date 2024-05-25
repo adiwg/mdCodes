@@ -23,7 +23,7 @@
     },
     {
       "code": "004",
-      "codeName": "stripe",
+      "codeName": "strip",
       "description": "series of linear collections grouped by way points"
     }
   ]

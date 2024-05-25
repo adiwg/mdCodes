@@ -1,0 +1,25 @@
+{
+  "codelistType": "staticList",
+  "codelistName": "iso_parameterDirection",
+  "source": "ISO",
+  "sourceName": "SV_ParameterDirection",
+  "extensible": true,
+  "description": "class of information to which the referencing entity applies",
+  "codelist": [
+    {
+      "code": "001",
+      "codeName": "in",
+      "description": "the parameter is an input parameter to the service instance"
+    },
+    {
+      "code": "002",
+      "codeName": "out",
+      "description": "the parameter is an output parameter to the service instance"
+    },
+    {
+      "code": "003",
+      "codeName": "in/out",
+      "description": "the parameter is both an input and output parameter to the service instance"
+    }
+  ]
+}

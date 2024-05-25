@@ -5,7 +5,6 @@
 .config
 .yardoc
 .idea
-Gemfile.lock
 InstalledFiles
 _yardoc
 coverage
@@ -25,3 +24,4 @@ dev
 mkmf.log
 node_modules
 resources/js
+.vscode
