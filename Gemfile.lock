@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    adiwg-mdcodes (2.10.0.pre.beta.3)
+    adiwg-mdcodes (2.10.0)
       json (~> 2.0)
 
 GEM
