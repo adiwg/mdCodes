@@ -24,4 +24,5 @@ dev
 mkmf.log
 node_modules
 resources/js
+resources/json
 .vscode
