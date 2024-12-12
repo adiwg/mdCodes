@@ -1,7 +1,7 @@
 codelistType: "staticList"
-codelistName: "iso_parameterDirectionCode"
+codelistName: "iso_parameterDirection"
 source: "ISO"
-sourceName: "SV_ParameterDirectionCode"
+sourceName: "SV_ParameterDirection"
 extensible: true
 description: "class of information to which the referencing entity applies"
 codelist:
