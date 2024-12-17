@@ -1,6 +1,6 @@
 {
   "name": "mdcodes",
-  "version": "2.10.0",
+  "version": "2.10.1",
   "main": "index.js",
   "description": "CodeLists for ADIwg mdJSON",
   "repository": {
@@ -26,7 +26,8 @@
   },
   "scripts": {
     "prepublishOnly": "scripts/prepublish.js",
-    "build": "bundle && npm i --force && grunt convert && grunt concat-json && npm run prepublishOnly"
+    "build": "bundle && npm i --force && grunt convert && grunt concat-json && npm run prepublishOnly",
+    "test": "bundle && bundle exec rake test"
   },
   "dependencies": {
     "buildify": "github:powmedia/buildify#20458a121411f759dcc5ec1b441695eb7fc2b3b7",
